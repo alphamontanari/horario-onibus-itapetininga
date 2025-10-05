@@ -1,0 +1,21 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDEs/editores
+.idea/
+.vscode/
+
+# Logs
+*.log
+
+# Node/Build
+node_modules/
+dist/
+build/
+
+# Composer
+vendor/
+
+# Arquivos compactados
+*.zip
