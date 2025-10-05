@@ -1,0 +1,549 @@
+/* ====== STATE ====== */
+const state = {
+  nivel: 1,
+  linhaKey: null,
+  hora: null,
+  periodo: null,
+  query: "",
+};
+
+const app = document.getElementById("app");
+const crumbs = document.getElementById("crumbs");
+
+/* ====== HELPERS ====== */
+const periodLabels = {
+  dia_de_semana: "Dia de semana",
+  sabado: "Sábado",
+  domingo_feriado: "Domingo/Feriado",
+};
+function labelPeriodo(k) {
+  return periodLabels[k] || k;
+}
+
+function escapeHtml(s) {
+  return String(s ?? "").replace(
+    /[&<>"']/g,
+    (m) =>
+    ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[
+      m
+    ])
+  );
+}
+function btnCrumb(text, fn) {
+  return `<button type="button" onclick="(${fn})()">${escapeHtml(
+    text
+  )}</button>`;
+}
+function sep() {
+  return `<span class="sep">›</span>`;
+}
+const norm = (s) =>
+  String(s || "")
+    .normalize("NFD")
+    .replace(/\p{Diacritic}/gu, "")
+    .toLowerCase();
+function toMin(hhmm) {
+  const [h, m] = String(hhmm).split(":").map(Number);
+  return h * 60 + m;
+}
+
+/* ====== HISTORY / BACK BUTTON (MOBILE) ====== */
+// Gera um snapshot serializável do seu estado atual (sem funções)
+function snapshotState() {
+  return {
+    nivel: state.nivel,
+    linhaKey: state.linhaKey,
+    periodo: state.periodo,
+    hora: state.hora,
+    query: state.query
+  };
+}
+
+// (Opcional) deixa a URL compartilhável com hash (sem recarregar)
+function buildHashFromState(st) {
+  const params = new URLSearchParams();
+  if (st.nivel) params.set("n", String(st.nivel));
+  if (st.linhaKey) params.set("l", st.linhaKey);
+  if (st.periodo) params.set("p", st.periodo);
+  if (st.hora) params.set("h", st.hora);
+  if (st.query) params.set("q", st.query);
+  const s = params.toString();
+  return s ? `#${s}` : "#";
+}
+
+function parseHashToState() {
+  const st = { ...snapshotState() };
+  if (!location.hash) return st;
+  const sp = new URLSearchParams(location.hash.slice(1));
+  const n = parseInt(sp.get("n") || "1", 10);
+  st.nivel = [1,2,3].includes(n) ? n : 1;
+  st.linhaKey = sp.get("l") || null;
+  st.periodo = sp.get("p") || null;
+  st.hora = sp.get("h") || null;
+  st.query = sp.get("q") || "";
+  return st;
+}
+
+let _navigatingFromPop = false;
+
+// Empilha (ou substitui) o histórico com o estado atual
+function pushHistory({ replace = false } = {}) {
+  const st = snapshotState();
+  const url = buildHashFromState(st);
+  if (replace) {
+    history.replaceState(st, "", url);
+  } else {
+    history.pushState(st, "", url);
+  }
+}
+
+// Ao voltar no celular, o navegador dispara popstate.
+// Aplicamos o state vindo do histórico e re-renderizamos SEM empilhar de novo.
+window.addEventListener("popstate", (evt) => {
+  const st = evt.state;
+  // Se não veio state (ex.: acesso direto), tenta recuperar do hash
+  const next = st ?? parseHashToState();
+  _navigatingFromPop = true;
+  state.nivel = next.nivel ?? 1;
+  state.linhaKey = next.linhaKey ?? null;
+  state.periodo = next.periodo ?? null;
+  state.hora = next.hora ?? null;
+  state.query = next.query ?? "";
+  render();
+  _navigatingFromPop = false;
+});
+
+// Na primeira carga, alinhe o estado com a URL (hash) e gere o histórico base
+(function initHistoryOnLoad() {
+  // Se já há hash, sincroniza o state a partir dele
+  if (location.hash) {
+    const initial = parseHashToState();
+    state.nivel = initial.nivel;
+    state.linhaKey = initial.linhaKey;
+    state.periodo = initial.periodo;
+    state.hora = initial.hora;
+    state.query = initial.query;
+  }
+  // Empilha estado inicial como replace (não cria um passo “fantasma”)
+  pushHistory({ replace: true });
+})();
+
+
+// Extrai todos os locais (para busca) a partir da estrutura de períodos/horários
+function locaisFromHorarios(horarios) {
+  const set = new Set();
+  Object.values(horarios || {}).forEach((periodoObj) => {
+    Object.values(periodoObj || {}).forEach((horarioObj) => {
+      const atend = horarioObj?.atendimento || {};
+      Object.keys(atend).forEach((loc) => set.add(loc));
+    });
+  });
+  return Array.from(set);
+}
+
+// Busca por ID, nome, partida, chegada e locais de atendimento
+function matchesSearch(linha, q) {
+  if (!q) return true;
+  const locais = locaisFromHorarios(linha.horarios);
+  const bag = [linha.id, linha.nome, linha.partida, linha.chegada, ...locais]
+    .map(norm)
+    .join(" | ");
+  return bag.includes(norm(q));
+}
+
+// Retorna par [key, objeto] de uma linha a partir de state.linhaKey
+function getLinha() {
+  if (!state.linhaKey) return null;
+  const l = LINHAS[state.linhaKey];
+  if (!l) return null;
+  return [state.linhaKey, l];
+}
+
+/* ====== RENDER ROOT (sempre limpa) ====== */
+/* ====== NÍVEL 1 — lista de linhas + busca ====== */
+function render() {
+  app.innerHTML = "";
+
+  // breadcrumbs
+  const parts = [];
+  parts.push(
+    btnCrumb("Linhas", () => {
+      state.nivel = 1;
+      state.linhaKey = null;
+      state.hora = null;
+      state.periodo = null;
+      render();
+    })
+  );
+
+  const pair = getLinha();
+  if (pair) {
+    const [, l] = pair;
+    parts.push(sep());
+    parts.push(
+      btnCrumb(`Linha ${l.id}`, () => {
+        state.nivel = 2;
+        state.hora = null;
+        state.periodo = null;
+        render();
+      })
+    );
+  }
+  if (state.nivel >= 3 && state.periodo) {
+    parts.push(sep());
+    parts.push(
+      btnCrumb(labelPeriodo(state.periodo), () => {
+        state.nivel = 2;
+        state.hora = null;
+        render();
+      })
+    );
+  }
+  if (state.nivel === 3 && state.hora) {
+    parts.push(sep());
+    parts.push(
+      `<button class="current" type="button" disabled>Horário ${state.hora}</button>`
+    );
+  }
+
+  crumbs.innerHTML = parts.join("");
+
+
+
+  // Empilha o estado atual no histórico, exceto quando ele veio de um popstate
+  if (!_navigatingFromPop) {
+    pushHistory(); // cria um passo de histórico por mudança de nível/breadcrumb
+  }
+
+
+
+
+  if (state.nivel === 1) return renderNivel1();
+  if (state.nivel === 2) return renderNivel2();
+  if (state.nivel === 3) return renderNivel3();
+}
+
+/* ====== NÍVEL 2 — períodos e horários ====== */
+
+/* cache interno para não recriar input/list a cada chamada */
+let _n1Wrap = null,
+  _n1List = null,
+  _n1Input = null,
+  _n1Timer = null;
+
+/* ====== NÍVEL 1 — lista de linhas + busca (sem render() na digitação) ====== */
+function renderNivel1() {
+  // cria apenas uma vez
+  if (!_n1Wrap) {
+    _n1Wrap = document.createElement("div");
+
+    // search box (UMA vez)
+    const s = document.createElement("div");
+    s.className = "search";
+    s.innerHTML = `
+      <input id="q" type="search"
+        placeholder="Pesquisar por ID, nome, partida, chegada ou bairro…"
+        value="${escapeHtml(state.query)}"
+        autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false">
+      <div class="hint">Ex.: 01, Estância, Pacaembu, Rodoviária, Vila Regina…</div>`;
+    _n1Wrap.appendChild(s);
+
+    _n1Input = s.querySelector("#q");
+    _n1Input.addEventListener("input", (e) => {
+      state.query = e.target.value;
+      clearTimeout(_n1Timer);
+      _n1Timer = setTimeout(updateNivel1Lista, 120);
+    });
+
+    // lista fixa
+    _n1List = document.createElement("section");
+    _n1List.className = "list";
+    _n1Wrap.appendChild(_n1List);
+
+    app.appendChild(_n1Wrap);
+  } else {
+    // <<< LINHA NOVA: se o wrap saiu do DOM (app.innerHTML=''), reapenda >>>
+    if (!_n1Wrap.isConnected) app.appendChild(_n1Wrap);
+
+    // Se voltar para o nível 1, garante que o input reflita o state atual
+    if (_n1Input.value !== state.query) {
+      _n1Input.value = state.query;
+      _n1Input.setSelectionRange(state.query.length, state.query.length);
+    }
+  }
+
+  // <<< LINHA NOVA (opcional): se você usa show/hide entre views >>>
+  // if (typeof showView === 'function') showView(1);
+
+  // pinta/repinta apenas os cards
+  updateNivel1Lista();
+}
+
+/* Atualiza SÓ os cards da lista do nível 1 */
+function updateNivel1Lista() {
+  if (!_n1List) return;
+
+  _n1List.innerHTML = "";
+
+  const linhasArr = Object.entries(LINHAS).map(([key, l]) => ({
+    ...l,
+    _key: key,
+  }));
+  const filtered = linhasArr.filter((l) => matchesSearch(l, state.query));
+
+  if (!filtered.length) {
+    _n1List.innerHTML = `<div class="card">Nenhuma linha encontrada.</div>`;
+    return;
+  }
+
+  filtered.forEach((l) => {
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `
+      <button class="line-btn" type="button">
+        LINHA ${escapeHtml(l.id)}<span class="sub">${escapeHtml(l.nome)}</span>
+      </button>`;
+    card.querySelector("button").addEventListener("click", () => {
+      state.linhaKey = l._key;
+      state.nivel = 2;
+      state.hora = null;
+      state.periodo = null;
+      render(); // ok para trocar de nível
+    });
+    _n1List.appendChild(card);
+  });
+}
+
+/* Atualiza SÓ os cards da lista do nível 1 */
+function updateNivel1Lista() {
+  if (!_n1List) return;
+
+  _n1List.innerHTML = "";
+
+  // LINHAS agora é um OBJETO -> transformamos em array para listar
+  const linhasArr = Object.entries(LINHAS).map(([key, l]) => ({
+    ...l,
+    _key: key,
+  }));
+  const filtered = linhasArr.filter((l) => matchesSearch(l, state.query));
+
+  if (!filtered.length) {
+    _n1List.innerHTML = `<div class="card">Nenhuma linha encontrada.</div>`;
+    return;
+  }
+
+  filtered.forEach((l) => {
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `
+      <button class="line-btn" type="button">
+        LINHA ${escapeHtml(l.id)}<span class="sub">${escapeHtml(l.nome)}</span>
+      </button>`;
+    card.querySelector("button").addEventListener("click", () => {
+      state.linhaKey = l._key;
+      state.nivel = 2;
+      state.hora = null;
+      state.periodo = null;
+      render(); // ok chamar aqui para trocar de nível
+    });
+    _n1List.appendChild(card);
+  });
+}
+
+/*
+function renderNivel2() {
+  const pair = getLinha();
+  if (!pair) return;
+  const [, l] = pair;
+
+  const head = document.createElement("div");
+  head.className = "card";
+  head.innerHTML = `<strong>LINHA ${escapeHtml(l.id)}</strong>
+          <div class="muted">${escapeHtml(l.nome)} </div>`;
+  app.appendChild(head);
+
+  const periodKeys = Object.keys(l.horarios || {});
+  if (!periodKeys.length) {
+    const empty = document.createElement("div");
+    empty.className = "card";
+    empty.textContent = "Nenhum horário cadastrado para esta linha.";
+    app.appendChild(empty);
+    return;
+  }
+
+  periodKeys.forEach((pk) => {
+    const bloco = l.horarios[pk] || {};
+    const horariosList = Object.keys(bloco).sort((a, b) => toMin(a) - toMin(b));
+
+    const card = document.createElement("div");
+    card.className = "card";
+    card.innerHTML = `<div style="font-weight:700;margin-bottom:10px">${escapeHtml(
+      labelPeriodo(pk)
+    )}</div>
+          <div class="time-grid"></div>`;
+    const grid = card.querySelector(".time-grid");
+
+    horariosList.forEach((h) => {
+      const b = document.createElement("button");
+      b.className = "time-btn";
+      b.type = "button";
+      b.textContent = h;
+      b.addEventListener("click", () => {
+        state.periodo = pk;
+        state.hora = h;
+        state.nivel = 3;
+        render();
+      });
+      grid.appendChild(b);
+    });
+    app.appendChild(card);
+  });
+}
+  */
+
+function renderNivel2() {
+  const pair = getLinha();
+  if (!pair) return;
+  const [, l] = pair;
+
+  // Cabeçalho da linha
+  const head = document.createElement("div");
+  head.className = "card";
+  head.innerHTML = `<strong>LINHA ${escapeHtml(l.id)}</strong>
+    <div class="muted">${escapeHtml(l.nome)}</div>`;
+  app.appendChild(head);
+
+  const periodKeys = Object.keys(l.horarios || {});
+  if (!periodKeys.length) {
+    const empty = document.createElement("div");
+    empty.className = "card";
+    empty.textContent = "Nenhum horário cadastrado para esta linha.";
+    app.appendChild(empty);
+    return;
+  }
+
+  // ordem amigável das abas (se não existir, cai pro final)
+  const order = ["dia_de_semana", "sabado", "domingo_feriado"];
+  const ordered = periodKeys.slice().sort((a, b) => {
+    const ia = order.indexOf(a); const ib = order.indexOf(b);
+    return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
+  });
+
+  // Card com as abas
+  const card = document.createElement("div");
+  card.className = "card";
+  card.innerHTML = `
+    <div class="tabs" role="tablist" aria-label="Períodos">
+      ${ordered.map((pk, i) => `
+        <button class="tab${i === 0 ? " active" : ""}" role="tab" aria-selected="${i === 0}" data-pk="${pk}">
+          ${escapeHtml(labelPeriodo(pk))}
+        </button>
+      `).join("")}
+    </div>
+    <div class="tab-panels">
+      ${ordered.map((pk, i) => `
+        <div class="tab-panel${i === 0 ? " active" : ""}" role="tabpanel" data-pk="${pk}">
+          <div class="time-grid"></div>
+        </div>
+      `).join("")}
+    </div>
+  `;
+  app.appendChild(card);
+
+  // Preenche cada painel com os horários
+  ordered.forEach(pk => {
+    const bloco = l.horarios[pk] || {};
+    const horariosList = Object.keys(bloco).sort((a, b) => toMin(a) - toMin(b));
+    const panel = card.querySelector(`.tab-panel[data-pk="${pk}"] .time-grid`);
+
+    horariosList.forEach(h => {
+      const b = document.createElement("button");
+      b.className = "time-btn";
+      b.type = "button";
+      b.textContent = h;
+      b.addEventListener("click", () => {
+        state.periodo = pk;
+        state.hora = h;
+        state.nivel = 3;
+        render();
+      });
+      panel.appendChild(b);
+    });
+  });
+
+  // Comportamento das abas
+  const tabs = Array.from(card.querySelectorAll(".tab"));
+  const panels = Array.from(card.querySelectorAll(".tab-panel"));
+
+  tabs.forEach(tab => {
+    tab.addEventListener("click", () => {
+      const pk = tab.dataset.pk;
+
+      tabs.forEach(t => {
+        t.classList.toggle("active", t === tab);
+        t.setAttribute("aria-selected", t === tab ? "true" : "false");
+      });
+
+      panels.forEach(p => {
+        p.classList.toggle("active", p.dataset.pk === pk);
+      });
+    });
+  });
+}
+
+
+/* ====== NÍVEL 3 — atendimento daquele horário (ordenado por HH:MM) ====== */
+function renderNivel3() {
+  const pair = getLinha();
+  if (!pair) return;
+  const [, l] = pair;
+
+  const blocoPeriodo = l.horarios?.[state.periodo] || {};
+  const atendimentoObj = blocoPeriodo?.[state.hora]?.atendimento || {};
+
+  // Converte para array e ordena por horário (HH:MM)
+  const traj = Object.entries(atendimentoObj)
+    .map(([local, hora]) => ({ local, hora }))
+    .sort((a, b) => toMin(a.hora) - toMin(b.hora));
+
+  const card = document.createElement("div");
+  card.className = "card";
+  card.innerHTML = `
+          <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap">
+            <div><strong>LINHA ${escapeHtml(l.id)}</strong> · ${escapeHtml(
+    l.nome
+  )}</div>
+            <div class="muted">${escapeHtml(
+    labelPeriodo(state.periodo)
+  )} · Saída: <strong>${escapeHtml(state.hora)}</strong></div>
+          </div>
+          <div class="itinerario">
+            <strong>Atendimento / Trajeto (estimado)</strong>
+            <ol class="trajeto">
+              ${traj
+      .map(
+        (p, i) => `
+            <li>
+              <div style="font-weight:600; font-size:0.8rem">${escapeHtml(p.hora)} · ${escapeHtml(
+          p.local
+        )}</div>
+              <div class="muted">
+                ${i === 0
+            ? "Saída"
+            : i === traj.length - 1
+              ? "Ponto final"
+              : "&nbsp;"
+          }
+              </div>
+            </li>`
+      )
+      .join("")}
+            </ol>
+          </div>`;
+  app.appendChild(card);
+}
+
+
+
+/* start */
+render();

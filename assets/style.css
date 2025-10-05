@@ -1,0 +1,306 @@
+:root {
+    --bg: #f7f7fb;
+    --card: #fff;
+    --ink: #111827;
+    --muted: #308f8f;
+    --line: #e8f7f7;
+    --brand: #1c5454;
+    --aba: #308f8f;
+    --abaActive: #1c5454;
+}
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box
+}
+
+html,
+body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.45 system-ui, -apple-system, Segoe UI, Roboto, Ubuntu, 'Helvetica Neue', Arial
+}
+
+.wrap {
+    max-width: 880px;
+    margin: auto;
+    padding: 5px
+}
+
+h1 {
+    font-size: 1.35rem;
+    margin: 0 0 8px
+}
+
+/* breadcrumbs + voltar */
+.crumbs {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 6px 0 14px
+}
+
+.crumbs .sep {
+    color: var(--muted)
+}
+
+.crumbs button {
+    min-width: 95px;
+    height: 40px;
+    border: 1px solid var(--line);
+    background: var(--card);
+    border-radius: 999px;
+    padding: 6px 10px;
+    cursor: pointer;
+    font-weight: 600
+}
+
+.crumbs .current {
+    border-style: dashed;
+    cursor: default;
+    opacity: .8
+}
+
+/* search (só no nível 1) */
+.search {
+    position: sticky;
+    top: 0;
+    background: linear-gradient(var(--bg) 70%, transparent);
+    padding: 6px 0 10px
+}
+
+.search input {
+    width: 100%;
+    height: 48px;
+    padding: 12px 14px;
+    border: 1px solid var(--line);
+    border-radius: 12px;
+    background: #fff;
+    font-size: 0.8rem
+}
+
+.hint {
+    font-size: .7rem;
+    color: var(--muted);
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.card {
+    background: var(--card);
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    padding: 14px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .03)
+}
+
+.list {
+    display: grid;
+    gap: 12px
+}
+
+.line-btn,
+.time-btn {
+    appearance: none;
+    width: 100%;
+    text-align: left;
+    border: 1px solid var(--line);
+    background: #fff;
+    border-radius: 12px;
+    padding: 14px 16px;
+    cursor: pointer;
+    font-weight: 800
+}
+
+.line-btn .sub {
+    display: block;
+    color: var(--muted);
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+.time-grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr))
+}
+
+.time-btn {
+    text-align: center
+}
+
+.muted {
+    color: var(--muted);
+}
+
+.itinerario {
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    background: #fafafa;
+    padding: 12px;
+    margin-top: 12px
+}
+
+.trajeto {
+    list-style: none;
+    margin: 6px 0 0;
+    padding: 0
+}
+
+.trajeto li {
+    position: relative;
+    padding: 7px 5px 0px 10px;
+    border-left: 2px solid #00741d
+}
+
+.trajeto li::before {
+    content: "";
+    position: absolute;
+    left: -9px;
+    top: 11px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: var(--brand)
+}
+
+/* Abas */
+.tabs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+    margin-bottom: 10px;
+}
+
+.tab {
+    border: 1px solid var(--line);
+    background: var(--abaActive);
+    border-radius: 12px;
+    padding: 10px 12px;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    color: #fff;
+}
+
+.tab.active {
+    outline: 2px solid color-mix(in srgb, var(--aba) 35%, transparent);
+    border-color: color-mix(in srgb, var(--aba) 50%, var(--line));
+    background: var(--bg);
+    color: var(--abaActive);
+}
+
+.tab-panels {
+    margin-top: 4px;
+}
+
+.tab-panel {
+    display: none;
+}
+
+.tab-panel.active {
+    display: block;
+}
+
+/* Botão flutuante (Floating Action Button) */
+.fab-copy {
+    position: fixed;
+    right: calc(16px + env(safe-area-inset-right));
+    bottom: calc(16px + env(safe-area-inset-bottom));
+    z-index: 1000;
+
+    display: inline-flex;
+    align-items: center;
+    gap: .5rem;
+
+    padding: .65rem .9rem;
+    border-radius: 999px;
+    border: 1px solid rgba(0, 0, 0, .06);
+    background: #fff;
+    color: #0f172a;
+    /* slate-900 */
+    font-weight: 600;
+    line-height: 1;
+    cursor: pointer;
+
+    box-shadow:
+        0 2px 6px rgba(0, 0, 0, .08),
+        0 8px 24px rgba(0, 0, 0, .08);
+
+    transition: transform .15s ease, box-shadow .15s ease, opacity .15s ease;
+    touch-action: manipulation;
+}
+
+/* Efeito hover/focus */
+.fab-copy:hover {
+    box-shadow:
+        0 4px 12px rgba(0, 0, 0, .10),
+        0 16px 32px rgba(0, 0, 0, .10);
+    transform: translateY(-1px);
+}
+
+.fab-copy:active {
+    transform: translateY(0);
+}
+
+.fab-copy:focus-visible {
+    outline: 3px solid #86b7fe;
+    /* anel de foco acessível */
+    outline-offset: 2px;
+}
+
+/* Texto do botão em telas bem pequenas: mostra só o ícone */
+@media (max-width: 420px) {
+    .fab-copy .label {
+        display: none;
+    }
+}
+
+/* Tema escuro opcional */
+@media (prefers-color-scheme: dark) {
+    .fab-copy {
+        background: #0b1220;
+        /* quase preto */
+        color: #e5eefc;
+        border-color: rgba(255, 255, 255, .08);
+        box-shadow:
+            0 2px 6px rgba(0, 0, 0, .35),
+            0 10px 24px rgba(0, 0, 0, .4);
+    }
+
+    .fab-copy:hover {
+        box-shadow:
+            0 6px 14px rgba(0, 0, 0, .45),
+            0 14px 36px rgba(0, 0, 0, .5);
+    }
+}
+
+/* Mensagem "copiado!" discreta, perto do botão */
+.copy-hint {
+    position: fixed;
+    right: calc(16px + env(safe-area-inset-right));
+    bottom: calc(64px + env(safe-area-inset-bottom));
+    /* um pouco acima do botão */
+    z-index: 1000;
+    background: rgba(15, 23, 42, .92);
+    color: #fff;
+    padding: .4rem .6rem;
+    border-radius: .5rem;
+    font-size: .875rem;
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(6px);
+    transition: opacity .15s ease, transform .15s ease;
+}
+
+.copy-hint.show {
+    opacity: 1;
+    transform: translateY(0);
+}
