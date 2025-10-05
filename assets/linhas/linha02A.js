@@ -171,10 +171,10 @@ Linha02A = {
       },
       "16:00": {
         "atendimento": {
-          "MERCADO ": "16:24",
-          "RODOVIÁRIA": "16:36",
-          "JARDIM FOGAÇA": "16:42",
-          "TABOÃOZINHO": "16:52"
+          "MERCADO ": "16:00",
+          "RODOVIÁRIA": "16:10",
+          "JARDIM FOGAÇA": "16:16",
+          "TABOÃOZINHO": "16:25"
         }
       },
       "21:30": {
