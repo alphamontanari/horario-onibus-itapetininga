@@ -6,8 +6,10 @@ const Linha01B = {
     "chegada": "ESTÂNCIA 4 IRMÃOS",
     "horarios": {
         "dia_de_semana": {
-            "06:00": {
+            "05:00": {
                 "atendimento": {
+                    "RESIDENCIAL NASCENTES" : "05:45",
+                    "VILA MAZZEI" : "05:50",
                     "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "06:00",
                     "VILA REGINA": "06:10",
                     "VILA RIO BRANCO ": "06:18",
@@ -16,7 +18,7 @@ const Linha01B = {
                     "VILA SÃO JOÃO": "06:48",
                     "PREFEITURA": "06:53",
                     "ESTÂNCIA 4 IRMÃOS": "06:58"
-                }
+                },  trajeto : 'diferenciado'
             },
             "07:00": {
                 "atendimento": {
