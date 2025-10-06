@@ -39,7 +39,7 @@ Linha02A = {
           "RODOVIÁRIA": "09:00",
           "FOGAÇA": "09:00",
           "TABOÃOZINHO": "09:00"
-        }
+        }, trajeto : 'diferenciado'
       },
       "08:10": {
         "atendimento": {
@@ -167,7 +167,7 @@ Linha02A = {
           "RODOVIÁRIA": "14:51",
           "JD. FOGAÇA": "14:57",
           "TABOÃOZINHO": "15:07"
-        }
+        }, trajeto : 'diferenciado'
       },
       "16:00": {
         "atendimento": {
@@ -175,7 +175,7 @@ Linha02A = {
           "RODOVIÁRIA": "16:10",
           "JD. FOGAÇA": "16:16",
           "TABOÃOZINHO": "16:25"
-        }
+        }, trajeto : 'diferenciado'
       },
       "21:30": {
         "atendimento": {
@@ -184,7 +184,7 @@ Linha02A = {
           "JD. FOGAÇA": "21:50",
           "BAIRRO TABOÃOZINHO": "22:00",
           "RODOVIÁRIA ": "22:20"
-        }
+        }, trajeto : 'diferenciado'
       },
       "23:10": {
         "atendimento": {
@@ -192,7 +192,7 @@ Linha02A = {
           "RODOVIÁRIA": "23:20",
           "JD. FOGAÇA": "23:30",
           "BAIRRO TABOÃOZINHO": "23:40"
-        }
+        }, trajeto : 'diferenciado'
       }
     },
     "sabado": {
@@ -300,7 +300,7 @@ Linha02A = {
           "AV. CINCO DE NOVEMBRO": "14:16",
           "MERCADO MUNICIPAL": "14:36",
           "RODOVIÁRIA": "14:48"
-        }
+        }, trajeto : 'diferenciado'
       },
       "16:00": {
         "atendimento": {
@@ -396,7 +396,7 @@ Linha02A = {
           "AV. CINCO DE NOVEMBRO": "09:16",
           "MERCADO MUNICIPAL": "09:36",
           "RODOVIÁRIA": "09:48"
-        }
+        }, trajeto : 'diferenciado'
       },
       "12:00": {
         "atendimento": {
@@ -430,7 +430,7 @@ Linha02A = {
           "AV. CINCO DE NOVEMBRO": "14:16",
           "MERCADO MUNICIPAL": "14:36",
           "RODOVIÁRIA": "14:48"
-        }
+        }, trajeto : 'diferenciado'
       },
       "17:00": {
         "atendimento": {

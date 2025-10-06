@@ -35,7 +35,7 @@ const Linha02B = {
           "BAIRRO TABOÃOZINHO": "08:08",
           "JD. FOGAÇA": "08:14",
           "RODOVIÁRIA": "08:24"
-        }
+        }, trajeto : 'diferenciado'
       },
       "08:10": {
         "atendimento": {
@@ -103,7 +103,7 @@ const Linha02B = {
           "AV. CINCO DE NOVEMBRO": "14:40",
           "VILA CAROLINA": "14:42",
           "RESIDENCIAL CAMBUÍ": "14:47"
-        }
+        }, trajeto : 'diferenciado'
       },
       "14:25": {
         "atendimento": {
@@ -174,7 +174,7 @@ const Linha02B = {
           "CAMBUI": "21:50",
           "JD. BELA VISTA": "22:00",
           "MERCADO MUNICIPAL.": "22:20"
-        }
+        }, trajeto : 'diferenciado'
       },
       "23:00": {
         "atendimento": {
@@ -184,7 +184,7 @@ const Linha02B = {
           "VILA CAROLINA": "23:25",
           "CAMBUI": "23:30",
           "JD. BELA VISTA": "23:40"
-        }
+        }, trajeto : 'diferenciado'
       }
     },
     "sabado": {
@@ -289,7 +289,7 @@ const Linha02B = {
           "BAIRRO TABOÃOZINHO": "14:00",
           "JD. FOGAÇA": "14:06",
           "RODOVIÁRIA": "14:16"
-        }
+        }, trajeto : 'diferenciado'
       },
       "16:00": {
         "atendimento": {
@@ -382,7 +382,7 @@ const Linha02B = {
           "BAIRRO TABOÃOZINHO": "09:00",
           "JD. FOGAÇA": "09:06",
           "RODOVIÁRIA": "09:16"
-        }
+        }, trajeto : 'diferenciado'
       },
       "12:00": {
         "atendimento": {
@@ -413,7 +413,7 @@ const Linha02B = {
           "BAIRRO TABOÃOZINHO": "14:00",
           "JD. FOGAÇA": "14:06",
           "RODOVIÁRIA": "14:16"
-        }
+        }, trajeto : 'diferenciado'
       },
       "17:00": {
         "atendimento": {

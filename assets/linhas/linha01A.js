@@ -195,7 +195,7 @@ const Linha01A = {
           "LAGO DOS IPÊS ": "23:40",
           "VILA PRADO ": "23:45",
           "VILA ARRUDA": "23:48",
-        },
+        }, trajeto : 'diferenciado'
       },
       "14:15": {
         "atendimento": {
@@ -205,7 +205,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "14:40",
           "VILA MAZZEI": "14:41",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "14:45"
-        }
+        }, trajeto : 'diferenciado'
       },
       "18:30": {
         "atendimento": {
@@ -215,7 +215,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "18:48",
           "VILA MAZZEI": "18:50",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "18:55"
-        }
+        }, trajeto : 'diferenciado'
       }
     },
     sabado: {
@@ -393,7 +393,7 @@ const Linha01A = {
           "PREFEITURA": "14:07",
           "VILA SÃO JOÃO": "14:12",
           "RODOVIÁRIA": "14:20",
-        },
+        }, trajeto : 'diferenciado'
       },
     },
     domingo_feriado: {
@@ -501,7 +501,7 @@ const Linha01A = {
           "PREFEITURA": "09:07",
           "VILA SÃO JOÃO": "09:12",
           "RODOVIÁRIA": "09:20",
-        },
+        }, trajeto : 'diferenciado'
       },
       "14:00": {
         atendimento: {
@@ -509,7 +509,7 @@ const Linha01A = {
           "PREFEITURA": "14:07",
           "VILA SÃO JOÃO": "14:12",
           "RODOVIÁRIA": "14:20",
-        },
+        }, trajeto : 'diferenciado'
       },
     },
   },
