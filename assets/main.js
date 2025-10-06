@@ -76,7 +76,7 @@ function parseHashToState() {
   if (!location.hash) return st;
   const sp = new URLSearchParams(location.hash.slice(1));
   const n = parseInt(sp.get("n") || "1", 10);
-  st.nivel = [1,2,3].includes(n) ? n : 1;
+  st.nivel = [1, 2, 3].includes(n) ? n : 1;
   st.linhaKey = sp.get("l") || null;
   st.periodo = sp.get("p") || null;
   st.hora = sp.get("h") || null;
@@ -575,6 +575,7 @@ function renderNivel2() {
 
 
 /* ====== NÍVEL 3 — atendimento daquele horário (ordenado por HH:MM) ====== */
+/*
 function renderNivel3() {
   const pair = getLinha();
   if (!pair) return;
@@ -624,6 +625,80 @@ function renderNivel3() {
           </div>`;
   app.appendChild(card);
 }
+  */
+
+function renderNivel3() {
+  const pair = getLinha();
+  if (!pair) return;
+  const [, l] = pair;
+
+  // Guardas (caso o usuário chegue sem período/hora definidos)
+  if (!state.periodo || !state.hora) {
+    const miss = document.createElement("div");
+    miss.className = "card";
+    miss.textContent = "Selecione um período e um horário.";
+    app.appendChild(miss);
+    return;
+  }
+
+  const blocoPeriodo = l.horarios?.[state.periodo] || {};
+  const registro = blocoPeriodo?.[state.hora] || {};
+  const atendimentoObj = registro.atendimento || {};
+
+  // tipo de itinerário com fallback para 'normal'
+  const tipo = String((registro.trajeto || "normal")).toLowerCase();
+  const isDiff = tipo !== "normal";
+  const labelTipo = isDiff ? "Itinerário diferenciado" : "Itinerário normal";
+
+  // Converte para array e ordena por horário (HH:MM)
+  const traj = Object.entries(atendimentoObj)
+    .map(([local, hora]) => ({ local, hora }))
+    .sort((a, b) => toMin(a.hora) - toMin(b.hora));
+
+  const card = document.createElement("div");
+  card.className = "card";
+  card.innerHTML = `
+    <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap">
+      <div>
+        <strong>LINHA ${escapeHtml(l.id)}</strong> · ${escapeHtml(l.nome)}
+      </div>
+      <div class="muted">
+        ${escapeHtml(labelPeriodo(state.periodo))} · Saída: <strong>${escapeHtml(state.hora)}</strong>
+      </div>
+    </div>
+
+    <div class="meta-row" style="margin-top:.5rem;display:flex;gap:12px;align-items:center;flex-wrap:wrap">
+      <div class="meta-title">Tipo de Itinerário:</div>
+      <div class="chip ${isDiff ? "chip-diff" : "chip-norm"}"
+           title="${escapeHtml(labelTipo)}"
+           aria-label="${escapeHtml(labelTipo)}">
+        ${escapeHtml(labelTipo)}
+      </div>
+    </div>
+
+    ${isDiff ? `
+      <div class="alert alert-info" role="status" aria-live="polite" style="margin-top:.5rem">
+        Atenção: este horário realiza <strong>itinerário diferenciado</strong>. Verifique os pontos atendidos abaixo.
+      </div>
+    ` : ""}
+
+    <div class="itinerario" style="margin-top:.75rem">
+      <strong>Atendimento / Trajeto (estimado)</strong>
+      <ol class="trajeto">
+        ${traj.map((p, i) => `
+          <li>
+            <div style="font-weight:600; font-size:0.8rem">${escapeHtml(p.hora)} · ${escapeHtml(p.local)}</div>
+            <div class="muted">
+              ${i === 0 ? "Saída" : (i === traj.length - 1 ? "Ponto final" : "&nbsp;")}
+            </div>
+          </li>
+        `).join("")}
+      </ol>
+    </div>
+  `;
+  app.appendChild(card);
+}
+
 
 
 
