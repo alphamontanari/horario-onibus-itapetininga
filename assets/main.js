@@ -350,57 +350,8 @@ function updateNivel1Lista() {
   });
 }
 
+
 /*
-function renderNivel2() {
-  const pair = getLinha();
-  if (!pair) return;
-  const [, l] = pair;
-
-  const head = document.createElement("div");
-  head.className = "card";
-  head.innerHTML = `<strong>LINHA ${escapeHtml(l.id)}</strong>
-          <div class="muted">${escapeHtml(l.nome)} </div>`;
-  app.appendChild(head);
-
-  const periodKeys = Object.keys(l.horarios || {});
-  if (!periodKeys.length) {
-    const empty = document.createElement("div");
-    empty.className = "card";
-    empty.textContent = "Nenhum horário cadastrado para esta linha.";
-    app.appendChild(empty);
-    return;
-  }
-
-  periodKeys.forEach((pk) => {
-    const bloco = l.horarios[pk] || {};
-    const horariosList = Object.keys(bloco).sort((a, b) => toMin(a) - toMin(b));
-
-    const card = document.createElement("div");
-    card.className = "card";
-    card.innerHTML = `<div style="font-weight:700;margin-bottom:10px">${escapeHtml(
-      labelPeriodo(pk)
-    )}</div>
-          <div class="time-grid"></div>`;
-    const grid = card.querySelector(".time-grid");
-
-    horariosList.forEach((h) => {
-      const b = document.createElement("button");
-      b.className = "time-btn";
-      b.type = "button";
-      b.textContent = h;
-      b.addEventListener("click", () => {
-        state.periodo = pk;
-        state.hora = h;
-        state.nivel = 3;
-        render();
-      });
-      grid.appendChild(b);
-    });
-    app.appendChild(card);
-  });
-}
-  */
-
 function renderNivel2() {
   const pair = getLinha();
   if (!pair) return;
@@ -490,6 +441,137 @@ function renderNivel2() {
     });
   });
 }
+*/
+
+function renderNivel2() {
+  const pair = getLinha();
+  if (!pair) return;
+  const [, l] = pair;
+
+  // Cabeçalho da linha
+  const head = document.createElement("div");
+  head.className = "card";
+  head.innerHTML = `<strong>LINHA ${escapeHtml(l.id)}</strong>
+    <div class="muted">${escapeHtml(l.nome)}</div>`;
+  app.appendChild(head);
+
+  const periodKeys = Object.keys(l.horarios || {});
+  if (!periodKeys.length) {
+    const empty = document.createElement("div");
+    empty.className = "card";
+    empty.textContent = "Nenhum horário cadastrado para esta linha.";
+    app.appendChild(empty);
+    return;
+  }
+
+  // ordem amigável das abas (se não existir, cai pro final)
+  const order = ["dia_de_semana", "sabado", "domingo_feriado"];
+  const ordered = periodKeys.slice().sort((a, b) => {
+    const ia = order.indexOf(a); const ib = order.indexOf(b);
+    return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
+  });
+
+  // Qual aba começa ativa? prioriza o state.periodo se existir
+  const initialPk = ordered.includes(state.periodo) ? state.periodo : ordered[0];
+
+  // Card com as abas
+  const card = document.createElement("div");
+  card.className = "card";
+  card.innerHTML = `
+    <div class="tabs" role="tablist" aria-label="Períodos">
+      ${ordered.map((pk) => `
+        <button class="tab${pk === initialPk ? " active" : ""}"
+                role="tab"
+                aria-selected="${pk === initialPk}"
+                data-pk="${pk}">
+          ${escapeHtml(labelPeriodo(pk))}
+        </button>
+      `).join("")}
+    </div>
+    <div class="tab-panels">
+      ${ordered.map((pk) => `
+        <div class="tab-panel${pk === initialPk ? " active" : ""}" role="tabpanel" data-pk="${pk}">
+          <div class="time-grid" data-pk="${pk}"></div>
+        </div>
+      `).join("")}
+    </div>
+  `;
+  app.appendChild(card);
+
+  // Preenche cada painel com os horários
+  let anyDiferenciado = false;
+
+  ordered.forEach(pk => {
+    const bloco = l.horarios[pk] || {};
+    const horariosList = Object.keys(bloco).sort((a, b) => toMin(a) - toMin(b));
+    const panel = card.querySelector(`.time-grid[data-pk="${pk}"]`);
+
+    horariosList.forEach(h => {
+      const info = bloco[h] || {};
+      const tipo = (info.trajeto || "normal").toLowerCase();
+      const isDiff = tipo !== "normal";
+
+      if (isDiff) anyDiferenciado = true;
+
+      const b = document.createElement("button");
+      b.className = "time-btn";
+      b.type = "button";
+      // adiciona asterisco visual e atributos de acessibilidade
+      b.innerHTML = isDiff
+        ? `${escapeHtml(h)}<span class="traj-flag" aria-hidden="true">*</span>`
+        : `${escapeHtml(h)}`;
+      b.title = isDiff ? "Trajeto diferenciado" : "Trajeto normal";
+      b.setAttribute("aria-label", isDiff ? `${h}, trajeto diferenciado` : `${h}, trajeto normal`);
+      b.dataset.trajeto = tipo; // útil para CSS/JS futuro
+
+      b.addEventListener("click", () => {
+        state.periodo = pk;
+        state.hora = h;
+        state.nivel = 3;
+        render();
+      });
+
+      panel.appendChild(b);
+    });
+  });
+
+  // Comportamento das abas
+  const tabs = Array.from(card.querySelectorAll(".tab"));
+  const panels = Array.from(card.querySelectorAll(".tab-panel"));
+
+  tabs.forEach(tab => {
+    tab.addEventListener("click", () => {
+      const pk = tab.dataset.pk;
+
+      // guarda período no state (ajuda o histórico/voltar)
+      state.periodo = pk;
+
+      tabs.forEach(t => {
+        const active = t === tab;
+        t.classList.toggle("active", active);
+        t.setAttribute("aria-selected", active ? "true" : "false");
+      });
+
+      panels.forEach(p => {
+        p.classList.toggle("active", p.dataset.pk === pk);
+      });
+    });
+  });
+
+  // Rodapé/legenda quando houver ao menos um trajeto diferenciado
+  if (anyDiferenciado) {
+    const legend = document.createElement("div");
+    legend.className = "legend";
+    legend.innerHTML = `<span class="traj-flag" aria-hidden="true">*</span> horário com <strong>trajeto diferenciado</strong>.`;
+    card.appendChild(legend);
+
+    const alert = document.createElement("div");
+    alert.className = "alert alert-info";
+    alert.innerHTML = `Atenção: esta linha pode conter <strong>trajetos diferenciados</strong> dependendo do horário. Selecione um horário para verificar os detalhes.`;
+    app.appendChild(alert);
+  }
+}
+
 
 
 /* ====== NÍVEL 3 — atendimento daquele horário (ordenado por HH:MM) ====== */

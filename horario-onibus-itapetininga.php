@@ -130,12 +130,12 @@ add_action('template_redirect', function () {
   </head>
 
   <body>
-
+    <!-- Não para site da prefeitura
     <button id="copyLinkBtn" class="fab-copy" type="button" aria-label="Copiar link">
       🔗 <span class="label">Copiar endereço</span>
     </button>
     <span id="copyLinkHint" class="copy-hint" role="status" aria-live="polite"></span>
-
+     -->
 
     <div class="wrap">
       <div id="crumbs" class="crumbs" aria-live="polite"></div>

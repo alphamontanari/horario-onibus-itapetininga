@@ -9,9 +9,9 @@ const Linha01A = {
       "05:50": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "05:50",
-          PREFEITURA: "05:57",
+          "PREFEITURA": "05:57",
           "VILA SÃO JOÃO": "06:02",
-          RODOVIÁRIA: "06:08",
+          "RODOVIÁRIA": "06:08",
           "MERCADO MUNICIPAL": "06:18",
           "VILA RIO BRANCO": "06:29",
           "VILA REGINA": "06:41",
@@ -23,9 +23,9 @@ const Linha01A = {
       "07:00": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "07:00",
-          PREFEITURA: "07:07",
+          "PREFEITURA": "07:07",
           "VILA SÃO JOÃO": "07:12",
-          RODOVIÁRIA: "07:18",
+          "RODOVIÁRIA": "07:18",
           "MERCADO MUNICIPAL": "07:28",
           "VILA RIO BRANCO": "07:39",
           "VILA REGINA": "07:51",
@@ -37,9 +37,9 @@ const Linha01A = {
       "08:10": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "08:10",
-          PREFEITURA: "08:17",
+          "PREFEITURA": "08:17",
           "VILA SÃO JOÃO": "08:22",
-          RODOVIÁRIA: "08:28",
+          "RODOVIÁRIA": "08:28",
           "MERCADO MUNICIPAL": "08:38",
           "VILA RIO BRANCO": "08:49",
           "VILA REGINA": "09:01",
@@ -51,9 +51,9 @@ const Linha01A = {
       "09:25": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "09:25",
-          PREFEITURA: "09:32",
+          "PREFEITURA": "09:32",
           "VILA SÃO JOÃO": "09:37",
-          RODOVIÁRIA: "09:43",
+          "RODOVIÁRIA": "09:43",
           "MERCADO MUNICIPAL": "09:53",
           "VILA RIO BRANCO": "10:04",
           "VILA REGINA": "10:16",
@@ -65,9 +65,9 @@ const Linha01A = {
       "10:40": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "10:40",
-          PREFEITURA: "10:47",
+          "PREFEITURA": "10:47",
           "VILA SÃO JOÃO": "10:52",
-          RODOVIÁRIA: "10:58",
+          "RODOVIÁRIA": "10:58",
           "MERCADO MUNICIPAL": "11:08",
           "VILA RIO BRANCO": "11:19",
           "VILA REGINA": "11:31",
@@ -79,9 +79,9 @@ const Linha01A = {
       "11:55": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "11:55",
-          PREFEITURA: "12:02",
+          "PREFEITURA": "12:02",
           "VILA SÃO JOÃO": "12:07",
-          RODOVIÁRIA: "12:13",
+          "RODOVIÁRIA": "12:13",
           "MERCADO MUNICIPAL": "12:23",
           "VILA RIO BRANCO": "12:34",
           "VILA REGINA": "12:46",
@@ -93,9 +93,9 @@ const Linha01A = {
       "13:10": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "13:10",
-          PREFEITURA: "13:17",
+          "PREFEITURA": "13:17",
           "VILA SÃO JOÃO": "13:22",
-          RODOVIÁRIA: "13:28",
+          "RODOVIÁRIA": "13:28",
           "MERCADO MUNICIPAL": "13:38",
           "VILA RIO BRANCO": "13:49",
           "VILA REGINA": "14:01",
@@ -107,9 +107,9 @@ const Linha01A = {
       "14:25": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "14:25",
-          PREFEITURA: "14:32",
+          "PREFEITURA": "14:32",
           "VILA SÃO JOÃO": "14:37",
-          RODOVIÁRIA: "14:43",
+          "RODOVIÁRIA": "14:43",
           "MERCADO MUNICIPAL": "14:53",
           "VILA RIO BRANCO": "15:04",
           "VILA REGINA": "15:16",
@@ -121,9 +121,9 @@ const Linha01A = {
       "15:40": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "15:40",
-          PREFEITURA: "15:47",
+          "PREFEITURA": "15:47",
           "VILA SÃO JOÃO": "15:52",
-          RODOVIÁRIA: "15:58",
+          "RODOVIÁRIA": "15:58",
           "MERCADO MUNICIPAL": "16:08",
           "VILA RIO BRANCO": "16:19",
           "VILA REGINA": "16:31",
@@ -135,9 +135,9 @@ const Linha01A = {
       "16:55": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "16:55",
-          PREFEITURA: "17:02",
+          "PREFEITURA": "17:02",
           "VILA SÃO JOÃO": "17:07",
-          RODOVIÁRIA: "17:13",
+          "RODOVIÁRIA": "17:13",
           "MERCADO MUNICIPAL": "17:23",
           "VILA RIO BRANCO": "17:34",
           "VILA REGINA": "17:46",
@@ -149,9 +149,9 @@ const Linha01A = {
       "18:10": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "18:10",
-          PREFEITURA: "18:17",
+          "PREFEITURA": "18:17",
           "VILA SÃO JOÃO": "18:22",
-          RODOVIÁRIA: "18:28",
+          "RODOVIÁRIA": "18:28",
           "MERCADO MUNICIPAL": "18:38",
           "VILA RIO BRANCO": "18:49",
           "VILA REGINA": "18:59",
@@ -163,9 +163,9 @@ const Linha01A = {
       "19:10": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "19:10",
-          PREFEITURA: "19:17",
+          "PREFEITURA": "19:17",
           "VILA SÃO JOÃO": "19:22",
-          RODOVIÁRIA: "19:28",
+          "RODOVIÁRIA": "19:28",
           "MERCADO MUNICIPAL": "19:45",
           "VILA RIO BRANCO": "19:56",
           "VILA REGINA": "20:08",
@@ -184,14 +184,14 @@ const Linha01A = {
           "VILA PRADO ": "22:05",
           "VILA ARRUDA": "22:08",
           "RODOVIÁRIA": "22:15",
-        },
+        }, trajeto : 'diferenciado'
       },
       "23:10": {
         atendimento: {
           "MERCADO MUNICIPAL": "23:10",
-          RODOVIÁRIA: "23:20",
+          "RODOVIÁRIA": "23:20",
           "VILA SÃO JOÃO": "23:30",
-          PREFEITURA: "23:35",
+          "PREFEITURA": "23:35",
           "LAGO DOS IPÊS ": "23:40",
           "VILA PRADO ": "23:45",
           "VILA ARRUDA": "23:48",
@@ -222,9 +222,9 @@ const Linha01A = {
       "05:45": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "05:45",
-          PREFEITURA: "05:52",
+          "PREFEITURA": "05:52",
           "VILA SÃO JOÃO": "05:57",
-          RODOVIÁRIA: "06:03",
+          "RODOVIÁRIA": "06:03",
           "MERCADO MUNICIPAL": "06:13",
           "VILA RIO BRANCO": "06:24",
           "VILA REGINA": "06:34",
@@ -236,9 +236,9 @@ const Linha01A = {
       "07:00": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "07:00",
-          PREFEITURA: "07:07",
+          "PREFEITURA": "07:07",
           "VILA SÃO JOÃO": "07:12",
-          RODOVIÁRIA: "07:18",
+          "RODOVIÁRIA": "07:18",
           "MERCADO MUNICIPAL": "07:28",
           "VILA RIO BRANCO": "07:39",
           "VILA REGINA": "07:49",
@@ -250,9 +250,9 @@ const Linha01A = {
       "08:05": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "08:05",
-          PREFEITURA: "08:12",
+          "PREFEITURA": "08:12",
           "VILA SÃO JOÃO": "08:17",
-          RODOVIÁRIA: "08:23",
+          "RODOVIÁRIA": "08:23",
           "MERCADO MUNICIPAL": "08:31",
           "VILA RIO BRANCO": "08:39",
           "VILA REGINA": "08:49",
@@ -264,9 +264,9 @@ const Linha01A = {
       "09:00": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "09:00",
-          PREFEITURA: "09:07",
+          "PREFEITURA": "09:07",
           "VILA SÃO JOÃO": "09:12",
-          RODOVIÁRIA: "09:18",
+          "RODOVIÁRIA": "09:18",
           "MERCADO MUNICIPAL": "09:26",
           "VILA RIO BRANCO": "09:34",
           "VILA REGINA": "09:44",
@@ -278,9 +278,9 @@ const Linha01A = {
       "10:00": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "10:00",
-          PREFEITURA: "10:07",
+          "PREFEITURA": "10:07",
           "VILA SÃO JOÃO": "10:12",
-          RODOVIÁRIA: "10:18",
+          "RODOVIÁRIA": "10:18",
           "MERCADO MUNICIPAL": "10:28",
           "VILA RIO BRANCO": "10:39",
           "VILA REGINA": "10:49",
@@ -292,9 +292,9 @@ const Linha01A = {
       "11:00": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "11:00",
-          PREFEITURA: "11:07",
+          "PREFEITURA": "11:07",
           "VILA SÃO JOÃO": "11:12",
-          RODOVIÁRIA: "11:18",
+          "RODOVIÁRIA": "11:18",
           "MERCADO MUNICIPAL": "11:28",
           "VILA RIO BRANCO": "11:39",
           "VILA REGINA": "11:49",
@@ -306,9 +306,9 @@ const Linha01A = {
       "12:05": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "12:05",
-          PREFEITURA: "12:12",
+          "PREFEITURA": "12:12",
           "VILA SÃO JOÃO": "12:17",
-          RODOVIÁRIA: "12:23",
+          "RODOVIÁRIA": "12:23",
           "MERCADO MUNICIPAL": "12:33",
           "VILA RIO BRANCO": "12:44",
           "VILA REGINA": "12:54",
@@ -320,9 +320,9 @@ const Linha01A = {
       "13:10": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "13:10",
-          PREFEITURA: "13:17",
+          "PREFEITURA": "13:17",
           "VILA SÃO JOÃO": "13:22",
-          RODOVIÁRIA: "13:28",
+          "RODOVIÁRIA": "13:28",
           "MERCADO MUNICIPAL": "13:33",
           "VILA RIO BRANCO": "13:41",
           "VILA REGINA": "13:49",
@@ -334,9 +334,9 @@ const Linha01A = {
       "16:00": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "16:00",
-          PREFEITURA: "16:07",
+          "PREFEITURA": "16:07",
           "VILA SÃO JOÃO": "16:12",
-          RODOVIÁRIA: "16:18",
+          "RODOVIÁRIA": "16:18",
           "MERCADO MUNICIPAL": "16:28",
           "VILA RIO BRANCO": "16:39",
           "VILA REGINA": "16:49",
@@ -348,9 +348,9 @@ const Linha01A = {
       "17:00": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "17:00",
-          PREFEITURA: "17:07",
+          "PREFEITURA": "17:07",
           "VILA SÃO JOÃO": "17:12",
-          RODOVIÁRIA: "17:18",
+          "RODOVIÁRIA": "17:18",
           "MERCADO MUNICIPAL": "17:28",
           "VILA RIO BRANCO": "17:39",
           "VILA REGINA": "17:49",
@@ -362,9 +362,9 @@ const Linha01A = {
       "18:00": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "18:00",
-          PREFEITURA: "18:07",
+          "PREFEITURA": "18:07",
           "VILA SÃO JOÃO": "18:12",
-          RODOVIÁRIA: "18:18",
+          "RODOVIÁRIA": "18:18",
           "MERCADO MUNICIPAL": "18:28",
           "VILA RIO BRANCO": "18:39",
           "VILA REGINA": "18:49",
@@ -376,9 +376,9 @@ const Linha01A = {
       "19:00": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "19:00",
-          PREFEITURA: "19:07",
+          "PREFEITURA": "19:07",
           "VILA SÃO JOÃO": "19:12",
-          RODOVIÁRIA: "19:18",
+          "RODOVIÁRIA": "19:18",
           "MERCADO MUNICIPAL": "19:28",
           "VILA RIO BRANCO": "19:39",
           "VILA REGINA": "19:49",
@@ -390,9 +390,9 @@ const Linha01A = {
       "14:00": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "14:00",
-          PREFEITURA: "14:07",
+          "PREFEITURA": "14:07",
           "VILA SÃO JOÃO": "14:12",
-          RODOVIÁRIA: "14:20",
+          "RODOVIÁRIA": "14:20",
         },
       },
     },
@@ -400,9 +400,9 @@ const Linha01A = {
       "06:00": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "06:00",
-          PREFEITURA: "06:07",
+          "PREFEITURA": "06:07",
           "VILA SÃO JOÃO": "06:12",
-          RODOVIÁRIA: "06:18",
+          "RODOVIÁRIA": "06:18",
           "MERCADO MUNICIPAL": "06:28",
           "VILA RIO BRANCO": "06:39",
           "VILA REGINA": "06:49",
@@ -414,9 +414,9 @@ const Linha01A = {
       "07:00": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "07:00",
-          PREFEITURA: "07:07",
+          "PREFEITURA": "07:07",
           "VILA SÃO JOÃO": "07:12",
-          RODOVIÁRIA: "07:18",
+          "RODOVIÁRIA": "07:18",
           "MERCADO MUNICIPAL": "07:28",
           "VILA RIO BRANCO": "07:39",
           "VILA REGINA": "07:49",
@@ -428,9 +428,9 @@ const Linha01A = {
       "08:00": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "08:00",
-          PREFEITURA: "08:07",
+          "PREFEITURA": "08:07",
           "VILA SÃO JOÃO": "08:12",
-          RODOVIÁRIA: "08:18",
+          "RODOVIÁRIA": "08:18",
           "MERCADO MUNICIPAL": "08:28",
           "VILA RIO BRANCO": "08:39",
           "VILA REGINA": "08:49",
@@ -442,9 +442,9 @@ const Linha01A = {
       "12:00": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "12:00",
-          PREFEITURA: "12:07",
+          "PREFEITURA": "12:07",
           "VILA SÃO JOÃO": "12:12",
-          RODOVIÁRIA: "12:18",
+          "RODOVIÁRIA": "12:18",
           "MERCADO MUNICIPAL": "12:28",
           "VILA RIO BRANCO": "12:39",
           "VILA REGINA": "12:49",
@@ -456,9 +456,9 @@ const Linha01A = {
       "13:00": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "13:00",
-          PREFEITURA: "13:07",
+          "PREFEITURA": "13:07",
           "VILA SÃO JOÃO": "13:12",
-          RODOVIÁRIA: "13:18",
+          "RODOVIÁRIA": "13:18",
           "MERCADO MUNICIPAL": "13:28",
           "VILA RIO BRANCO": "13:39",
           "VILA REGINA": "13:49",
@@ -470,9 +470,9 @@ const Linha01A = {
       "17:00": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "17:00",
-          PREFEITURA: "17:07",
+          "PREFEITURA": "17:07",
           "VILA SÃO JOÃO": "17:12",
-          RODOVIÁRIA: "17:18",
+          "RODOVIÁRIA": "17:18",
           "MERCADO MUNICIPAL": "17:28",
           "VILA RIO BRANCO": "17:39",
           "VILA REGINA": "17:49",
@@ -484,9 +484,9 @@ const Linha01A = {
       "18:00": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "18:00",
-          PREFEITURA: "18:07",
+          "PREFEITURA": "18:07",
           "VILA SÃO JOÃO": "18:12",
-          RODOVIÁRIA: "18:18",
+          "RODOVIÁRIA": "18:18",
           "MERCADO MUNICIPAL": "18:28",
           "VILA RIO BRANCO": "18:39",
           "VILA REGINA": "18:49",
@@ -498,17 +498,17 @@ const Linha01A = {
       "09:00": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "09:00",
-          PREFEITURA: "09:07",
+          "PREFEITURA": "09:07",
           "VILA SÃO JOÃO": "09:12",
-          RODOVIÁRIA: "09:20",
+          "RODOVIÁRIA": "09:20",
         },
       },
       "14:00": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "14:00",
-          PREFEITURA: "14:07",
+          "PREFEITURA": "14:07",
           "VILA SÃO JOÃO": "14:12",
-          RODOVIÁRIA: "14:20",
+          "RODOVIÁRIA": "14:20",
         },
       },
     },
