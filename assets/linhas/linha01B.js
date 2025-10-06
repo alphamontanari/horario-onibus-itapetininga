@@ -6,7 +6,7 @@ const Linha01B = {
     "chegada": "ESTÂNCIA 4 IRMÃOS",
     "horarios": {
         "dia_de_semana": {
-            "05:00": {
+            "05:45": {
                 "atendimento": {
                     "RESIDENCIAL NASCENTES" : "05:45",
                     "VILA MAZZEI" : "05:50",
