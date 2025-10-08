@@ -570,6 +570,8 @@ function renderNivel2() {
     alert.innerHTML = `Atenção: esta linha pode conter <strong>trajetos diferenciados</strong> dependendo do horário. Selecione um horário para verificar os detalhes.`;
     app.appendChild(alert);
   }
+
+  addPdfDownloadButton(head, l);
 }
 
 
@@ -697,6 +699,162 @@ function renderNivel3() {
     </div>
   `;
   app.appendChild(card);
+}
+
+
+/* ====== PDF: Helpers de dependências ====== */
+function ensureScript(src) {
+  return new Promise((resolve, reject) => {
+    if (document.querySelector(`script[src="${src}"]`)) return resolve();
+    const s = document.createElement("script");
+    s.src = src;
+    s.onload = resolve;
+    s.onerror = () => reject(new Error(`Falha ao carregar ${src}`));
+    document.head.appendChild(s);
+  });
+}
+
+async function ensurePdfLibs() {
+  // jsPDF e AutoTable (CDN)
+  await ensureScript("https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js");
+  await ensureScript("https://cdn.jsdelivr.net/npm/jspdf-autotable@3.8.4/dist/jspdf.plugin.autotable.min.js");
+}
+
+/* ====== PDF: Botão no nível 2 ====== */
+function addPdfDownloadButton(containerEl, linha) {
+  const btn = document.createElement("button");
+  btn.textContent = "Baixar PDF";
+  btn.className = "btn-pdf";
+  btn.style.marginLeft = "8px";
+  btn.onclick = () => generateLineSchedulePDF(linha);
+  containerEl.appendChild(btn);
+}
+
+/* ====== PDF: Utilidades de dados ====== */
+const PERIOD_ORDER = ["dia_de_semana", "sabado", "domingo", "feriado"];
+const PERIOD_LABELS = {
+  dia_de_semana: "Dia de semana",
+  sabado: "Sábado",
+  domingo: "Domingo",
+  feriado: "Feriado",
+};
+
+function naturalTimeSort(a, b) {
+  // "07:00" -> 7*60+0
+  const [ah, am] = a.split(":").map(Number);
+  const [bh, bm] = b.split(":").map(Number);
+  return ah * 60 + am - (bh * 60 + bm);
+}
+
+function getOrderedStops(periodObj) {
+  // Tenta achar a primeira chave-hora e usar a ordem do objeto atendimento
+  const horas = Object.keys(periodObj || {});
+  if (!horas.length) return [];
+  horas.sort(naturalTimeSort);
+  const primeiro = periodObj[horas[0]];
+  if (primeiro && primeiro.atendimento) {
+    return Object.keys(primeiro.atendimento);
+  }
+  return [];
+}
+
+function buildTableMatrixForPeriod(periodObj) {
+  // Colunas: Locais + horas existentes
+  const horas = Object.keys(periodObj || {}).sort(naturalTimeSort);
+  const stops = getOrderedStops(periodObj);
+
+  const columns = ["LOCais de atendimento", ...horas];
+  const body = stops.map((stop) => {
+    const row = [stop];
+    for (const h of horas) {
+      const cel = periodObj[h]?.atendimento?.[stop] ?? "-";
+      row.push(cel || "-");
+    }
+    return row;
+  });
+
+  return { columns, body, horas, stops };
+}
+
+/* ====== PDF: Gerador ====== */
+async function generateLineSchedulePDF(linha) {
+  try {
+    await ensurePdfLibs();
+    const { jsPDF } = window.jspdf;
+
+    const doc = new jsPDF({ orientation: "landscape", unit: "pt", format: "a4" });
+    const marginX = 36;
+    const marginY = 40;
+
+    const title = `LINHA ${linha.id} — ${linha.nome || ""}`.trim();
+    const dateStr = new Date().toLocaleDateString("pt-BR");
+
+    const periodKeys = (Object.keys(linha.horarios || {}))
+      .filter((k) => PERIOD_ORDER.includes(k))
+      .sort((a, b) => PERIOD_ORDER.indexOf(a) - PERIOD_ORDER.indexOf(b));
+
+    if (!periodKeys.length) {
+      alert("Sem horários cadastrados para esta linha.");
+      return;
+    }
+
+    periodKeys.forEach((periodKey, idx) => {
+      if (idx > 0) doc.addPage("a4", "landscape");
+
+      const label = PERIOD_LABELS[periodKey] || periodKey;
+      const periodObj = linha.horarios[periodKey] || {};
+      const { columns, body } = buildTableMatrixForPeriod(periodObj);
+
+      // Cabeçalho da página
+      doc.setFont("helvetica", "bold");
+      doc.setFontSize(16);
+      doc.text(title, marginX, marginY);
+
+      doc.setFont("helvetica", "normal");
+      doc.setFontSize(11);
+      doc.text(`${label} • atualizado em ${dateStr}`, marginX, marginY + 18);
+
+      // Tabela
+      doc.autoTable({
+        startY: marginY + 30,
+        head: [columns],
+        body,
+        styles: {
+          font: "helvetica",
+          fontSize: 9,
+          cellPadding: 3,
+          overflow: "linebreak",
+          valign: "middle",
+        },
+        headStyles: {
+          fillColor: [240, 240, 240],
+          textColor: 20,
+          fontStyle: "bold",
+        },
+        columnStyles: {
+          0: { cellWidth: 170 }, // coluna de locais
+        },
+        margin: { left: marginX, right: marginX },
+        didDrawPage: (data) => {
+          // Rodapé simples
+          const footer = `Prefeitura Municipal de Itapetininga • Secretaria de Comunicação • ${dateStr}`;
+          doc.setFontSize(9);
+          doc.setTextColor(100);
+          doc.text(
+            footer,
+            data.settings.margin.left,
+            doc.internal.pageSize.getHeight() - 18
+          );
+        },
+      });
+    });
+
+    const fileName = `Linha_${linha.id}_horarios.pdf`;
+    doc.save(fileName);
+  } catch (err) {
+    console.error(err);
+    alert("Não foi possível gerar o PDF.");
+  }
 }
 
 
