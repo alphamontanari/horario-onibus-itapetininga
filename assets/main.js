@@ -731,12 +731,11 @@ function addPdfDownloadButton(containerEl, linha) {
 }
 
 /* ====== PDF: Utilidades de dados ====== */
-const PERIOD_ORDER = ["dia_de_semana", "sabado", "domingo", "feriado"];
+const PERIOD_ORDER = ["dia_de_semana", "sabado", "domingo_feriado"];
 const PERIOD_LABELS = {
   dia_de_semana: "Dia de semana",
   sabado: "Sábado",
-  domingo: "Domingo",
-  feriado: "Feriado",
+  domingo: "domingo_feriado",
 };
 
 function naturalTimeSort(a, b) {
@@ -837,7 +836,7 @@ async function generateLineSchedulePDF(linha) {
         margin: { left: marginX, right: marginX },
         didDrawPage: (data) => {
           // Rodapé simples
-          const footer = `Prefeitura Municipal de Itapetininga • Secretaria de Comunicação • ${dateStr}`;
+          const footer = `Prefeitura Municipal de Itapetininga • Secretaria de Trânsito • ${dateStr}`;
           doc.setFontSize(9);
           doc.setTextColor(100);
           doc.text(
