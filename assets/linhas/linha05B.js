@@ -109,7 +109,7 @@ const Linha05B = {
                     "VILA PAULO AYRES": "19:08",
                     "VILA ARRUDA": "19:15",
                     "RODOVIÁRIA": "19:25"
-                }
+                }, trajeto: 'diferenciado'
             },
             "21:30": {
                 atendimento: {
