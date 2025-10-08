@@ -115,8 +115,8 @@ const Linha05A = {
                     "MERCADO MUNICIPAL": "21:30",
                     "AV. CINCO DE NOVEMBRO" : "21:50",
                     "NASTRI II (BANCÁRIOS)": "22:05",
-                    "AV. CINCO DE NOVEMBRO" : "22:15",
-                    "MERCADO MUNICIPAL": "23:100"
+                    "AV. CINCO DE NOVEMBRO." : "22:15",
+                    "MERCADO MUNICIPAL.": "23:100"
                 }, trajeto : 'diferenciado'
             }
         },
