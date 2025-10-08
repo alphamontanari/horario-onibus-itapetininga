@@ -1,9 +1,9 @@
 const Linha04A = {
     "id": "04A",
     "cod": "Linha04A",
-    "nome": "JD. SÃO CAMILO → VIDA NOVA (VALE SÃO FERNANDO)",
+    "nome": "JD. SÃO CAMILO → VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)",
     "partida": "JD. SÃO CAMILO",
-    "chegada": "VIDA NOVA (VALE SÃO FERNANDO)",
+    "chegada": "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)",
     "horarios": {
         "dia_de_semana": {
             "05:50": {
@@ -16,7 +16,7 @@ const Linha04A = {
                     "RODOVIÁRIA": "06:12",
                     "MERCADO MUNICIPAL": "06:30",
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "06:41",
-                    "VIDA NOVA": "06:51"
+                    "VIDA NOVA ITAPETININGA": "06:51"
                 }
             },
             "06:15": {
@@ -38,7 +38,7 @@ const Linha04A = {
                     "RODOVIÁRIA": "07:01",
                     "MERCADO MUNICIPAL": "07:07",
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "07:25",
-                    "VIDA NOVA": "07:36"
+                    "VIDA NOVA ITAPETININGA": "07:36"
                 }, trajeto : 'diferenciado'
             },
             "07:00": {
@@ -51,7 +51,7 @@ const Linha04A = {
                     "RODOVIÁRIA": "07:22",
                     "MERCADO MUNICIPAL": "07:40",
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "07:51",
-                    "VIDA NOVA": "08:01"
+                    "VIDA NOVA ITAPETININGA": "08:01"
                 }
             },
             "08:10": {
@@ -64,7 +64,7 @@ const Linha04A = {
                     "RODOVIÁRIA": "08:32",
                     "MERCADO MUNICIPAL": "08:50",
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "09:01",
-                    "VIDA NOVA": "09:11"
+                    "VIDA NOVA ITAPETININGA": "09:11"
                 }
             },
             "09:25": {
@@ -77,7 +77,7 @@ const Linha04A = {
                     "RODOVIÁRIA": "09:47",
                     "MERCADO MUNICIPAL": "10:05",
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "10:16",
-                    "VIDA NOVA": "10:26"
+                    "VIDA NOVA ITAPETININGA": "10:26"
                 }
             },
             "10:40": {
@@ -90,7 +90,7 @@ const Linha04A = {
                     "RODOVIÁRIA": "11:02",
                     "MERCADO MUNICIPAL": "11:20",
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "11:31",
-                    "VIDA NOVA": "11:41"
+                    "VIDA NOVA ITAPETININGA": "11:41"
                 }
             },
             "11:55": {
@@ -103,7 +103,7 @@ const Linha04A = {
                     "RODOVIÁRIA": "12:17",
                     "MERCADO MUNICIPAL": "12:35",
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "12:46",
-                    "VIDA NOVA": "12:56"
+                    "VIDA NOVA ITAPETININGA": "12:56"
                 }
             },
             "13:10": {
@@ -116,7 +116,7 @@ const Linha04A = {
                     "RODOVIÁRIA": "13:32",
                     "MERCADO MUNICIPAL": "13:50",
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "14:01",
-                    "VIDA NOVA": "14:11"
+                    "VIDA NOVA ITAPETININGA": "14:11"
                 }
             },
             "14:25": {
@@ -129,7 +129,7 @@ const Linha04A = {
                     "RODOVIÁRIA": "14:47",
                     "MERCADO MUNICIPAL": "15:05",
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "15:16",
-                    "VIDA NOVA": "15:26"
+                    "VIDA NOVA ITAPETININGA": "15:26"
                 }
             },
             "15:40": {
@@ -142,7 +142,7 @@ const Linha04A = {
                     "RODOVIÁRIA": "16:02",
                     "MERCADO MUNICIPAL": "16:20",
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "16:31",
-                    "VIDA NOVA": "16:41"
+                    "VIDA NOVA ITAPETININGA": "16:41"
                 }
             },
             "16:55": {
@@ -155,7 +155,7 @@ const Linha04A = {
                     "RODOVIÁRIA": "17:17",
                     "MERCADO MUNICIPAL": "17:35",
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "17:46",
-                    "VIDA NOVA": "17:56"
+                    "VIDA NOVA ITAPETININGA": "17:56"
                 }
             },
             "18:00": {
@@ -168,7 +168,7 @@ const Linha04A = {
                     "RODOVIÁRIA": "18:22",
                     "MERCADO MUNICIPAL": "18:40",
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "18:51",
-                    "VIDA NOVA": "19:01"
+                    "VIDA NOVA ITAPETININGA": "19:01"
                 }
             },
             "19:10": {
@@ -181,7 +181,7 @@ const Linha04A = {
                     "RODOVIÁRIA": "19:32",
                     "MERCADO MUNICIPAL": "19:50",
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "20:01",
-                    "VIDA NOVA": "20:11"
+                    "VIDA NOVA ITAPETININGA": "20:11"
                 }
             },
             "21:30": {
@@ -215,7 +215,7 @@ const Linha04A = {
                     "RODOVIÁRIA": "06:12",
                     "MERCADO MUNICIPAL": "06:30",
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "06:41",
-                    "VIDA NOVA": "06:51"
+                    "VIDA NOVA ITAPETININGA": "06:51"
                 }
             },
             "07:00": {
@@ -228,7 +228,7 @@ const Linha04A = {
                     "RODOVIÁRIA": "07:22",
                     "MERCADO MUNICIPAL": "07:40",
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "07:50",
-                    "VIDA NOVA": "08:00"
+                    "VIDA NOVA ITAPETININGA": "08:00"
                 }
             },
             "08:00": {
@@ -241,7 +241,7 @@ const Linha04A = {
                     "RODOVIÁRIA": "08:22",
                     "MERCADO MUNICIPAL": "08:40",
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "08:50",
-                    "VIDA NOVA": "09:00"
+                    "VIDA NOVA ITAPETININGA": "09:00"
                 }
             },
             "09:00": {
@@ -254,7 +254,7 @@ const Linha04A = {
                     "RODOVIÁRIA": "09:22",
                     "MERCADO MUNICIPAL": "09:40",
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "09:50",
-                    "VIDA NOVA": "10:00"
+                    "VIDA NOVA ITAPETININGA": "10:00"
                 }
             },
             "10:00": {
@@ -267,7 +267,7 @@ const Linha04A = {
                     "RODOVIÁRIA": "10:22",
                     "MERCADO MUNICIPAL": "10:40",
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "10:50",
-                    "VIDA NOVA": "11:00"
+                    "VIDA NOVA ITAPETININGA": "11:00"
                 }
             },
             "11:00": {
@@ -280,7 +280,7 @@ const Linha04A = {
                     "RODOVIÁRIA": "11:22",
                     "MERCADO MUNICIPAL": "11:40",
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "11:50",
-                    "VIDA NOVA": "12:00"
+                    "VIDA NOVA ITAPETININGA": "12:00"
                 }
             },
             "12:00": {
@@ -293,7 +293,7 @@ const Linha04A = {
                     "RODOVIÁRIA": "12:22",
                     "MERCADO MUNICIPAL": "12:40",
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "12:50",
-                    "VIDA NOVA": "13:00"
+                    "VIDA NOVA ITAPETININGA": "13:00"
                 }
             },
             "13:00": {
@@ -306,7 +306,7 @@ const Linha04A = {
                     "RODOVIÁRIA": "13:22",
                     "MERCADO MUNICIPAL": "13:40",
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "13:50",
-                    "VIDA NOVA": "14:00"
+                    "VIDA NOVA ITAPETININGA": "14:00"
                 }
             },
             "14:00": {
@@ -329,7 +329,7 @@ const Linha04A = {
                     "RODOVIÁRIA": "16:22",
                     "MERCADO MUNICIPAL": "16:40",
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "16:50",
-                    "VIDA NOVA": "17:00"
+                    "VIDA NOVA ITAPETININGA": "17:00"
                 }
             },
             "17:00": {
@@ -342,7 +342,7 @@ const Linha04A = {
                     "RODOVIÁRIA": "17:22",
                     "MERCADO MUNICIPAL": "17:40",
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "17:50",
-                    "VIDA NOVA": "18:00"
+                    "VIDA NOVA ITAPETININGA": "18:00"
                 }
             },
             "18:00": {
@@ -355,7 +355,7 @@ const Linha04A = {
                     "RODOVIÁRIA": "18:22",
                     "MERCADO MUNICIPAL": "18:40",
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "18:50",
-                    "VIDA NOVA": "19:00"
+                    "VIDA NOVA ITAPETININGA": "19:00"
                 }
             },
             "19:00": {
@@ -368,7 +368,7 @@ const Linha04A = {
                     "RODOVIÁRIA": "19:22",
                     "MERCADO MUNICIPAL": "19:40",
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "19:50",
-                    "VIDA NOVA": "20:00"
+                    "VIDA NOVA ITAPETININGA": "20:00"
                 }
             }
         },
@@ -383,7 +383,7 @@ const Linha04A = {
                     "RODOVIÁRIA": "06:22",
                     "MERCADO MUNICIPAL": "06:40",
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "06:50",
-                    "VIDA NOVA": "07:00"
+                    "VIDA NOVA ITAPETININGA": "07:00"
                 }
             },
             "07:00": {
@@ -396,7 +396,7 @@ const Linha04A = {
                     "RODOVIÁRIA": "07:22",
                     "MERCADO MUNICIPAL": "07:40",
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "07:50",
-                    "VIDA NOVA": "08:00"
+                    "VIDA NOVA ITAPETININGA": "08:00"
                 }
             },
             "08:00": {
@@ -409,7 +409,7 @@ const Linha04A = {
                     "RODOVIÁRIA": "08:22",
                     "MERCADO MUNICIPAL": "08:40",
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "08:50",
-                    "VIDA NOVA": "09:00"
+                    "VIDA NOVA ITAPETININGA": "09:00"
                 }
             },
             "09:00": {
@@ -432,7 +432,7 @@ const Linha04A = {
                     "RODOVIÁRIA": "12:22",
                     "MERCADO MUNICIPAL": "12:40",
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "12:50",
-                    "VIDA NOVA": "13:00"
+                    "VIDA NOVA ITAPETININGA": "13:00"
                 }
             },
             "13:00": {
@@ -445,7 +445,7 @@ const Linha04A = {
                     "RODOVIÁRIA": "13:22",
                     "MERCADO MUNICIPAL": "13:40",
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "13:50",
-                    "VIDA NOVA": "14:00"
+                    "VIDA NOVA ITAPETININGA": "14:00"
                 }
             },
             "14:00": {
@@ -468,7 +468,7 @@ const Linha04A = {
                     "RODOVIÁRIA": "17:22",
                     "MERCADO MUNICIPAL": "17:40",
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "17:50",
-                    "VIDA NOVA": "18:00"
+                    "VIDA NOVA ITAPETININGA": "18:00"
                 }
             },
             "18:00": {
@@ -481,7 +481,7 @@ const Linha04A = {
                     "RODOVIÁRIA": "18:22",
                     "MERCADO MUNICIPAL": "18:40",
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "18:50",
-                    "VIDA NOVA": "19:00"
+                    "VIDA NOVA ITAPETININGA": "19:00"
                 }
             }
         }

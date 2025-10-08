@@ -1,14 +1,14 @@
 const Linha04B = {
     "id": "04B",
     "cod": "Linha04B",
-    "nome": "VIDA NOVA (VALE SÃO FERNANDO) → JD. SÃO CAMILO",
-    "partida": "VIDA NOVA (VALE SÃO FERNANDO)",
+    "nome": "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO) → JD. SÃO CAMILO",
+    "partida": "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)",
     "chegada": "JD. SÃO CAMILO",
     "horarios": {
         "dia_de_semana": {
             "05:45": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "05:45",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "05:45",
                     "AV. SARUTAYÁ": "05:58",
                     "MERCADO MUNICIPAL": "06:30",
                     "RODOVIÁRIA": "06:41",
@@ -21,7 +21,7 @@ const Linha04B = {
             },
             "07:00": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "07:00",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "07:00",
                     "AV. SARUTAYÁ": "07:13",
                     "MERCADO MUNICIPAL": "07:41",
                     "RODOVIÁRIA": "07:50",
@@ -34,7 +34,7 @@ const Linha04B = {
             },
             "08:10": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "08:10",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "08:10",
                     "AV. SARUTAYÁ": "08:23",
                     "MERCADO MUNICIPAL": "08:51",
                     "RODOVIÁRIA": "09:00",
@@ -47,7 +47,7 @@ const Linha04B = {
             },
             "09:25": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "09:25",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "09:25",
                     "AV. SARUTAYÁ": "09:38",
                     "MERCADO MUNICIPAL": "10:06",
                     "RODOVIÁRIA": "10:15",
@@ -60,7 +60,7 @@ const Linha04B = {
             },
             "10:40": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "10:40",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "10:40",
                     "AV. SARUTAYÁ": "10:53",
                     "MERCADO MUNICIPAL": "11:21",
                     "RODOVIÁRIA": "11:30",
@@ -73,7 +73,7 @@ const Linha04B = {
             },
             "11:55": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "11:55",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "11:55",
                     "AV. SARUTAYÁ": "12:08",
                     "MERCADO MUNICIPAL": "12:36",
                     "RODOVIÁRIA": "12:45",
@@ -86,7 +86,7 @@ const Linha04B = {
             },
             "13:10": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "13:10",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "13:10",
                     "AV. SARUTAYÁ": "13:23",
                     "MERCADO MUNICIPAL": "13:51",
                     "RODOVIÁRIA": "14:00",
@@ -99,7 +99,7 @@ const Linha04B = {
             },
             "14:25": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "14:25",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "14:25",
                     "AV. SARUTAYÁ": "14:38",
                     "MERCADO MUNICIPAL": "15:06",
                     "RODOVIÁRIA": "15:15",
@@ -112,7 +112,7 @@ const Linha04B = {
             },
             "15:40": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "15:40",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "15:40",
                     "AV. SARUTAYÁ": "15:53",
                     "MERCADO MUNICIPAL": "16:21",
                     "RODOVIÁRIA": "16:30",
@@ -125,7 +125,7 @@ const Linha04B = {
             },
             "16:55": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "16:55",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "16:55",
                     "AV. SARUTAYÁ": "17:08",
                     "MERCADO MUNICIPAL": "17:32",
                     "RODOVIÁRIA": "17:41",
@@ -148,7 +148,7 @@ const Linha04B = {
             },
             "18:00": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "18:00",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "18:00",
                     "AV. SARUTAYÁ": "18:13",
                     "MERCADO MUNICIPAL": "18:37",
                     "RODOVIÁRIA": "18:46",
@@ -161,7 +161,7 @@ const Linha04B = {
             },
             "19:10": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "19:10",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "19:10",
                     "AV. SARUTAYÁ": "19:23",
                     "MERCADO MUNICIPAL": "19:47",
                     "RODOVIÁRIA": "19:56",
@@ -179,7 +179,7 @@ const Linha04B = {
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "21:45",
                     "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "21:50",
                     "INSTITUTO FEDERAL (IFSP)": "21:55",
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "22:05",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "22:05",
                     "JD. MONTE SANTO": "22:15",
                     "INSTITUTO FEDERAL": "22:40"
                 }, trajeto : 'diferenciado'
@@ -191,7 +191,7 @@ const Linha04B = {
                     "VILA NOVA ITAPETININGA (LADO DIREITO)": "23:25",
                     "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "23:30",
                     "INSTITUTO FEDERAL (IFSP)": "23:35",
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "23:45",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "23:45",
                     "JD. MONTE SANTO": "23:55"
                 }, trajeto : 'diferenciado'
             }
@@ -199,7 +199,7 @@ const Linha04B = {
         "sabado": {
             "05:45": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "05:45",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "05:45",
                     "AV. SARUTAYÁ": "05:58",
                     "MERCADO MUNICIPAL": "06:22",
                     "RODOVIÁRIA": "06:31",
@@ -212,7 +212,7 @@ const Linha04B = {
             },
             "07:00": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "07:00",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "07:00",
                     "AV. SARUTAYÁ": "07:11",
                     "MERCADO MUNICIPAL": "07:31",
                     "RODOVIÁRIA": "07:40",
@@ -225,7 +225,7 @@ const Linha04B = {
             },
             "08:00": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "08:00",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "08:00",
                     "AV. SARUTAYÁ": "08:11",
                     "MERCADO MUNICIPAL": "08:31",
                     "RODOVIÁRIA": "08:40",
@@ -238,7 +238,7 @@ const Linha04B = {
             },
             "09:00": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "09:00",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "09:00",
                     "AV. SARUTAYÁ": "09:11",
                     "MERCADO MUNICIPAL": "09:31",
                     "RODOVIÁRIA": "09:40",
@@ -251,7 +251,7 @@ const Linha04B = {
             },
             "10:00": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "10:00",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "10:00",
                     "AV. SARUTAYÁ": "10:11",
                     "MERCADO MUNICIPAL": "10:31",
                     "RODOVIÁRIA": "10:40",
@@ -264,7 +264,7 @@ const Linha04B = {
             },
             "11:00": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "11:00",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "11:00",
                     "AV. SARUTAYÁ": "11:11",
                     "MERCADO MUNICIPAL": "11:31",
                     "RODOVIÁRIA": "11:40",
@@ -277,7 +277,7 @@ const Linha04B = {
             },
             "12:00": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "12:00",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "12:00",
                     "AV. SARUTAYÁ": "12:11",
                     "MERCADO MUNICIPAL": "12:31",
                     "RODOVIÁRIA": "12:40",
@@ -290,7 +290,7 @@ const Linha04B = {
             },
             "13:00": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "13:00",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "13:00",
                     "AV. SARUTAYÁ": "13:11",
                     "MERCADO MUNICIPAL": "13:31",
                     "RODOVIÁRIA": "13:40",
@@ -303,7 +303,7 @@ const Linha04B = {
             },
             "14:00": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "14:00",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "14:00",
                     "AV. SARUTAYÁ": "14:11",
                     "MERCADO MUNICIPAL": "14:31",
                     "RODOVIÁRIA": "14:40"
@@ -311,7 +311,7 @@ const Linha04B = {
             },
             "16:00": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "16:00",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "16:00",
                     "AV. SARUTAYÁ": "16:11",
                     "MERCADO MUNICIPAL": "16:31",
                     "RODOVIÁRIA": "16:40",
@@ -324,7 +324,7 @@ const Linha04B = {
             },
             "17:00": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "17:00",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "17:00",
                     "AV. SARUTAYÁ": "17:11",
                     "MERCADO MUNICIPAL": "17:31",
                     "RODOVIÁRIA": "17:40",
@@ -337,7 +337,7 @@ const Linha04B = {
             },
             "18:00": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "18:00",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "18:00",
                     "AV. SARUTAYÁ": "18:11",
                     "MERCADO MUNICIPAL": "18:31",
                     "RODOVIÁRIA": "18:40",
@@ -350,7 +350,7 @@ const Linha04B = {
             },
             "19:00": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "19:00",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "19:00",
                     "AV. SARUTAYÁ": "19:11",
                     "MERCADO MUNICIPAL": "19:31",
                     "RODOVIÁRIA": "19:40",
@@ -365,7 +365,7 @@ const Linha04B = {
         "domingo_feriado": {
             "06:00": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "06:00",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "06:00",
                     "AV. SARUTAYÁ": "06:11",
                     "MERCADO MUNICIPAL": "06:31",
                     "RODOVIÁRIA": "06:40",
@@ -378,7 +378,7 @@ const Linha04B = {
             },
             "07:00": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "07:00",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "07:00",
                     "AV. SARUTAYÁ": "07:11",
                     "MERCADO MUNICIPAL": "07:31",
                     "RODOVIÁRIA": "07:40",
@@ -391,7 +391,7 @@ const Linha04B = {
             },
             "08:00": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "08:00",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "08:00",
                     "AV. SARUTAYÁ": "08:11",
                     "MERCADO MUNICIPAL": "08:31",
                     "RODOVIÁRIA": "08:40",
@@ -404,7 +404,7 @@ const Linha04B = {
             },
             "09:00": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "09:00",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "09:00",
                     "AV. SARUTAYÁ": "09:11",
                     "MERCADO MUNICIPAL": "09:31",
                     "RODOVIÁRIA": "09:40"
@@ -412,7 +412,7 @@ const Linha04B = {
             },
             "12:00": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "12:00",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "12:00",
                     "AV. SARUTAYÁ": "12:11",
                     "MERCADO MUNICIPAL": "12:31",
                     "RODOVIÁRIA": "12:40",
@@ -425,7 +425,7 @@ const Linha04B = {
             },
             "13:00": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "13:00",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "13:00",
                     "AV. SARUTAYÁ": "13:11",
                     "MERCADO MUNICIPAL": "13:31",
                     "RODOVIÁRIA": "13:40",
@@ -438,7 +438,7 @@ const Linha04B = {
             },
             "14:00": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "14:00",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "14:00",
                     "AV. SARUTAYÁ": "14:11",
                     "MERCADO MUNICIPAL": "14:31",
                     "RODOVIÁRIA": "14:40"
@@ -446,7 +446,7 @@ const Linha04B = {
             },
             "17:00": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "17:00",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "17:00",
                     "AV. SARUTAYÁ": "17:11",
                     "MERCADO MUNICIPAL": "17:31",
                     "RODOVIÁRIA": "17:40",
@@ -459,7 +459,7 @@ const Linha04B = {
             },
             "18:00": {
                 "atendimento": {
-                    "VIDA NOVA (VALE SÃO FERNANDO)": "18:00",
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "18:00",
                     "AV. SARUTAYÁ": "18:11",
                     "MERCADO MUNICIPAL": "18:31",
                     "RODOVIÁRIA": "18:40",
