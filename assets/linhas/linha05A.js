@@ -107,24 +107,20 @@ const Linha05A = {
                     "NASTRI II (BANCÁRIOS)": "19:00",
                     "AV. CINCO DE NOVEMBRO": "19:10",
                     "MERCADO MUNICIPAL": "19:20",
-                    "RODOVIÁRIA": "19:30",
-                    "VILA ARRUDA": "19:37",
-                    "VILA PAULO AYRES": "19:40",
-                    "VILA PRADO": "19:43",
-                    "PORTAL DOS PINHEIROS": "19:47"
-                }
+                    "RODOVIÁRIA": "19:30"
+                }, trajeto : 'diferenciado'
             },
             "21:30": {
                 "atendimento": {
                     "MERCADO MUNICIPAL": "21:30",
                     "NASTRI II (BANCÁRIOS)": "22:05"
-                }
+                }, trajeto : 'diferenciado'
             },
             "23:10": {
                 "atendimento": {
                     "MERCADO MUNICIPAL": "23:10",
                     "NASTRI II (BANCÁRIOS)": "23:45"
-                }
+                }, trajeto : 'diferenciado'
             }
         },
         "sabado": {
@@ -224,12 +220,6 @@ const Linha05A = {
                     "VILA PAULO AYRES": "18:40",
                     "VILA PRADO": "18:43",
                     "PORTAL DOS PINHEIROS": "18:47"
-                }
-            },
-            "21:30": {
-                "atendimento": {
-                    "MERCADO MUNICIPAL": "21:30",
-                    "NASTRI II (BANCÁRIOS)": "22:05"
                 }
             }
         }
