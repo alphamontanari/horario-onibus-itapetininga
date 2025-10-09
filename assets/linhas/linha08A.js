@@ -13,7 +13,7 @@ const Linha08A = {
                     "VILA OLHO D' ÁGUA": "07:05",
                     "VILA BELO HORIZONTE": "07:10",
                     "ETEC PROF. EDSON GALVÃO (COLÉGIO AGRICOLA)": "07:25"
-                }
+                }, servico: 'Período Escolar'
             }
         }
     }

@@ -3,7 +3,7 @@
  * Plugin Name: Horário Ônibus Itapetininga
  * Plugin URI: https://github.com/alphamontanari/horario-onibus-itapetininga
  * Description: Linhas de Ônibus Itapetininga
- * Version: 1.3.5.7
+ * Version: 1.3.6.0
  * Author: André Luiz Montanari
  * Author URI: https://github.com/alphamontanari
  * License: GPLv3

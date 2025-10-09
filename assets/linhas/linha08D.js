@@ -16,7 +16,7 @@ const Linha08D = {
                     "ETEC PROF. EDSON GALVÃO (COLÉGIO AGRICOLA)": "07:25",
                     "BAIRRO CAPÃO ALTO": "07:30"
                 }
-            }
+            }, servico: 'Período Escolar'
         }
     }
 }

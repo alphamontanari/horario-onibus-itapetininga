@@ -345,3 +345,6 @@ h1 {
   background: var(--aba);
   transform: scale(1.05);
 }
+
+.chip-servico { background: var(--badge-bg, #eef5ff); color: var(--badge-fg, #173a63); }
+.chip-servico-escolar { background: #fff7e6; color: #7a4b00; border: 1px solid #f0d9a6; }
