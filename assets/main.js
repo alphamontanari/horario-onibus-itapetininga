@@ -503,7 +503,7 @@ function renderNivel3() {
   const blocoPeriodo = l.horarios?.[state.periodo] || {};
   const registro = blocoPeriodo?.[state.hora] || {};
   const atendimentoObj = registro.atendimento || {};
-  const servico = registro.servico || {};
+  const servico = l.horarios?.[state.periodo]?.[state.hora]?.servico ?? "";
 
   // tipo de itinerário com fallback para 'normal'
   const tipo = String((registro.trajeto || "normal")).toLowerCase();
@@ -526,7 +526,7 @@ function renderNivel3() {
         ${escapeHtml(labelPeriodo(state.periodo))} · Saída: <strong>${escapeHtml(state.hora)}</strong>
       </div>
       <div class="muted">
-        Servoço: ${servico} 
+        Serviço: ${servico} 
       </div>
       
     </div>
