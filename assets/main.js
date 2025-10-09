@@ -308,7 +308,7 @@ function updateNivel1Lista() {
       state.nivel = 2;
       state.hora = null;
       state.periodo = null;
-      scroollTop();
+      
       render(); // ok para trocar de nível
     });
     _n1List.appendChild(card);
@@ -859,11 +859,11 @@ async function generateLineSchedulePDF(linha) {
 }
 
 
-function scroollTop() {
-  return $("html, body").animate({
-    scrollTop: 0
-  }, 600), !1
-}
+
+
+$("html, body").animate({ scrollTop: 0 }, 600);
+
+
 
 
 

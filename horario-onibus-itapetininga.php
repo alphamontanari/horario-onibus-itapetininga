@@ -3,7 +3,7 @@
  * Plugin Name: Horário Ônibus Itapetininga
  * Plugin URI: https://github.com/alphamontanari/horario-onibus-itapetininga
  * Description: Linhas de Ônibus Itapetininga
- * Version: 1.3.5.0
+ * Version: 1.3.5.1
  * Author: André Luiz Montanari
  * Author URI: https://github.com/alphamontanari
  * License: GPLv3
@@ -201,6 +201,44 @@ add_action('template_redirect', function () {
 
     <!-- FUNÇÕES PRINCIPAIS -->
     <script src="main.js"></script>
+
+    <script>
+      function notifyParentScroll(block = 'start') {
+        // Se o site da Prefeitura for outro domínio, troque a URL abaixo
+        window.parent?.postMessage({ type: 'itape-scroll', block }, 'https://www.itapetininga.sp.gov.br');
+      }
+
+      // Exemplo: ao clicar em um horário e renderizar o nível 3
+      document.addEventListener('click', (ev) => {
+        const btn = ev.target.closest('.time-btn');
+        if (!btn) return;
+
+        // ... atualize seu state (nivel/hora/periodo/linhaKey) ...
+        state.nivel = 3;
+        state.hora = btn.textContent.trim();
+
+        render();            // mostra o nível 3
+        notifyParentScroll(); // pede para o pai alinhar o iframe na tela
+      });
+    </script>
+
+
+    <script>
+      (function setupAutoResize() {
+        const ro = new ResizeObserver(() => {
+          const h = Math.max(
+            document.documentElement.scrollHeight,
+            document.body?.scrollHeight || 0
+          );
+          window.parent?.postMessage(
+            { type: 'itape-resize', height: h },
+            'https://www.itapetininga.sp.gov.br' // domínio do PAI
+          );
+        });
+        ro.observe(document.documentElement);
+      })();
+    </script>
+
 
 
   </body>
