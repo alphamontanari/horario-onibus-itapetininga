@@ -10,7 +10,7 @@ const Linha08B = {
                 "atendimento": {
                     "BAIRRO CAPÃO ALTO": "07:30",
                     "PENITENCIÁRIA": "07:40",
-                    "ESTRADA GLADYS BERNARDES MINHOTO": "07:45",
+                    "RODOVIA GLADYS BERNARDES MINHOTO": "07:45",
                     "VILA OLHO D' ÁGUA": "07:50",
                     "RODOVIÁRIA": "08:00",
                     "MERCADO MUNICIPAL": "08:10"
