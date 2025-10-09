@@ -308,7 +308,7 @@ function updateNivel1Lista() {
       state.nivel = 2;
       state.hora = null;
       state.periodo = null;
-      
+
       render(); // ok para trocar de nível
     });
     _n1List.appendChild(card);
@@ -350,99 +350,6 @@ function updateNivel1Lista() {
     _n1List.appendChild(card);
   });
 }
-
-
-/*
-function renderNivel2() {
-  const pair = getLinha();
-  if (!pair) return;
-  const [, l] = pair;
-
-  // Cabeçalho da linha
-  const head = document.createElement("div");
-  head.className = "card";
-  head.innerHTML = `<strong>LINHA ${escapeHtml(l.id)}</strong>
-    <div class="muted">${escapeHtml(l.nome)}</div>`;
-  app.appendChild(head);
-
-  const periodKeys = Object.keys(l.horarios || {});
-  if (!periodKeys.length) {
-    const empty = document.createElement("div");
-    empty.className = "card";
-    empty.textContent = "Nenhum horário cadastrado para esta linha.";
-    app.appendChild(empty);
-    return;
-  }
-
-  // ordem amigável das abas (se não existir, cai pro final)
-  const order = ["dia_de_semana", "sabado", "domingo_feriado"];
-  const ordered = periodKeys.slice().sort((a, b) => {
-    const ia = order.indexOf(a); const ib = order.indexOf(b);
-    return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
-  });
-
-  // Card com as abas
-  const card = document.createElement("div");
-  card.className = "card";
-  card.innerHTML = `
-    <div class="tabs" role="tablist" aria-label="Períodos">
-      ${ordered.map((pk, i) => `
-        <button class="tab${i === 0 ? " active" : ""}" role="tab" aria-selected="${i === 0}" data-pk="${pk}">
-          ${escapeHtml(labelPeriodo(pk))}
-        </button>
-      `).join("")}
-    </div>
-    <div class="tab-panels">
-      ${ordered.map((pk, i) => `
-        <div class="tab-panel${i === 0 ? " active" : ""}" role="tabpanel" data-pk="${pk}">
-          <div class="time-grid"></div>
-        </div>
-      `).join("")}
-    </div>
-  `;
-  app.appendChild(card);
-
-  // Preenche cada painel com os horários
-  ordered.forEach(pk => {
-    const bloco = l.horarios[pk] || {};
-    const horariosList = Object.keys(bloco).sort((a, b) => toMin(a) - toMin(b));
-    const panel = card.querySelector(`.tab-panel[data-pk="${pk}"] .time-grid`);
-
-    horariosList.forEach(h => {
-      const b = document.createElement("button");
-      b.className = "time-btn";
-      b.type = "button";
-      b.textContent = h;
-      b.addEventListener("click", () => {
-        state.periodo = pk;
-        state.hora = h;
-        state.nivel = 3;
-        render();
-      });
-      panel.appendChild(b);
-    });
-  });
-
-  // Comportamento das abas
-  const tabs = Array.from(card.querySelectorAll(".tab"));
-  const panels = Array.from(card.querySelectorAll(".tab-panel"));
-
-  tabs.forEach(tab => {
-    tab.addEventListener("click", () => {
-      const pk = tab.dataset.pk;
-
-      tabs.forEach(t => {
-        t.classList.toggle("active", t === tab);
-        t.setAttribute("aria-selected", t === tab ? "true" : "false");
-      });
-
-      panels.forEach(p => {
-        p.classList.toggle("active", p.dataset.pk === pk);
-      });
-    });
-  });
-}
-*/
 
 function renderNivel2() {
   const pair = getLinha();
@@ -576,59 +483,7 @@ function renderNivel2() {
 }
 
 
-
 /* ====== NÍVEL 3 — atendimento daquele horário (ordenado por HH:MM) ====== */
-/*
-function renderNivel3() {
-  const pair = getLinha();
-  if (!pair) return;
-  const [, l] = pair;
-
-  const blocoPeriodo = l.horarios?.[state.periodo] || {};
-  const atendimentoObj = blocoPeriodo?.[state.hora]?.atendimento || {};
-
-  // Converte para array e ordena por horário (HH:MM)
-  const traj = Object.entries(atendimentoObj)
-    .map(([local, hora]) => ({ local, hora }))
-    .sort((a, b) => toMin(a.hora) - toMin(b.hora));
-
-  const card = document.createElement("div");
-  card.className = "card";
-  card.innerHTML = `
-          <div style="display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap">
-            <div><strong>LINHA ${escapeHtml(l.id)}</strong> · ${escapeHtml(
-    l.nome
-  )}</div>
-            <div class="muted">${escapeHtml(
-    labelPeriodo(state.periodo)
-  )} · Saída: <strong>${escapeHtml(state.hora)}</strong></div>
-          </div>
-          <div class="itinerario">
-            <strong>Atendimento / Trajeto (estimado)</strong>
-            <ol class="trajeto">
-              ${traj
-      .map(
-        (p, i) => `
-            <li>
-              <div style="font-weight:600; font-size:0.8rem">${escapeHtml(p.hora)} · ${escapeHtml(
-          p.local
-        )}</div>
-              <div class="muted">
-                ${i === 0
-            ? "Saída"
-            : i === traj.length - 1
-              ? "Ponto final"
-              : "&nbsp;"
-          }
-              </div>
-            </li>`
-      )
-      .join("")}
-            </ol>
-          </div>`;
-  app.appendChild(card);
-}
-  */
 
 function renderNivel3() {
   const pair = getLinha();
@@ -702,7 +557,6 @@ function renderNivel3() {
   app.appendChild(card);
 }
 
-
 /* ====== PDF: Helpers de dependências ====== */
 function ensureScript(src) {
   return new Promise((resolve, reject) => {
@@ -716,7 +570,6 @@ function ensureScript(src) {
 }
 
 async function ensurePdfLibs() {
-  // jsPDF e AutoTable (CDN)
   await ensureScript("https://cdn.jsdelivr.net/npm/jspdf@2.5.1/dist/jspdf.umd.min.js");
   await ensureScript("https://cdn.jsdelivr.net/npm/jspdf-autotable@3.8.4/dist/jspdf.plugin.autotable.min.js");
 }
@@ -736,19 +589,45 @@ const PERIOD_ORDER = ["dia_de_semana", "sabado", "domingo_feriado"];
 const PERIOD_LABELS = {
   dia_de_semana: "Dia de semana",
   sabado: "Sábado",
-  domingo: "domingo_feriado",
+  domingo_feriado: "Domingo e Feriado",
 };
 
+// limite entre diurno/noturno (21:00)
+const NIGHT_THRESHOLD_MINUTES = 21 * 60;
+
 function naturalTimeSort(a, b) {
-  // "07:00" -> 7*60+0
   const [ah, am] = a.split(":").map(Number);
   const [bh, bm] = b.split(":").map(Number);
   return ah * 60 + am - (bh * 60 + bm);
 }
 
-function getOrderedStops(periodObj) {
-  // Tenta achar a primeira chave-hora e usar a ordem do objeto atendimento
-  const horas = Object.keys(periodObj || {});
+function timeToMinutes(hhmm) {
+  const [h, m] = (hhmm || "00:00").split(":").map(Number);
+  return h * 60 + m;
+}
+
+/**
+ * Divide um período em dois conjuntos de colunas-hora:
+ * - dayHoras: < 21:00
+ * - nightHoras: >= 21:00
+ */
+function splitHoursByNight(periodObj) {
+  const all = Object.keys(periodObj || {}).sort(naturalTimeSort);
+  const dayHoras = [];
+  const nightHoras = [];
+  for (const h of all) {
+    (timeToMinutes(h) >= NIGHT_THRESHOLD_MINUTES ? nightHoras : dayHoras).push(h);
+  }
+  return { dayHoras, nightHoras };
+}
+
+/**
+ * Infere a ordem dos pontos (itinerário) a partir da primeira hora disponível
+ * dentro do subconjunto de horas escolhido (subsetHoras).
+ * Se não achar, cai para a primeira hora do período inteiro.
+ */
+function getOrderedStopsForSubset(periodObj, subsetHoras) {
+  const horas = (subsetHoras && subsetHoras.length) ? subsetHoras.slice() : Object.keys(periodObj || {});
   if (!horas.length) return [];
   horas.sort(naturalTimeSort);
   const primeiro = periodObj[horas[0]];
@@ -758,10 +637,13 @@ function getOrderedStops(periodObj) {
   return [];
 }
 
-function buildTableMatrixForPeriod(periodObj) {
-  // Colunas: Locais + horas existentes
-  const horas = Object.keys(periodObj || {}).sort(naturalTimeSort);
-  const stops = getOrderedStops(periodObj);
+/**
+ * Monta matriz para a tabela com base em um subconjunto de horas (subsetHoras).
+ * O itinerário (stops) é inferido a partir do primeiro horário desse subconjunto.
+ */
+function buildTableMatrix(periodObj, subsetHoras) {
+  const horas = (subsetHoras || []).slice().sort(naturalTimeSort);
+  const stops = getOrderedStopsForSubset(periodObj, horas);
 
   const columns = ["Locais de atendimento", ...horas];
   const body = stops.map((stop) => {
@@ -786,7 +668,6 @@ async function generateLineSchedulePDF(linha) {
     const marginX = 36;
     const marginY = 40;
 
-    //const title = `LINHA ${linha.id} — ${linha.nome || ""}`.trim();
     const title = `LINHA ${linha.id} — ${linha.partida} => ${linha.chegada}`.trim();
     const dateStr = new Date().toLocaleDateString("pt-BR");
 
@@ -799,55 +680,102 @@ async function generateLineSchedulePDF(linha) {
       return;
     }
 
-    periodKeys.forEach((periodKey, idx) => {
-      if (idx > 0) doc.addPage("a4", "landscape");
+    let firstPage = true;
 
-      const label = PERIOD_LABELS[periodKey] || periodKey;
+    periodKeys.forEach((periodKey) => {
+      const labelBase = PERIOD_LABELS[periodKey] || periodKey;
       const periodObj = linha.horarios[periodKey] || {};
-      const { columns, body } = buildTableMatrixForPeriod(periodObj);
+      const { dayHoras, nightHoras } = splitHoursByNight(periodObj);
 
-      // Cabeçalho da página
-      doc.setFont("helvetica", "bold");
-      doc.setFontSize(12);
-      doc.text(title, marginX, marginY);
+      // --- Página DIURNA (se houver) ---
+      if (dayHoras.length) {
+        if (!firstPage) doc.addPage("a4", "landscape");
+        firstPage = false;
 
-      doc.setFont("helvetica", "normal");
-      doc.setFontSize(11);
-      doc.text(`${label} • gerado em ${dateStr}`, marginX, marginY + 18);
+        const { columns, body } = buildTableMatrix(periodObj, dayHoras);
 
-      // Tabela
-      doc.autoTable({
-        startY: marginY + 30,
-        head: [columns],
-        body,
-        styles: {
-          font: "helvetica",
-          fontSize: 6.5,
-          cellPadding: 3,
-          overflow: "linebreak",
-          valign: "middle",
-        },
-        headStyles: {
-          fillColor: [240, 240, 240],
-          textColor: 20,
-          fontStyle: "bold",
-        },
-        columnStyles: {
-          0: { cellWidth: 170 }, // coluna de locais
-        },
-        margin: { left: marginX, right: marginX },
-        didDrawPage: (data) => {
-          // Rodapé simples
-          const footer = `Prefeitura Municipal de Itapetininga • Secretaria de Trânsito • itapetininga.sp.gov.br  •  ${dateStr}`;
-          doc.setFontSize(9);
-          doc.setTextColor(100);
-          doc.text(
-            footer,
-            data.settings.margin.left,
-            doc.internal.pageSize.getHeight() - 18
-          );
-        },
-      });
+        // Cabeçalho
+        doc.setFont("helvetica", "bold");
+        doc.setFontSize(12);
+        doc.text(title, marginX, marginY);
+
+        doc.setFont("helvetica", "normal");
+        doc.setFontSize(11);
+        doc.text(`${labelBase} • Tabela Diurna • gerado em ${dateStr}`, marginX, marginY + 18);
+
+        // Tabela diurna
+        doc.autoTable({
+          startY: marginY + 30,
+          head: [columns],
+          body,
+          styles: {
+            font: "helvetica",
+            fontSize: 6.5,
+            cellPadding: 3,
+            overflow: "linebreak",
+            valign: "middle",
+          },
+          headStyles: {
+            fillColor: [240, 240, 240],
+            textColor: 20,
+            fontStyle: "bold",
+          },
+          columnStyles: {
+            0: { cellWidth: 170 },
+          },
+          margin: { left: marginX, right: marginX },
+          didDrawPage: (data) => {
+            const footer = `Prefeitura Municipal de Itapetininga • Secretaria de Trânsito • itapetininga.sp.gov.br  •  ${dateStr}`;
+            doc.setFontSize(9);
+            doc.setTextColor(100);
+            doc.text(footer, data.settings.margin.left, doc.internal.pageSize.getHeight() - 18);
+          },
+        });
+      }
+
+      // --- Página NOTURNA (>= 21:00) com ITINERÁRIO PRÓPRIO ---
+      if (nightHoras.length) {
+        doc.addPage("a4", "landscape");
+        const { columns, body } = buildTableMatrix(periodObj, nightHoras);
+
+        // Cabeçalho
+        doc.setFont("helvetica", "bold");
+        doc.setFontSize(12);
+        doc.text(title, marginX, marginY);
+
+        doc.setFont("helvetica", "normal");
+        doc.setFontSize(11);
+        doc.text(`${labelBase} • Tabela Noturna (itinerário próprio) • gerado em ${dateStr}`, marginX, marginY + 18);
+
+        // Tabela noturna
+        doc.autoTable({
+          startY: marginY + 30,
+          head: [columns],
+          body,
+          styles: {
+            font: "helvetica",
+            fontSize: 6.5,
+            cellPadding: 3,
+            overflow: "linebreak",
+            valign: "middle",
+          },
+          headStyles: {
+            fillColor: [224, 230, 255], // leve distinção de cabeçalho (opcional)
+            textColor: 20,
+            fontStyle: "bold",
+          },
+          columnStyles: {
+            0: { cellWidth: 170 },
+          },
+          margin: { left: marginX, right: marginX },
+          didDrawPage: (data) => {
+            const footer = `Prefeitura Municipal de Itapetininga • Secretaria de Trânsito • itapetininga.sp.gov.br  •  ${dateStr}`;
+            doc.setFontSize(9);
+            doc.setTextColor(100);
+            doc.text(footer, data.settings.margin.left, doc.internal.pageSize.getHeight() - 18);
+          },
+        });
+      }
     });
 
     const fileName = `Linha_${linha.id}_horarios.pdf`;
@@ -857,6 +785,7 @@ async function generateLineSchedulePDF(linha) {
     alert("Não foi possível gerar o PDF.");
   }
 }
+
 
 /* start */
 render();
