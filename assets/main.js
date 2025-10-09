@@ -503,7 +503,7 @@ function renderNivel3() {
   const blocoPeriodo = l.horarios?.[state.periodo] || {};
   const registro = blocoPeriodo?.[state.hora] || {};
   const atendimentoObj = registro.atendimento || {};
-  const servico = l.servico || {};
+  const servico = registro.servico || {};
 
   // tipo de itinerário com fallback para 'normal'
   const tipo = String((registro.trajeto || "normal")).toLowerCase();
