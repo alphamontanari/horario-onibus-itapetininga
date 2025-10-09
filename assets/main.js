@@ -308,6 +308,7 @@ function updateNivel1Lista() {
       state.nivel = 2;
       state.hora = null;
       state.periodo = null;
+      scroollTop();
       render(); // ok para trocar de nível
     });
     _n1List.appendChild(card);
@@ -762,7 +763,7 @@ function buildTableMatrixForPeriod(periodObj) {
   const horas = Object.keys(periodObj || {}).sort(naturalTimeSort);
   const stops = getOrderedStops(periodObj);
 
-  const columns = ["LOCais de atendimento", ...horas];
+  const columns = ["Locais de atendimento", ...horas];
   const body = stops.map((stop) => {
     const row = [stop];
     for (const h of horas) {
@@ -785,7 +786,8 @@ async function generateLineSchedulePDF(linha) {
     const marginX = 36;
     const marginY = 40;
 
-    const title = `LINHA ${linha.id} — ${linha.nome || ""}`.trim();
+    //const title = `LINHA ${linha.id} — ${linha.nome || ""}`.trim();
+    const title = `LINHA ${linha.id} — ${linha.partida} => ${linha.chegada}`.trim();
     const dateStr = new Date().toLocaleDateString("pt-BR");
 
     const periodKeys = (Object.keys(linha.horarios || {}))
@@ -806,12 +808,12 @@ async function generateLineSchedulePDF(linha) {
 
       // Cabeçalho da página
       doc.setFont("helvetica", "bold");
-      doc.setFontSize(16);
+      doc.setFontSize(12);
       doc.text(title, marginX, marginY);
 
       doc.setFont("helvetica", "normal");
       doc.setFontSize(11);
-      doc.text(`${label} • atualizado em ${dateStr}`, marginX, marginY + 18);
+      doc.text(`${label} • gerado em ${dateStr}`, marginX, marginY + 18);
 
       // Tabela
       doc.autoTable({
@@ -820,7 +822,7 @@ async function generateLineSchedulePDF(linha) {
         body,
         styles: {
           font: "helvetica",
-          fontSize: 9,
+          fontSize: 6.5,
           cellPadding: 3,
           overflow: "linebreak",
           valign: "middle",
@@ -836,7 +838,7 @@ async function generateLineSchedulePDF(linha) {
         margin: { left: marginX, right: marginX },
         didDrawPage: (data) => {
           // Rodapé simples
-          const footer = `Prefeitura Municipal de Itapetininga • Secretaria de Trânsito • ${dateStr}`;
+          const footer = `Prefeitura Municipal de Itapetininga • Secretaria de Trânsito • itapetininga.sp.gov.br  •  ${dateStr}`;
           doc.setFontSize(9);
           doc.setTextColor(100);
           doc.text(
@@ -856,6 +858,12 @@ async function generateLineSchedulePDF(linha) {
   }
 }
 
+
+function scroollTop() {
+  return $("html, body").animate({
+    scrollTop: 0
+  }, 600), !1
+}
 
 
 
