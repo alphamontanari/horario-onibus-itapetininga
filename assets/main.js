@@ -858,14 +858,5 @@ async function generateLineSchedulePDF(linha) {
   }
 }
 
-
-
-
-$("html, body").animate({ scrollTop: 0 }, 600);
-
-
-
-
-
 /* start */
 render();
