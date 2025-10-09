@@ -189,7 +189,7 @@ const Linha01A = {
       "23:10": {
         atendimento: {
           "MERCADO MUNICIPAL": "23:10",
-          "RODOVIÁRIA": "23:20",
+          "RODOVIÁRIA.": "23:20",
           "VILA SÃO JOÃO": "23:30",
           "PREFEITURA": "23:35",
           "LAGO DOS IPÊS ": "23:40",
