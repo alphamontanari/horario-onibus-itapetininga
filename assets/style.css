@@ -338,6 +338,7 @@ h1 {
   cursor: pointer;
   box-shadow: 0 4px 8px rgba(0,0,0,0.3);
   transition: all 0.3s ease;
+  z-index: 999;
 }
 
 .btn-pdf:hover {
