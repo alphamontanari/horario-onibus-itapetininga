@@ -491,7 +491,7 @@ function renderNivel3() {
   if (!pair) return;
   const [, l] = pair;
 
-  // Guardas (caso o usuário chegue sem período/hora definidos)
+  // Guardas
   if (!state.periodo || !state.hora) {
     const miss = document.createElement("div");
     miss.className = "card";
@@ -503,7 +503,29 @@ function renderNivel3() {
   const blocoPeriodo = l.horarios?.[state.periodo] || {};
   const registro = blocoPeriodo?.[state.hora] || {};
   const atendimentoObj = registro.atendimento || {};
-  const servico = l.horarios?.[state.periodo]?.[state.hora]?.servico ?? "";
+
+  /* === CAPTURAR "servico" DO HORÁRIO (com fallbacks) === */
+  const servicoRaw =
+    registro.servico ??
+    l.horarios?.[state.periodo]?.[state.hora]?.servico ??
+    l.servico ?? null;
+
+  // Normaliza para rótulo legível
+  const mapServico = {
+    normal: "Convencional",
+    comum: "Convencional",
+    expresso: "Expresso",
+    rapido: "Rápido",
+    semidireto: "Semi-direto",
+    semip: "Semi-direto",
+    escolar: "Escolar",
+    interbairros: "Interbairros",
+    experimental: "Experimental",
+  };
+  const servicoKey = String(servicoRaw || "").trim().toLowerCase();
+  const servicoLabel = servicoKey
+    ? (mapServico[servicoKey] || servicoRaw)
+    : "";
 
   // tipo de itinerário com fallback para 'normal'
   const tipo = String((registro.trajeto || "normal")).toLowerCase();
@@ -525,10 +547,11 @@ function renderNivel3() {
       <div class="muted">
         ${escapeHtml(labelPeriodo(state.periodo))} · Saída: <strong>${escapeHtml(state.hora)}</strong>
       </div>
-      <div class="muted">
-        Serviço: ${servico} 
-      </div>
-      
+      ${servicoLabel ? `
+        <div class="muted">
+          Serviço: <span class="chip chip-serv">${escapeHtml(servicoLabel)}</span>
+        </div>
+      ` : ""}
     </div>
 
     <div class="meta-row" style="margin-top:.5rem;display:flex;gap:12px;align-items:center;flex-wrap:wrap">
@@ -562,6 +585,7 @@ function renderNivel3() {
   `;
   app.appendChild(card);
 }
+
 
 
 
