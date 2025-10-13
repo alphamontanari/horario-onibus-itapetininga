@@ -2,6 +2,7 @@
 .DS_Store
 Thumbs.db
 index.html
+gerador_linha_deltas_refatorado.html
 
 # IDEs/editores
 .idea/
