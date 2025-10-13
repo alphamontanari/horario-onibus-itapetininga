@@ -1,22 +1,22 @@
 const Linha08A = {
     "id": "08A",
     "cod": "Linha08A",
-    "nome": "BAIRRO CAPÃO ALTO → MERCADO MUNICIPAL",
-    "partida": "BAIRRO CAPÃO ALTO",
-    "chegada": "MERCADO MUNICIPAL",
+    "nome": "MERCADO MUNICIPAL → ETEC PROF. EDSON GALVÃO (COLÉGIO AGRICOLA)",
+    "partida": "MERCADO MUNICIPAL",
+    "chegada": "ETEC PROF. EDSON GALVÃO (COLÉGIO AGRICOLA)",
     "horarios": {
-        "dia_de_semana": {            
-            "07:30": {
+        "dia_de_semana": {
+            "06:50": {
                 "atendimento": {
-                    "BAIRRO CAPÃO ALTO": "07:30",
-                    "PENITENCIÁRIA": "07:40",
-                    "RODOVIA GLADYS BERNARDES MINHOTO": "07:45",
-                    "VILA OLHO D' ÁGUA": "07:50",
-                    "RODOVIÁRIA": "08:00",
-                    "MERCADO MUNICIPAL": "08:10"
-                }, servico: 'Bairro → Centro'
-            },
-
+                    "MERCADO MUNICIPAL": "06:50",
+                    "PRAÇA DA BÍBLIA": "06:55",
+                    "VILA OLHO D' ÁGUA": "07:05",
+                    "VILA BELO HORIZONTE": "07:10",
+                    "ETEC PROF. EDSON GALVÃO (COLÉGIO AGRICOLA)": "07:25"
+                }, 
+                servico: 'Período Escolar', 
+                trajeto : 'diferenciado',                
+            }
         }
     }
 }

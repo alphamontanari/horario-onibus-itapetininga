@@ -351,6 +351,8 @@ function updateNivel1Lista() {
   });
 }
 
+
+/* Exibe horários por linha nível 2 */
 function renderNivel2() {
   const pair = getLinha();
   if (!pair) return;
