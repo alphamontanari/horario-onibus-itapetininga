@@ -1,5 +1,5 @@
 const Linha10B = {
-    "id": "10",
+    "id": "10B",
     "cod": "Linha10B",
     "nome": "RODOVIÁRIA (PLATAFORMA SUL) → DISTRITO DO RECHÃ",
     "partida": "RODOVIÁRIA (PLATAFORMA SUL)",
