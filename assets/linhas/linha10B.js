@@ -20,7 +20,8 @@ const Linha10B = {
                     "JBS FOODS S.A": "06:30",
                     "DISTRITO DO TUPI": "06:40",
                     "DISTRITO DO RECHÃ": "07:00"
-                }
+                },
+                servico: 'Centro → Distrito',
             },
             "07:00": {
                 "atendimento": {
@@ -36,7 +37,8 @@ const Linha10B = {
                     "JBS FOODS S.A": "07:40",
                     "DISTRITO DO TUPI": "07:50",
                     "DISTRITO DO RECHÃ": "08:10"
-                }
+                },
+                servico: 'Centro → Distrito',
             },
             "08:40": {
                 "atendimento": {
@@ -52,7 +54,8 @@ const Linha10B = {
                     "JBS FOODS S.A": "09:20",
                     "DISTRITO DO TUPI": "09:30",
                     "DISTRITO DO RECHÃ": "09:50"
-                }
+                },
+                servico: 'Centro → Distrito',
             },
             "10:50": {
                 "atendimento": {
@@ -68,7 +71,8 @@ const Linha10B = {
                     "JBS FOODS S.A": "11:30",
                     "DISTRITO DO TUPI": "11:40",
                     "DISTRITO DO RECHÃ": "12:00"
-                }
+                },
+                servico: 'Centro → Distrito',
             },
             "11:40": {
                 "atendimento": {
@@ -84,7 +88,8 @@ const Linha10B = {
                     "JBS FOODS S.A": "12:20",
                     "DISTRITO DO TUPI": "12:30",
                     "DISTRITO DO RECHÃ": "12:50"
-                }
+                },
+                servico: 'Centro → Distrito',
             },
             "13:20": {
                 "atendimento": {
@@ -100,7 +105,8 @@ const Linha10B = {
                     "JBS FOODS S.A": "14:00",
                     "DISTRITO DO TUPI": "14:10",
                     "DISTRITO DO RECHÃ": "14:30"
-                }
+                },
+                servico: 'Centro → Distrito',
             },
             "14:50": {
                 "atendimento": {
@@ -116,7 +122,8 @@ const Linha10B = {
                     "JBS FOODS S.A": "15:30",
                     "DISTRITO DO TUPI": "15:40",
                     "DISTRITO DO RECHÃ": "16:00"
-                }
+                },
+                servico: 'Centro → Distrito',
             },
             "16:00": {
                 "atendimento": {
@@ -132,7 +139,8 @@ const Linha10B = {
                     "JBS FOODS S.A": "16:40",
                     "DISTRITO DO TUPI": "16:50",
                     "DISTRITO DO RECHÃ": "17:10"
-                }
+                },
+                servico: 'Centro → Distrito',
             },
             "17:25": {
                 "atendimento": {
@@ -148,7 +156,8 @@ const Linha10B = {
                     "JBS FOODS S.A": "18:05",
                     "DISTRITO DO TUPI": "18:15",
                     "DISTRITO DO RECHÃ": "18:35"
-                }
+                },
+                servico: 'Centro → Distrito',
             },
             "19:00": {
                 "atendimento": {
@@ -164,7 +173,8 @@ const Linha10B = {
                     "JBS FOODS S.A": "19:40",
                     "DISTRITO DO TUPI": "19:50",
                     "DISTRITO DO RECHÃ": "20:10"
-                }
+                },
+                servico: 'Centro → Distrito',
             }
         },
         "sabado": {
@@ -182,7 +192,8 @@ const Linha10B = {
                     "JBS FOODS S.A": "06:30",
                     "DISTRITO DO TUPI": "06:40",
                     "DISTRITO DO RECHÃ": "07:00"
-                }
+                },
+                servico: 'Centro → Distrito',
             },
             "07:00": {
                 "atendimento": {
@@ -198,7 +209,8 @@ const Linha10B = {
                     "JBS FOODS S.A": "07:40",
                     "DISTRITO DO TUPI": "07:50",
                     "DISTRITO DO RECHÃ": "08:10"
-                }
+                },
+                servico: 'Centro → Distrito',
             },
             "08:40": {
                 "atendimento": {
@@ -214,7 +226,8 @@ const Linha10B = {
                     "JBS FOODS S.A": "09:20",
                     "DISTRITO DO TUPI": "09:30",
                     "DISTRITO DO RECHÃ": "09:50"
-                }
+                },
+                servico: 'Centro → Distrito',
             },
             "10:50": {
                 "atendimento": {
@@ -230,7 +243,8 @@ const Linha10B = {
                     "JBS FOODS S.A": "11:30",
                     "DISTRITO DO TUPI": "11:40",
                     "DISTRITO DO RECHÃ": "12:00"
-                }
+                },
+                servico: 'Centro → Distrito',
             },
             "11:40": {
                 "atendimento": {
@@ -246,7 +260,8 @@ const Linha10B = {
                     "JBS FOODS S.A": "12:20",
                     "DISTRITO DO TUPI": "12:30",
                     "DISTRITO DO RECHÃ": "12:50"
-                }
+                },
+                servico: 'Centro → Distrito',
             },
             "13:20": {
                 "atendimento": {
@@ -262,7 +277,8 @@ const Linha10B = {
                     "JBS FOODS S.A": "14:00",
                     "DISTRITO DO TUPI": "14:10",
                     "DISTRITO DO RECHÃ": "14:30"
-                }
+                },
+                servico: 'Centro → Distrito',
             },
             "14:50": {
                 "atendimento": {
@@ -278,7 +294,8 @@ const Linha10B = {
                     "JBS FOODS S.A": "15:30",
                     "DISTRITO DO TUPI": "15:40",
                     "DISTRITO DO RECHÃ": "16:00"
-                }
+                },
+                servico: 'Centro → Distrito',
             },
             "16:00": {
                 "atendimento": {
@@ -294,7 +311,8 @@ const Linha10B = {
                     "JBS FOODS S.A": "16:40",
                     "DISTRITO DO TUPI": "16:50",
                     "DISTRITO DO RECHÃ": "17:10"
-                }
+                },
+                servico: 'Centro → Distrito',
             },
             "17:25": {
                 "atendimento": {
@@ -310,7 +328,8 @@ const Linha10B = {
                     "JBS FOODS S.A": "18:05",
                     "DISTRITO DO TUPI": "18:15",
                     "DISTRITO DO RECHÃ": "18:35"
-                }
+                },
+                servico: 'Centro → Distrito',
             },
             "19:00": {
                 "atendimento": {
@@ -326,7 +345,8 @@ const Linha10B = {
                     "JBS FOODS S.A": "19:40",
                     "DISTRITO DO TUPI": "19:50",
                     "DISTRITO DO RECHÃ": "20:10"
-                }
+                },
+                servico: 'Centro → Distrito',
             }
         },
         "domingo_feriado": {
