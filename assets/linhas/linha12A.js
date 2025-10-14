@@ -16,11 +16,10 @@ const Linha12A = {
                     "PASSARELA DOMENICO ALCIATI (JD. BELA VISTA)": "06:27",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI)": "06:35",
                     "MERCADO MUNICIPAL": "06:50"
-                }
+                }, servico: 'Distrito → Centro'
             },
             "13:05": {
                 "atendimento": {
-                    "BAIRRO DA PESCARIA": "13:05",
                     "BAIRRO DO RETIRO": "13:05",
                     "BAIRRO SÃO ROQUE": "13:30",
                     "DISTRITO DA VARGINHA": "13:35",
@@ -28,33 +27,7 @@ const Linha12A = {
                     "PASSARELA DOMENICO ALCIATI (JD. BELA VISTA)": "14:02",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI)": "14:10",
                     "MERCADO MUNICIPAL": "14:25"
-                }
-            }
-        },
-        "terca_e_quinta": {
-            "05:10": {
-                "atendimento": {
-                    "BAIRRO DA PESCARIA": "05:10",
-                    "BAIRRO DO RETIRO": "05:30",
-                    "BAIRRO SÃO ROQUE": "05:55",
-                    "DISTRITO DA VARGINHA": "06:00",
-                    "DISTRITO DA CONCEIÇÃO": "06:20",
-                    "PASSARELA DOMENICO ALCIATI (JD. BELA VISTA)": "06:27",
-                    "AV. 5 DE NOVEMBRO (VILA NASTRI)": "06:35",
-                    "MERCADO MUNICIPAL": "06:50"
-                }
-            },
-            "13:05": {
-                "atendimento": {
-                    "BAIRRO DA PESCARIA": "13:05",
-                    "BAIRRO DO RETIRO": "13:05",
-                    "BAIRRO SÃO ROQUE": "13:30",
-                    "DISTRITO DA VARGINHA": "13:35",
-                    "DISTRITO DA CONCEIÇÃO": "13:55",
-                    "PASSARELA DOMENICO ALCIATI (JD. BELA VISTA)": "14:02",
-                    "AV. 5 DE NOVEMBRO (VILA NASTRI)": "14:10",
-                    "MERCADO MUNICIPAL": "14:25"
-                }
+                }, servico: 'Distrito → Centro', trajeto: 'diferenciado'
             }
         },
         "sabado": {
@@ -68,7 +41,7 @@ const Linha12A = {
                     "PASSARELA DOMENICO ALCIATI (JD. BELA VISTA)": "09:17",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI)": "09:25",
                     "MERCADO MUNICIPAL": "09:40"
-                }
+                }, servico: 'Distrito → Centro'
             }
         },
         "domingo_feriado": {
@@ -82,7 +55,7 @@ const Linha12A = {
                     "PASSARELA DOMENICO ALCIATI (JD. BELA VISTA)": "08:17",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI)": "08:25",
                     "MERCADO MUNICIPAL": "08:40"
-                }
+                }, servico: 'Distrito → Centro'
             }
         }
     }
