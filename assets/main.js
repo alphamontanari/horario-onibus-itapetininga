@@ -13,6 +13,7 @@ const crumbs = document.getElementById("crumbs");
 /* ====== HELPERS ====== */
 const periodLabels = {
   dia_de_semana: "Dia de semana",
+  terca_e_quinta: "Terça e Quinta",
   sabado: "Sábado",
   domingo_feriado: "Domingo/Feriado",
 };
@@ -375,7 +376,7 @@ function renderNivel2() {
   }
 
   // ordem amigável das abas (se não existir, cai pro final)
-  const order = ["dia_de_semana", "sabado", "domingo_feriado"];
+  const order = ["dia_de_semana", "terca_e_quinta", "sabado", "domingo_feriado"];
   const ordered = periodKeys.slice().sort((a, b) => {
     const ia = order.indexOf(a); const ib = order.indexOf(b);
     return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
@@ -623,9 +624,10 @@ function addPdfDownloadButton(containerEl, linha) {
 }
 
 /* ====== PDF: Utilidades de dados ====== */
-const PERIOD_ORDER = ["dia_de_semana", "sabado", "domingo_feriado"];
+const PERIOD_ORDER = ["dia_de_semana", "terca_e_quinta", "sabado", "domingo_feriado"];
 const PERIOD_LABELS = {
   dia_de_semana: "Dia de semana",
+  terca_e_quinta: "Terça e Quinta",
   sabado: "Sábado",
   domingo_feriado: "Domingo e Feriado",
 };
