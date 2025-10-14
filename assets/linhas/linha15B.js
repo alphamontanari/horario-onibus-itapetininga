@@ -5,7 +5,7 @@ const Linha15B = {
     "partida": "MERCADO MUNICIPAL",
     "chegada": "BAIRRO DA ROCINHA",
     "horarios": {
-        "dia_de_semana": {
+        "segunda_e_quinta": {
             "06:50": {
                 "atendimento": {
                     "MERCADO MUNICIPAL": "06:50",

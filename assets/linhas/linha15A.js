@@ -5,7 +5,7 @@ const Linha15A = {
     "partida": "BAIRRO DOS BERNARDES",
     "chegada": "MERCADO MUNICIPAL",
     "horarios": {
-        "dia_de_semana": {
+        "segunda_e_quinta": {
             "08:10": {
                 "atendimento": {
                     "BAIRRO DOS BERNARDES": "08:10",
