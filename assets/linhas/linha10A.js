@@ -18,7 +18,8 @@ const Linha10A = {
                     "MERCADO MUNICIPAL": "06:20",
                     "RODOVIÁRIA (PLATAFORMA SUL)": "06:30"
                 },
-                servico: 'Distrito → Centro',
+                servico: 'Distrito → Centro',  trajeto : 'diferenciado'
+
             },
             "07:20": {
                 "atendimento": {
@@ -32,7 +33,7 @@ const Linha10A = {
                     "MERCADO MUNICIPAL": "08:10",
                     "RODOVIÁRIA (PLATAFORMA SUL)": "08:20"
                 },
-                servico: 'Distrito → Centro',
+                servico: 'Distrito → Centro',  trajeto : 'diferenciado'
             },
             "08:40": {
                 "atendimento": {
@@ -72,7 +73,7 @@ const Linha10A = {
                     "MERCADO MUNICIPAL": "12:55",
                     "RODOVIÁRIA (PLATAFORMA SUL)": "13:05"
                 },
-                servico: 'Distrito → Centro',
+                servico: 'Distrito → Centro',  trajeto : 'diferenciado'
             },
             "13:10": {
                 "atendimento": {
