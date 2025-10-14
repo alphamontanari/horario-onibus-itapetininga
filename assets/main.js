@@ -14,7 +14,7 @@ const crumbs = document.getElementById("crumbs");
 const periodLabels = {
   dia_de_semana: "Dia de semana",
   terca_e_quinta: "Terça e Quinta",
-  quarta: "quarta",
+  quarta: "Quarta-feira",
   segunda_e_quinta : "Segunda e Quinta",
   sabado: "Sábado",
   domingo_feriado: "Domingo/Feriado",

@@ -12,7 +12,7 @@ const Linha14B = {
           "CHAPADA GRANDE": "08:15",
           "BAIRRO DO SAPEZAL": "08:20",
           "BAIRRO RIO ACIMA": "09:10"
-        }
+        }, servico: 'CENTRO → BAIRRO'
       },
       "15:00": {
         "atendimento": {
@@ -20,7 +20,7 @@ const Linha14B = {
           "CHAPADA GRANDE": "15:15",
           "BAIRRO DO SAPEZAL": "15:20",
           "BAIRRO RIO ACIMA": "16:10"
-        }
+        }, servico: 'CENTRO → BAIRRO'
       }
     }
   }
