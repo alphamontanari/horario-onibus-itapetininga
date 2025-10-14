@@ -13,7 +13,7 @@ Linha02A = {
           "VILA CAROLINA": "06:04",
           "AV. CINCO DE NOVEMBRO": "06:06",
           "MERCADO MUNICIPAL ": "06:30",
-          "RODOVIÁRIA": "06:42",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "06:42",
           "JD. FOGAÇA": "06:48",
           "TABOÃOZINHO": "06:58"
         }
@@ -25,7 +25,7 @@ Linha02A = {
           "VILA CAROLINA": "07:14",
           "AV. CINCO DE NOVEMBRO": "07:16",
           "MERCADO MUNICIPAL ": "07:40",
-          "RODOVIÁRIA": "07:52",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "07:52",
           "JD. FOGAÇA": "07:58",
           "TABOÃOZINHO": "08:08"
         }
@@ -36,7 +36,7 @@ Linha02A = {
           "VILA CAROLINA": "08:50",
           "AV. CINCO DE NOVEMBRO": "09:00",
           "MERCADO MUNICIPAL": "09:00",
-          "RODOVIÁRIA": "09:00",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "09:00",
           "FOGAÇA": "09:00",
           "TABOÃOZINHO": "09:00"
         }, trajeto : 'diferenciado'
@@ -48,7 +48,7 @@ Linha02A = {
           "VILA CAROLINA": "08:24",
           "AV. CINCO DE NOVEMBRO": "08:26",
           "MERCADO MUNICIPAL ": "08:50",
-          "RODOVIÁRIA": "09:02",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "09:02",
           "JD. FOGAÇA": "09:08",
           "TABOÃOZINHO": "09:18"
         }
@@ -60,7 +60,7 @@ Linha02A = {
           "VILA CAROLINA": "09:39",
           "AV. CINCO DE NOVEMBRO": "09:41",
           "MERCADO MUNICIPAL ": "10:05",
-          "RODOVIÁRIA": "10:17",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "10:17",
           "JD. FOGAÇA": "10:23",
           "TABOÃOZINHO": "10:33"
         }
@@ -72,7 +72,7 @@ Linha02A = {
           "VILA CAROLINA": "10:54",
           "AV. CINCO DE NOVEMBRO": "10:56",
           "MERCADO MUNICIPAL ": "11:20",
-          "RODOVIÁRIA": "11:32",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "11:32",
           "JD. FOGAÇA": "11:38",
           "TABOÃOZINHO": "11:48"
         }
@@ -84,7 +84,7 @@ Linha02A = {
           "VILA CAROLINA": "12:09",
           "AV. CINCO DE NOVEMBRO": "12:11",
           "MERCADO MUNICIPAL ": "12:35",
-          "RODOVIÁRIA": "12:47",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "12:47",
           "JD. FOGAÇA": "12:53",
           "TABOÃOZINHO": "13:03"
         }
@@ -96,7 +96,7 @@ Linha02A = {
           "VILA CAROLINA": "13:24",
           "AV. CINCO DE NOVEMBRO": "13:26",
           "MERCADO MUNICIPAL ": "13:50",
-          "RODOVIÁRIA": "14:02",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "14:02",
           "JD. FOGAÇA": "14:08",
           "TABOÃOZINHO": "14:18"
         }
@@ -108,7 +108,7 @@ Linha02A = {
           "VILA CAROLINA": "14:39",
           "AV. CINCO DE NOVEMBRO": "14:41",
           "MERCADO MUNICIPAL ": "15:05",
-          "RODOVIÁRIA": "15:17",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "15:17",
           "JD. FOGAÇA": "15:23",
           "TABOÃOZINHO": "15:33"
         }
@@ -120,7 +120,7 @@ Linha02A = {
           "VILA CAROLINA": "15:54",
           "AV. CINCO DE NOVEMBRO": "15:56",
           "MERCADO MUNICIPAL ": "16:20",
-          "RODOVIÁRIA": "16:32",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "16:32",
           "JD. FOGAÇA": "16:38",
           "TABOÃOZINHO": "16:48"
         }
@@ -132,7 +132,7 @@ Linha02A = {
           "VILA CAROLINA": "17:09",
           "AV. CINCO DE NOVEMBRO": "17:11",
           "MERCADO MUNICIPAL ": "17:35",
-          "RODOVIÁRIA": "17:47",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "17:47",
           "JD. FOGAÇA": "17:53",
           "TABOÃOZINHO": "18:03"
         }
@@ -144,7 +144,7 @@ Linha02A = {
           "VILA CAROLINA": "18:24",
           "AV. CINCO DE NOVEMBRO": "18:26",
           "MERCADO MUNICIPAL ": "18:50",
-          "RODOVIÁRIA": "19:02",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "19:02",
           "JD. FOGAÇA": "19:08",
           "TABOÃOZINHO": "19:18"
         }
@@ -156,7 +156,7 @@ Linha02A = {
           "VILA CAROLINA": "19:24",
           "AV. CINCO DE NOVEMBRO": "19:26",
           "MERCADO MUNICIPAL ": "19:50",
-          "RODOVIÁRIA": "20:02",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "20:02",
           "JD. FOGAÇA": "20:08",
           "TABOÃOZINHO": "20:18"
         }
@@ -164,7 +164,7 @@ Linha02A = {
       "14:15": {
         "atendimento": {
           "MERCADO MUNICIPAL ": "14:39",
-          "RODOVIÁRIA": "14:51",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "14:51",
           "JD. FOGAÇA": "14:57",
           "TABOÃOZINHO": "15:07"
         }, trajeto : 'diferenciado'
@@ -172,7 +172,7 @@ Linha02A = {
       "16:00": {
         "atendimento": {
           "MERCADO MUNICIPAL ": "16:00",
-          "RODOVIÁRIA": "16:10",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "16:10",
           "JD. FOGAÇA": "16:16",
           "TABOÃOZINHO": "16:25"
         }, trajeto : 'diferenciado'
@@ -180,16 +180,16 @@ Linha02A = {
       "21:30": {
         "atendimento": {
           "MERCADO MUNICIPAL": "21:30",
-          "RODOVIÁRIA": "21:40",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "21:40",
           "JD. FOGAÇA": "21:50",
           "BAIRRO TABOÃOZINHO": "22:00",
-          "RODOVIÁRIA ": "22:20"
+          "RODOVIÁRIA (PLATAFORMA I - LESTE) ": "22:20"
         }, trajeto : 'diferenciado'
       },
       "23:10": {
         "atendimento": {
           "MERCADO MUNICIPAL": "23:10",
-          "RODOVIÁRIA": "23:20",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "23:20",
           "JD. FOGAÇA": "23:30",
           "BAIRRO TABOÃOZINHO": "23:40"
         }, trajeto : 'diferenciado'
@@ -203,7 +203,7 @@ Linha02A = {
           "VILA CAROLINA": "06:04",
           "AV. CINCO DE NOVEMBRO": "06:06",
           "MERCADO MUNICIPAL": "06:30",
-          "RODOVIÁRIA": "06:42",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "06:42",
           "JD. FOGAÇA": "06:48",
           "TABOÃOZINHO": "06:58"
         }
@@ -215,7 +215,7 @@ Linha02A = {
           "VILA CAROLINA": "07:14",
           "AV. CINCO DE NOVEMBRO": "07:16",
           "MERCADO MUNICIPAL": "07:36",
-          "RODOVIÁRIA": "07:48",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "07:48",
           "JD. FOGAÇA": "07:54",
           "TABOÃOZINHO": "08:00"
         }
@@ -227,7 +227,7 @@ Linha02A = {
           "VILA CAROLINA": "08:14",
           "AV. CINCO DE NOVEMBRO": "08:16",
           "MERCADO MUNICIPAL": "08:36",
-          "RODOVIÁRIA": "08:48",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "08:48",
           "JD. FOGAÇA": "08:54",
           "TABOÃOZINHO": "09:00"
         }
@@ -239,7 +239,7 @@ Linha02A = {
           "VILA CAROLINA": "09:14",
           "AV. CINCO DE NOVEMBRO": "09:16",
           "MERCADO MUNICIPAL": "09:36",
-          "RODOVIÁRIA": "09:48",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "09:48",
           "JD. FOGAÇA": "09:54",
           "TABOÃOZINHO": "10:00"
         }
@@ -251,7 +251,7 @@ Linha02A = {
           "VILA CAROLINA": "10:14",
           "AV. CINCO DE NOVEMBRO": "10:16",
           "MERCADO MUNICIPAL": "10:36",
-          "RODOVIÁRIA": "10:48",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "10:48",
           "JD. FOGAÇA": "10:54",
           "TABOÃOZINHO": "11:00"
         }
@@ -263,7 +263,7 @@ Linha02A = {
           "VILA CAROLINA": "11:14",
           "AV. CINCO DE NOVEMBRO": "11:16",
           "MERCADO MUNICIPAL": "11:36",
-          "RODOVIÁRIA": "11:48",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "11:48",
           "JD. FOGAÇA": "11:54",
           "TABOÃOZINHO": "12:00"
         }
@@ -275,7 +275,7 @@ Linha02A = {
           "VILA CAROLINA": "12:19",
           "AV. CINCO DE NOVEMBRO": "12:21",
           "MERCADO MUNICIPAL": "12:41",
-          "RODOVIÁRIA": "12:53",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "12:53",
           "JD. FOGAÇA": "12:59",
           "TABOÃOZINHO": "13:00"
         }
@@ -287,7 +287,7 @@ Linha02A = {
           "VILA CAROLINA": "13:14",
           "AV. CINCO DE NOVEMBRO": "13:16",
           "MERCADO MUNICIPAL": "13:36",
-          "RODOVIÁRIA": "13:48",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "13:48",
           "JD. FOGAÇA": "13:54",
           "TABOÃOZINHO": "14:00"
         }
@@ -299,7 +299,7 @@ Linha02A = {
           "VILA CAROLINA": "14:14",
           "AV. CINCO DE NOVEMBRO": "14:16",
           "MERCADO MUNICIPAL": "14:36",
-          "RODOVIÁRIA": "14:48"
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "14:48"
         }, trajeto : 'diferenciado'
       },
       "16:00": {
@@ -309,7 +309,7 @@ Linha02A = {
           "VILA CAROLINA": "16:14",
           "AV. CINCO DE NOVEMBRO": "16:16",
           "MERCADO MUNICIPAL": "16:36",
-          "RODOVIÁRIA": "16:48",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "16:48",
           "JD. FOGAÇA": "16:54",
           "TABOÃOZINHO": "17:00"
         }
@@ -321,7 +321,7 @@ Linha02A = {
           "VILA CAROLINA": "17:14",
           "AV. CINCO DE NOVEMBRO": "17:16",
           "MERCADO MUNICIPAL": "17:36",
-          "RODOVIÁRIA": "17:48",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "17:48",
           "JD. FOGAÇA": "17:54",
           "TABOÃOZINHO": "18:00"
         }
@@ -333,7 +333,7 @@ Linha02A = {
           "VILA CAROLINA": "18:14",
           "AV. CINCO DE NOVEMBRO": "18:16",
           "MERCADO MUNICIPAL": "18:36",
-          "RODOVIÁRIA": "18:48",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "18:48",
           "JD. FOGAÇA": "18:54",
           "TABOÃOZINHO": "19:00"
         }
@@ -345,7 +345,7 @@ Linha02A = {
           "VILA CAROLINA": "19:14",
           "AV. CINCO DE NOVEMBRO": "19:16",
           "MERCADO MUNICIPAL": "19:36",
-          "RODOVIÁRIA": "19:48",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "19:48",
           "JD. FOGAÇA": "19:54",
           "TABOÃOZINHO": "20:00"
         }
@@ -359,7 +359,7 @@ Linha02A = {
           "VILA CAROLINA": "06:14",
           "AV. CINCO DE NOVEMBRO": "06:16",
           "MERCADO MUNICIPAL": "06:36",
-          "RODOVIÁRIA": "06:48",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "06:48",
           "JD. FOGAÇA": "06:54",
           "TABOÃOZINHO": "07:00"
         }
@@ -371,7 +371,7 @@ Linha02A = {
           "VILA CAROLINA": "07:14",
           "AV. CINCO DE NOVEMBRO": "07:16",
           "MERCADO MUNICIPAL": "07:36",
-          "RODOVIÁRIA": "07:48",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "07:48",
           "JD. FOGAÇA": "07:54",
           "TABOÃOZINHO": "08:00"
         }
@@ -383,7 +383,7 @@ Linha02A = {
           "VILA CAROLINA": "08:14",
           "AV. CINCO DE NOVEMBRO": "08:16",
           "MERCADO MUNICIPAL": "08:36",
-          "RODOVIÁRIA": "08:48",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "08:48",
           "JD. FOGAÇA": "08:54",
           "TABOÃOZINHO": "09:00"
         }
@@ -395,7 +395,7 @@ Linha02A = {
           "VILA CAROLINA": "09:14",
           "AV. CINCO DE NOVEMBRO": "09:16",
           "MERCADO MUNICIPAL": "09:36",
-          "RODOVIÁRIA": "09:48"
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "09:48"
         }, trajeto : 'diferenciado'
       },
       "12:00": {
@@ -405,7 +405,7 @@ Linha02A = {
           "VILA CAROLINA": "12:14",
           "AV. CINCO DE NOVEMBRO": "12:16",
           "MERCADO MUNICIPAL": "12:36",
-          "RODOVIÁRIA": "12:48",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "12:48",
           "JD. FOGAÇA": "12:54",
           "TABOÃOZINHO": "13:00"
         }
@@ -417,7 +417,7 @@ Linha02A = {
           "VILA CAROLINA": "13:14",
           "AV. CINCO DE NOVEMBRO": "13:16",
           "MERCADO MUNICIPAL": "13:36",
-          "RODOVIÁRIA": "13:48",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "13:48",
           "JD. FOGAÇA": "13:54",
           "TABOÃOZINHO": "14:00"
         }
@@ -429,7 +429,7 @@ Linha02A = {
           "VILA CAROLINA": "14:14",
           "AV. CINCO DE NOVEMBRO": "14:16",
           "MERCADO MUNICIPAL": "14:36",
-          "RODOVIÁRIA": "14:48"
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "14:48"
         }, trajeto : 'diferenciado'
       },
       "17:00": {
@@ -439,7 +439,7 @@ Linha02A = {
           "VILA CAROLINA": "17:14",
           "AV. CINCO DE NOVEMBRO": "17:16",
           "MERCADO MUNICIPAL": "17:36",
-          "RODOVIÁRIA": "17:48",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "17:48",
           "JD. FOGAÇA": "17:54",
           "TABOÃOZINHO": "18:00"
         }
@@ -451,7 +451,7 @@ Linha02A = {
           "VILA CAROLINA": "18:14",
           "AV. CINCO DE NOVEMBRO": "18:16",
           "MERCADO MUNICIPAL": "18:36",
-          "RODOVIÁRIA": "18:48",
+          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "18:48",
           "JD. FOGAÇA": "18:54",
           "TABOÃOZINHO": "19:00"
         }
