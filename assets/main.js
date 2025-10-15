@@ -16,6 +16,7 @@ const periodLabels = {
   terca_e_quinta: "Terça e Quinta",
   quarta: "Quarta-feira",
   segunda_e_quinta : "Segunda e Quinta",
+  terca_e_sexta : "terca_e_sexta",
   sabado: "Sábado",
   domingo_feriado: "Domingo/Feriado",
 };
@@ -378,7 +379,7 @@ function renderNivel2() {
   }
 
   // ordem amigável das abas (se não existir, cai pro final)
-  const order = ["dia_de_semana", "segunda_e_quinta", "quarta", "terca_e_quinta", "sabado", "domingo_feriado"];
+  const order = ["dia_de_semana", "segunda_e_quinta", "quarta", "terca_e_quinta", "terca_e_sexta", "sabado", "domingo_feriado"];
   const ordered = periodKeys.slice().sort((a, b) => {
     const ia = order.indexOf(a); const ib = order.indexOf(b);
     return (ia === -1 ? 99 : ia) - (ib === -1 ? 99 : ib);
@@ -626,11 +627,12 @@ function addPdfDownloadButton(containerEl, linha) {
 }
 
 /* ====== PDF: Utilidades de dados ====== */
-const PERIOD_ORDER = ["dia_de_semana", "segunda_e_quinta", "quarta", "terca_e_quinta", "sabado", "domingo_feriado"];
+const PERIOD_ORDER = ["dia_de_semana", "segunda_e_quinta", "quarta", "terca_e_quinta", "terca_e_sexta", "sabado", "domingo_feriado"];
 const PERIOD_LABELS = {
   dia_de_semana: "Dia de semana",
-  segunda_e_quinta: "Segunda e Quinta",
-  terca_e_quinta: "Terça e Quinta",
+  segunda_e_quinta: "Segunda e Quinta-feira",
+  terca_e_quinta: "Terça e Quinta-feira",
+  terca_e_sexta: "Terça e Sexta-feira",
   quarta: "Quarta-feira",
   sabado: "Sábado",
   domingo_feriado: "Domingo e Feriado",
