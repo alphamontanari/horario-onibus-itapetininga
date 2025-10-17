@@ -5,7 +5,7 @@ const Linha21B = {
     "partida": "RODOVIÁRIA",
     "chegada": "BAIRRO SABIAÚNA",
     "horarios": {
-        "dia_de_semana": {
+        "segunda_e_quinta": {
             "07:40": {
                 "atendimento": {
                     "RODOVIÁRIA": "15:30",

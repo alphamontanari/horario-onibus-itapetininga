@@ -17,7 +17,7 @@ const Linha16B = {
           "RECINTO DE EXPOSIÇÕES ACÁCIO DE MORAES TERRA": "13:13",
           "PRAÇA NOSSA SENHORA APARECIDA": "13:22",
           "RODOVIÁRIA": "13:30"
-        }
+        }, servico: 'BAIRRO → CENTRO'
       },
       "16:10": {
         "atendimento": {
@@ -30,7 +30,7 @@ const Linha16B = {
           "RECINTO DE EXPOSIÇÕES ACÁCIO DE MORAES TERRA": "16:33",
           "PRAÇA NOSSA SENHORA APARECIDA": "16:42",
           "RODOVIÁRIA": "16:50"
-        }
+        }, servico: 'BAIRRO → CENTRO'
       },
       "19:10": {
         "atendimento": {
@@ -43,7 +43,7 @@ const Linha16B = {
           "RECINTO DE EXPOSIÇÕES ACÁCIO DE MORAES TERRA": "19:33",
           "PRAÇA NOSSA SENHORA APARECIDA": "19:42",
           "RODOVIÁRIA": "19:50"
-        }
+        }, servico: 'BAIRRO → CENTRO'
       }
     }
   }

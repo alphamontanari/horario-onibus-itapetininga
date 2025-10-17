@@ -17,7 +17,7 @@ const Linha17A = {
           "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "07:00",
           "VILA RIO BRANCO": "07:03",
           "MERCADO MUNICIPAL": "07:10"
-        }
+        },servico: 'BAIRRO → CENTRO'
       },
       "15:40": {
         "atendimento": {
