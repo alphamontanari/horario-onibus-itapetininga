@@ -13,8 +13,18 @@ const Linha16A = {
                     "RESIDENCIAL CRISTIVÃO COLOMBO (PACAEMBU 2)": "07:05",
                     "AV. WALDOMIRO DE CARVALHO": "07:10",
                     "VILA RIO BRANCO": "07:15",
-                    "MERCADO MUNICIPAL": "07:25",                 
+                    "MERCADO MUNICIPAL": "07:25",
                 }, servico: 'BAIRRO → CENTRO', trajeto: 'diferenciado'
+            },
+            "11:20": {
+                "atendimento": {
+                    "RODOVIÁRIA ": "11:20",
+                    "PRAÇA DA BÍBLIA": "11:25",
+                    "VILA RIO BRANCO": "11:30",
+                    "AV. WALDORMIRO DE CARVALHO": "11:32",
+                    "VILA MAZZEI": "11:34",
+                    "PARQUE ITAPÊ": "11:36"
+                }, servico: 'CENTRO → BAIRRO', trajeto: 'diferenciado'
             },
             "11:35": {
                 "atendimento": {
@@ -35,6 +45,20 @@ const Linha16A = {
                     "VILA SOTTEMO": "12:50"
                 }, servico: 'BAIRRO → CENTRO → BAIRRO',
             },
+            "13:30": {
+                "atendimento": {
+                    "MERCADO MUNICIPAL": "13:30",
+                    "PRAÇA DA BÍBLIA": "13:35",
+                    "RUA DR. JÚLIO PRESTES": "13:42",
+                    "VILA RIO BRANCO": "13:49",
+                    "AV. WALDORMIRO DE CARVALHO": "13:59",
+                    "RESIDENCIAL CRISTÓVÃO COLOMBO": "14:05",
+                    "VILA MAZZEI": "14:10",
+                    "PARQUE ITAPÊ": "14:20"
+                },
+                servico: 'CENTRO → BAIRRO',
+                trajeto: 'diferenciado',
+            },
             "14:20": {
                 "atendimento": {
                     "PARQUE ITAPÊ": "14:20",
@@ -52,7 +76,21 @@ const Linha16A = {
                     "VILA BARTH I": "15:35",
                     "PASSARELA DOMENICO ALCIATI (JD. BELA VISTA)": "15:40",
                     "VILA SOTTEMO": "15:50"
-                }
+                }, servico: 'BAIRRO → CENTRO → BAIRRO',
+            },
+            "16:35": {
+                "atendimento": {
+                    "MERCADO MUNICIPAL": "16:35",
+                    "PRAÇA DA BÍBLIA": "16:40",
+                    "RUA DR. JÚLIO PRESTES": "16:47",
+                    "VILA RIO BRANCO": "16:54",
+                    "AV. WALDORMIRO DE CARVALHO": "17:04",
+                    "RESIDENCIAL CRISTÓVÃO COLOMBO": "17:10",
+                    "VILA MAZZEI": "17:15",
+                    "PARQUE ITAPÊ": "17:25"
+                },
+                servico: 'CENTRO → BAIRRO',
+                trajeto: 'diferenciado',
             },
             "17:35": {
                 "atendimento": {
@@ -71,7 +109,7 @@ const Linha16A = {
                     "VILA BARTH I": "18:50",
                     "PASSARELA DOMENICO ALCIATI (JD. BELA VISTA)": "18:55",
                     "VILA SOTTEMO": "19:05"
-                }
+                }, servico: 'BAIRRO → CENTRO → BAIRRO',
             }
         }
     }
