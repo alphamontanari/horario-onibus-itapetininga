@@ -13,7 +13,7 @@ const Linha13A = {
                     "AV. CIRO ALBUQUERQUE (VILA RECREIO)": "06:30",
                     "JD. MARABÁ (PREFEITURA)": "06:33",
                     "JD. MESQUITA (UBS)": "06:35",
-                    "RODOVIÁRIA (PLATAFORMA II - SUL)": "06:40",
+                    "RODOVIÁRIA": "06:40",
                     "MERCADO MUNICIPAL": "06:50"
                 }, servico: 'Distrito → Centro'
             },
@@ -24,7 +24,7 @@ const Linha13A = {
                     "AV. CIRO ALBUQUERQUE (VILA RECREIO)": "13:30",
                     "JD. MARABÁ (PREFEITURA)": "13:33",
                     "JD. MESQUITA (UBS)": "13:35",
-                    "RODOVIÁRIA (PLATAFORMA II - SUL)": "13:40",
+                    "RODOVIÁRIA": "13:40",
                     "MERCADO MUNICIPAL": "13:50"
                 }, servico: 'Distrito → Centro'
             },
@@ -35,7 +35,7 @@ const Linha13A = {
                     "AV. CIRO ALBUQUERQUE (VILA RECREIO)": "16:30",
                     "JD. MARABÁ (PREFEITURA)": "16:33",
                     "JD. MESQUITA (UBS)": "16:35",
-                    "RODOVIÁRIA (PLATAFORMA II - SUL)": "16:40",
+                    "RODOVIÁRIA": "16:40",
                     "MERCADO MUNICIPAL": "16:50"
                 }, servico: 'Distrito → Centro'
             },
@@ -46,7 +46,7 @@ const Linha13A = {
                     "AV. CIRO ALBUQUERQUE (VILA RECREIO)": "20:00",
                     "JD. MARABÁ (PREFEITURA)": "20:03",
                     "JD. MESQUITA (UBS)": "20:05",
-                    "RODOVIÁRIA (PLATAFORMA II - SUL)": "20:10",
+                    "RODOVIÁRIA": "20:10",
                     "MERCADO MUNICIPAL": "20:20"
                 }, servico: 'Distrito → Centro'
             }
@@ -59,7 +59,7 @@ const Linha13A = {
                     "AV. CIRO ALBUQUERQUE (VILA RECREIO)": "07:30",
                     "JD. MARABÁ (PREFEITURA)": "07:33",
                     "JD. MESQUITA (UBS)": "07:35",
-                    "RODOVIÁRIA (PLATAFORMA II - SUL)": "07:40",
+                    "RODOVIÁRIA": "07:40",
                     "MERCADO MUNICIPAL": "07:50"
                 }, servico: 'Distrito → Centro'
             }
@@ -72,7 +72,7 @@ const Linha13A = {
                     "AV. CIRO ALBUQUERQUE (VILA RECREIO)": "14:00",
                     "JD. MARABÁ (PREFEITURA)": "14:03",
                     "JD. MESQUITA (UBS)": "14:05",
-                    "RODOVIÁRIA (PLATAFORMA II - SUL)": "14:10",
+                    "RODOVIÁRIA": "14:10",
                     "MERCADO MUNICIPAL": "14:20"
                 }, servico: 'Distrito → Centro'
             }

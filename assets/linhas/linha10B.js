@@ -1,14 +1,14 @@
 const Linha10B = {
     "id": "10B",
     "cod": "Linha10B",
-    "nome": "RODOVIÁRIA (PLATAFORMA SUL) → DISTRITO DO RECHÃ",
-    "partida": "RODOVIÁRIA (PLATAFORMA SUL)",
+    "nome": "RODOVIÁRIA → DISTRITO DO RECHÃ",
+    "partida": "RODOVIÁRIA",
     "chegada": "DISTRITO DO RECHÃ",
     "horarios": {
         "dia_de_semana": {
             "05:50": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "05:50",
+                    "RODOVIÁRIA": "05:50",
                     "MERCADO MUNICIPAL": "06:00",
                     "PRAÇA DA BÍBLIA": "06:05",
                     "VILA MÁXIMO": "06:08",
@@ -25,7 +25,7 @@ const Linha10B = {
             },
             "07:00": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "07:00",
+                    "RODOVIÁRIA": "07:00",
                     "MERCADO MUNICIPAL": "07:10",
                     "PRAÇA DA BÍBLIA": "07:15",
                     "VILA MÁXIMO": "07:18",
@@ -42,7 +42,7 @@ const Linha10B = {
             },
             "08:40": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "08:40",
+                    "RODOVIÁRIA": "08:40",
                     "MERCADO MUNICIPAL": "08:50",
                     "PRAÇA DA BÍBLIA": "08:55",
                     "VILA MÁXIMO": "08:58",
@@ -59,7 +59,7 @@ const Linha10B = {
             },
             "10:50": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "10:50",
+                    "RODOVIÁRIA": "10:50",
                     "MERCADO MUNICIPAL": "11:00",
                     "PRAÇA DA BÍBLIA": "11:05",
                     "VILA MÁXIMO": "11:08",
@@ -76,7 +76,7 @@ const Linha10B = {
             },
             "11:40": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "11:40",
+                    "RODOVIÁRIA": "11:40",
                     "MERCADO MUNICIPAL": "11:50",
                     "PRAÇA DA BÍBLIA": "11:55",
                     "VILA MÁXIMO": "11:58",
@@ -93,7 +93,7 @@ const Linha10B = {
             },
             "13:20": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "13:20",
+                    "RODOVIÁRIA": "13:20",
                     "MERCADO MUNICIPAL": "13:30",
                     "PRAÇA DA BÍBLIA": "13:35",
                     "VILA MÁXIMO": "13:38",
@@ -110,7 +110,7 @@ const Linha10B = {
             },
             "14:50": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "14:50",
+                    "RODOVIÁRIA": "14:50",
                     "MERCADO MUNICIPAL": "15:00",
                     "PRAÇA DA BÍBLIA": "15:05",
                     "VILA MÁXIMO": "15:08",
@@ -127,7 +127,7 @@ const Linha10B = {
             },
             "16:00": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "16:00",
+                    "RODOVIÁRIA": "16:00",
                     "MERCADO MUNICIPAL": "16:10",
                     "PRAÇA DA BÍBLIA": "16:15",
                     "VILA MÁXIMO": "16:18",
@@ -144,7 +144,7 @@ const Linha10B = {
             },
             "17:25": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "17:25",
+                    "RODOVIÁRIA": "17:25",
                     "MERCADO MUNICIPAL": "17:35",
                     "PRAÇA DA BÍBLIA": "17:40",
                     "VILA MÁXIMO": "17:43",
@@ -161,7 +161,7 @@ const Linha10B = {
             },
             "19:00": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "19:00",
+                    "RODOVIÁRIA": "19:00",
                     "MERCADO MUNICIPAL": "19:10",
                     "PRAÇA DA BÍBLIA": "19:15",
                     "VILA MÁXIMO": "19:18",
@@ -180,7 +180,7 @@ const Linha10B = {
         "sabado": {
             "05:50": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "05:50",
+                    "RODOVIÁRIA": "05:50",
                     "MERCADO MUNICIPAL": "06:00",
                     "PRAÇA DA BÍBLIA": "06:05",
                     "VILA MÁXIMO": "06:08",
@@ -197,7 +197,7 @@ const Linha10B = {
             },
             "07:00": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "07:00",
+                    "RODOVIÁRIA": "07:00",
                     "MERCADO MUNICIPAL": "07:10",
                     "PRAÇA DA BÍBLIA": "07:15",
                     "VILA MÁXIMO": "07:18",
@@ -214,7 +214,7 @@ const Linha10B = {
             },
             "08:40": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "08:40",
+                    "RODOVIÁRIA": "08:40",
                     "MERCADO MUNICIPAL": "08:50",
                     "PRAÇA DA BÍBLIA": "08:55",
                     "VILA MÁXIMO": "08:58",
@@ -231,7 +231,7 @@ const Linha10B = {
             },
             "10:50": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "10:50",
+                    "RODOVIÁRIA": "10:50",
                     "MERCADO MUNICIPAL": "11:00",
                     "PRAÇA DA BÍBLIA": "11:05",
                     "VILA MÁXIMO": "11:08",
@@ -248,7 +248,7 @@ const Linha10B = {
             },
             "11:40": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "11:40",
+                    "RODOVIÁRIA": "11:40",
                     "MERCADO MUNICIPAL": "11:50",
                     "PRAÇA DA BÍBLIA": "11:55",
                     "VILA MÁXIMO": "11:58",
@@ -265,7 +265,7 @@ const Linha10B = {
             },
             "13:20": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "13:20",
+                    "RODOVIÁRIA": "13:20",
                     "MERCADO MUNICIPAL": "13:30",
                     "PRAÇA DA BÍBLIA": "13:35",
                     "VILA MÁXIMO": "13:38",
@@ -282,7 +282,7 @@ const Linha10B = {
             },
             "14:50": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "14:50",
+                    "RODOVIÁRIA": "14:50",
                     "MERCADO MUNICIPAL": "15:00",
                     "PRAÇA DA BÍBLIA": "15:05",
                     "VILA MÁXIMO": "15:08",
@@ -299,7 +299,7 @@ const Linha10B = {
             },
             "16:00": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "16:00",
+                    "RODOVIÁRIA": "16:00",
                     "MERCADO MUNICIPAL": "16:10",
                     "PRAÇA DA BÍBLIA": "16:15",
                     "VILA MÁXIMO": "16:18",
@@ -316,7 +316,7 @@ const Linha10B = {
             },
             "17:25": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "17:25",
+                    "RODOVIÁRIA": "17:25",
                     "MERCADO MUNICIPAL": "17:35",
                     "PRAÇA DA BÍBLIA": "17:40",
                     "VILA MÁXIMO": "17:43",
@@ -333,7 +333,7 @@ const Linha10B = {
             },
             "19:00": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "19:00",
+                    "RODOVIÁRIA": "19:00",
                     "MERCADO MUNICIPAL": "19:10",
                     "PRAÇA DA BÍBLIA": "19:15",
                     "VILA MÁXIMO": "19:18",
@@ -352,7 +352,7 @@ const Linha10B = {
         "domingo_feriado": {
             "07:00": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "07:00",
+                    "RODOVIÁRIA": "07:00",
                     "MERCADO MUNICIPAL": "07:10",
                     "PRAÇA DA BÍBLIA": "07:15",
                     "VILA MÁXIMO": "07:18",
@@ -368,7 +368,7 @@ const Linha10B = {
             },
             "12:00": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "12:00",
+                    "RODOVIÁRIA": "12:00",
                     "MERCADO MUNICIPAL": "12:10",
                     "PRAÇA DA BÍBLIA": "12:15",
                     "VILA MÁXIMO": "12:18",
@@ -384,7 +384,7 @@ const Linha10B = {
             },
             "17:00": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "17:00",
+                    "RODOVIÁRIA": "17:00",
                     "MERCADO MUNICIPAL": "17:10",
                     "PRAÇA DA BÍBLIA": "17:15",
                     "VILA MÁXIMO": "17:18",
@@ -400,7 +400,7 @@ const Linha10B = {
             },
             "19:00": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "19:00",
+                    "RODOVIÁRIA": "19:00",
                     "MERCADO MUNICIPAL": "19:10",
                     "PRAÇA DA BÍBLIA": "19:15",
                     "VILA MÁXIMO": "19:18",

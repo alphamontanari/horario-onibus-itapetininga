@@ -8,7 +8,7 @@ const Linha18B = {
         "terca_e_sexta": {
             "08:30": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA I - LESTE)": "08:30",
+                    "RODOVIÁRIA": "08:30",
                     "MERCADO MUNICIPAL": "08:40",
                     "VILA RIO BRANCO": "08:45",
                     "AV. 5 DE NOVEMBRO (NASTRI I)": "08:50",
@@ -20,7 +20,7 @@ const Linha18B = {
             },
             "15:30": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA I - LESTE)": "15:30",
+                    "RODOVIÁRIA": "15:30",
                     "MERCADO MUNICIPAL": "15:40",
                     "VILA RIO BRANCO": "15:45",
                     "AV. 5 DE NOVEMBRO (NASTRI I)": "15:50",

@@ -12,7 +12,7 @@ const Linha19B = {
                     "CENTRAL PARQUE 4L": "18:17",
                     "RUA QUINTINO BOCAIUVA": "18:20",
                     "MERCADO MUNICIPAL": "18:25",
-                    "RODOVIÁRIA (PLATAFORMA II - OESTE)": "18:35",
+                    "RODOVIÁRIA": "18:35",
                     "PRAÇA NOSSA SENHORA APARECIDA": "18:38",
                     "RECINTO DE EXPOSIÇÕES ACÁCIO DE MORAES TERRA": "18:42",
                     "INSTITUTO FEDERAL (IFSP)": "18:45",

@@ -10,7 +10,7 @@ const Linha02B = {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "05:50",
           "JD. FOGAÇA": "05:56",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "06:08",
+          "RODOVIÁRIA": "06:08",
           "MERCADO MUNICIPAL": "06:32",
           "AV. CINCO DE NOVEMBRO": "06:48",
           "VILA CAROLINA": "06:51",
@@ -22,7 +22,7 @@ const Linha02B = {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "07:00",
           "JD. FOGAÇA": "07:06",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "07:18",
+          "RODOVIÁRIA": "07:18",
           "MERCADO MUNICIPAL": "07:42",
           "AV. CINCO DE NOVEMBRO": "07:57",
           "VILA CAROLINA": "08:00",
@@ -34,14 +34,14 @@ const Linha02B = {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "08:08",
           "JD. FOGAÇA": "08:14",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "08:24"
+          "RODOVIÁRIA": "08:24"
         }, trajeto : 'diferenciado'
       },
       "08:10": {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "08:10",
           "JD. FOGAÇA": "08:16",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "08:28",
+          "RODOVIÁRIA": "08:28",
           "MERCADO MUNICIPAL": "08:52",
           "AV. CINCO DE NOVEMBRO": "09:07",
           "VILA CAROLINA": "09:10",
@@ -53,7 +53,7 @@ const Linha02B = {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "09:25",
           "JD. FOGAÇA": "09:31",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "09:43",
+          "RODOVIÁRIA": "09:43",
           "MERCADO MUNICIPAL": "10:07",
           "AV. CINCO DE NOVEMBRO": "10:22",
           "VILA CAROLINA": "10:25",
@@ -65,7 +65,7 @@ const Linha02B = {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "10:40",
           "JD. FOGAÇA": "10:46",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "10:58",
+          "RODOVIÁRIA": "10:58",
           "MERCADO MUNICIPAL": "11:22",
           "AV. CINCO DE NOVEMBRO": "11:37",
           "VILA CAROLINA": "11:40",
@@ -77,7 +77,7 @@ const Linha02B = {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "11:55",
           "JD. FOGAÇA": "12:01",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "12:13",
+          "RODOVIÁRIA": "12:13",
           "MERCADO MUNICIPAL": "12:37",
           "AV. CINCO DE NOVEMBRO": "12:52",
           "VILA CAROLINA": "12:55",
@@ -89,7 +89,7 @@ const Linha02B = {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "13:10",
           "JD. FOGAÇA": "13:16",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "13:28",
+          "RODOVIÁRIA": "13:28",
           "MERCADO MUNICIPAL": "13:52",
           "AV. CINCO DE NOVEMBRO": "14:07",
           "VILA CAROLINA": "14:10",
@@ -109,7 +109,7 @@ const Linha02B = {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "14:25",
           "JD. FOGAÇA": "14:31",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "14:43",
+          "RODOVIÁRIA": "14:43",
           "MERCADO MUNICIPAL": "15:07",
           "AV. CINCO DE NOVEMBRO": "15:22",
           "VILA CAROLINA": "15:25",
@@ -121,7 +121,7 @@ const Linha02B = {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "15:40",
           "JD. FOGAÇA": "15:46",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "15:58",
+          "RODOVIÁRIA": "15:58",
           "MERCADO MUNICIPAL": "16:22",
           "AV. CINCO DE NOVEMBRO": "16:37",
           "VILA CAROLINA": "16:40",
@@ -133,7 +133,7 @@ const Linha02B = {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "16:55",
           "JD. FOGAÇA": "17:01",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "17:13",
+          "RODOVIÁRIA": "17:13",
           "MERCADO MUNICIPAL": "17:37",
           "AV. CINCO DE NOVEMBRO": "17:52",
           "VILA CAROLINA": "17:55",
@@ -145,7 +145,7 @@ const Linha02B = {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "18:10",
           "JD. FOGAÇA": "18:16",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "18:28",
+          "RODOVIÁRIA": "18:28",
           "MERCADO MUNICIPAL": "18:52",
           "AV. CINCO DE NOVEMBRO": "19:07",
           "VILA CAROLINA": "19:10",
@@ -157,7 +157,7 @@ const Linha02B = {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "19:10",
           "JD. FOGAÇA": "19:16",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "19:28",
+          "RODOVIÁRIA": "19:28",
           "MERCADO MUNICIPAL": "19:52",
           "AV. CINCO DE NOVEMBRO": "20:07",
           "VILA CAROLINA": "20:10",
@@ -167,7 +167,7 @@ const Linha02B = {
       },
       "21:20": {
         "atendimento": {
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "21:20",
+          "RODOVIÁRIA": "21:20",
           "MERCADO MUNICIPAL": "21:30",
           "AV. CINCO DE NOVEMBRO": "21:40",
           "VILA CAROLINA": "21:45",
@@ -178,7 +178,7 @@ const Linha02B = {
       },
       "23:00": {
         "atendimento": {
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "23:00",
+          "RODOVIÁRIA": "23:00",
           "MERCADO MUNICIPAL": "23:10",
           "AV. CINCO DE NOVEMBRO": "23:20",
           "VILA CAROLINA": "23:25",
@@ -192,7 +192,7 @@ const Linha02B = {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "06:00",
           "JD. FOGAÇA": "06:06",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "06:16",
+          "RODOVIÁRIA": "06:16",
           "MERCADO MUNICIPAL": "06:36",
           "AV. CINCO DE NOVEMBRO": "06:49",
           "VILA CAROLINA": "06:52",
@@ -204,7 +204,7 @@ const Linha02B = {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "07:00",
           "JD. FOGAÇA": "07:06",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "07:16",
+          "RODOVIÁRIA": "07:16",
           "MERCADO MUNICIPAL": "07:36",
           "AV. CINCO DE NOVEMBRO": "07:49",
           "VILA CAROLINA": "07:52",
@@ -216,7 +216,7 @@ const Linha02B = {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "08:00",
           "JD. FOGAÇA": "08:06",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "08:16",
+          "RODOVIÁRIA": "08:16",
           "MERCADO MUNICIPAL": "08:36",
           "AV. CINCO DE NOVEMBRO": "08:49",
           "VILA CAROLINA": "08:52",
@@ -228,7 +228,7 @@ const Linha02B = {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "09:00",
           "JD. FOGAÇA": "09:06",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "09:16",
+          "RODOVIÁRIA": "09:16",
           "MERCADO MUNICIPAL": "09:36",
           "AV. CINCO DE NOVEMBRO": "09:49",
           "VILA CAROLINA": "09:52",
@@ -240,7 +240,7 @@ const Linha02B = {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "10:00",
           "JD. FOGAÇA": "10:06",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "10:16",
+          "RODOVIÁRIA": "10:16",
           "MERCADO MUNICIPAL": "10:36",
           "AV. CINCO DE NOVEMBRO": "10:49",
           "VILA CAROLINA": "10:52",
@@ -252,7 +252,7 @@ const Linha02B = {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "11:00",
           "JD. FOGAÇA": "11:06",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "11:16",
+          "RODOVIÁRIA": "11:16",
           "MERCADO MUNICIPAL": "11:36",
           "AV. CINCO DE NOVEMBRO": "11:49",
           "VILA CAROLINA": "11:52",
@@ -264,7 +264,7 @@ const Linha02B = {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "12:00",
           "JD. FOGAÇA": "12:06",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "12:16",
+          "RODOVIÁRIA": "12:16",
           "MERCADO MUNICIPAL": "12:36",
           "AV. CINCO DE NOVEMBRO": "12:49",
           "VILA CAROLINA": "12:52",
@@ -276,7 +276,7 @@ const Linha02B = {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "13:00",
           "JD. FOGAÇA": "13:06",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "13:16",
+          "RODOVIÁRIA": "13:16",
           "MERCADO MUNICIPAL": "13:36",
           "AV. CINCO DE NOVEMBRO": "13:49",
           "VILA CAROLINA": "13:52",
@@ -288,14 +288,14 @@ const Linha02B = {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "14:00",
           "JD. FOGAÇA": "14:06",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "14:16"
+          "RODOVIÁRIA": "14:16"
         }, trajeto : 'diferenciado'
       },
       "16:00": {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "16:00",
           "JD. FOGAÇA": "16:06",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "16:16",
+          "RODOVIÁRIA": "16:16",
           "MERCADO MUNICIPAL": "16:36",
           "AV. CINCO DE NOVEMBRO": "16:49",
           "VILA CAROLINA": "16:52",
@@ -307,7 +307,7 @@ const Linha02B = {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "17:00",
           "JD. FOGAÇA": "17:06",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "17:16",
+          "RODOVIÁRIA": "17:16",
           "MERCADO MUNICIPAL": "17:36",
           "AV. CINCO DE NOVEMBRO": "17:49",
           "VILA CAROLINA": "17:52",
@@ -319,7 +319,7 @@ const Linha02B = {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "18:00",
           "JD. FOGAÇA": "18:06",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "18:16",
+          "RODOVIÁRIA": "18:16",
           "MERCADO MUNICIPAL": "18:36",
           "AV. CINCO DE NOVEMBRO": "18:49",
           "VILA CAROLINA": "18:52",
@@ -331,7 +331,7 @@ const Linha02B = {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "19:00",
           "JD. FOGAÇA": "19:06",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "19:16",
+          "RODOVIÁRIA": "19:16",
           "MERCADO MUNICIPAL": "19:36",
           "AV. CINCO DE NOVEMBRO": "19:49",
           "VILA CAROLINA": "19:52",
@@ -345,7 +345,7 @@ const Linha02B = {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "06:00",
           "JD. FOGAÇA": "06:06",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "06:16",
+          "RODOVIÁRIA": "06:16",
           "MERCADO MUNICIPAL": "06:36",
           "AV. CINCO DE NOVEMBRO": "06:49",
           "VILA CAROLINA": "06:52",
@@ -357,7 +357,7 @@ const Linha02B = {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "07:00",
           "JD. FOGAÇA": "07:06",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "07:16",
+          "RODOVIÁRIA": "07:16",
           "MERCADO MUNICIPAL": "07:36",
           "AV. CINCO DE NOVEMBRO": "07:49",
           "VILA CAROLINA": "07:52",
@@ -369,7 +369,7 @@ const Linha02B = {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "08:00",
           "JD. FOGAÇA": "08:06",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "08:16",
+          "RODOVIÁRIA": "08:16",
           "MERCADO MUNICIPAL": "08:36",
           "AV. CINCO DE NOVEMBRO": "08:49",
           "VILA CAROLINA": "08:52",
@@ -381,14 +381,14 @@ const Linha02B = {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "09:00",
           "JD. FOGAÇA": "09:06",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "09:16"
+          "RODOVIÁRIA": "09:16"
         }, trajeto : 'diferenciado'
       },
       "12:00": {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "12:00",
           "JD. FOGAÇA": "12:06",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "12:16",
+          "RODOVIÁRIA": "12:16",
           "MERCADO MUNICIPAL": "12:36",
           "AV. CINCO DE NOVEMBRO": "12:49",
           "VILA CAROLINA": "12:52",
@@ -400,7 +400,7 @@ const Linha02B = {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "13:00",
           "JD. FOGAÇA": "13:06",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "13:16",
+          "RODOVIÁRIA": "13:16",
           "MERCADO MUNICIPAL": "13:36",
           "AV. CINCO DE NOVEMBRO": "13:49",
           "VILA CAROLINA": "13:52",
@@ -412,14 +412,14 @@ const Linha02B = {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "14:00",
           "JD. FOGAÇA": "14:06",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "14:16"
+          "RODOVIÁRIA": "14:16"
         }, trajeto : 'diferenciado'
       },
       "17:00": {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "17:00",
           "JD. FOGAÇA": "17:06",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "17:16",
+          "RODOVIÁRIA": "17:16",
           "MERCADO MUNICIPAL": "17:36",
           "AV. CINCO DE NOVEMBRO": "17:49",
           "VILA CAROLINA": "17:52",
@@ -431,7 +431,7 @@ const Linha02B = {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "18:00",
           "JD. FOGAÇA": "18:06",
-          "RODOVIÁRIA (PLATAFORMA I - LESTE)": "18:16",
+          "RODOVIÁRIA": "18:16",
           "MERCADO MUNICIPAL": "18:36",
           "AV. CINCO DE NOVEMBRO": "18:49",
           "VILA CAROLINA": "18:52",

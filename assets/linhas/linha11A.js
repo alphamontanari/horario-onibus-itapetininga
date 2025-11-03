@@ -1,9 +1,9 @@
 const Linha11A = {
     "id": "11A",
     "cod": "Linha11A",
-    "nome": "DISTRITO DO GRAMADINHO → RODOVIÁRIA (PLATAFORMA II SUL)",
+    "nome": "DISTRITO DO GRAMADINHO → RODOVIÁRIA",
     "partida": "DISTRITO DO GRAMADINHO",
-    "chegada": "RODOVIÁRIA (PLATAFORMA II SUL)",
+    "chegada": "RODOVIÁRIA",
     "horarios": {
         "dia_de_semana": {
             "05:50": {
@@ -15,7 +15,7 @@ const Linha11A = {
                     "PASSARELA DOMENICO ALCIATI (JD. BELA VISTA)": "06:12",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "06:15",
                     "MERCADO MUNICIPAL": "06:25",
-                    "RODOVIÁRIA (PLATAFORMA II SUL)": "06:35"
+                    "RODOVIÁRIA": "06:35"
                 }, servico: 'Distrito → Centro', trajeto: 'diferenciado'
             },
             "07:00": {
@@ -26,7 +26,7 @@ const Linha11A = {
                     "PASSARELA DOMENICO ALCIATI (JD. BELA VISTA)": "07:22",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "07:25",
                     "MERCADO MUNICIPAL": "07:35",
-                    "RODOVIÁRIA (PLATAFORMA II SUL)": "07:45"
+                    "RODOVIÁRIA": "07:45"
                 }, servico: 'Distrito → Centro'
             },
             "08:00": {
@@ -37,7 +37,7 @@ const Linha11A = {
                     "PASSARELA DOMENICO ALCIATI (JD. BELA VISTA)": "08:22",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "08:25",
                     "MERCADO MUNICIPAL": "08:35",
-                    "RODOVIÁRIA (PLATAFORMA II SUL)": "08:45"
+                    "RODOVIÁRIA": "08:45"
                 }, servico: 'Distrito → Centro'
             },
             "10:00": {
@@ -48,7 +48,7 @@ const Linha11A = {
                     "PASSARELA DOMENICO ALCIATI (JD. BELA VISTA)": "10:22",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "10:25",
                     "MERCADO MUNICIPAL": "10:35",
-                    "RODOVIÁRIA (PLATAFORMA II SUL)": "10:45"
+                    "RODOVIÁRIA": "10:45"
                 }, servico: 'Distrito → Centro'
             },
             "12:00": {
@@ -59,7 +59,7 @@ const Linha11A = {
                     "PASSARELA DOMENICO ALCIATI (JD. BELA VISTA)": "12:22",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "12:25",
                     "MERCADO MUNICIPAL": "12:35",
-                    "RODOVIÁRIA (PLATAFORMA II SUL)": "12:45"
+                    "RODOVIÁRIA": "12:45"
                 }, servico: 'Distrito → Centro'
             },
             "14:00": {
@@ -70,7 +70,7 @@ const Linha11A = {
                     "PASSARELA DOMENICO ALCIATI (JD. BELA VISTA)": "14:22",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "14:25",
                     "MERCADO MUNICIPAL": "14:35",
-                    "RODOVIÁRIA (PLATAFORMA II SUL)": "14:45"
+                    "RODOVIÁRIA": "14:45"
                 }, servico: 'Distrito → Centro'
             },
             "17:00": {
@@ -81,7 +81,7 @@ const Linha11A = {
                     "PASSARELA DOMENICO ALCIATI (JD. BELA VISTA)": "17:22",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "17:25",
                     "MERCADO MUNICIPAL": "17:35",
-                    "RODOVIÁRIA (PLATAFORMA II SUL)": "17:45"
+                    "RODOVIÁRIA": "17:45"
                 }, servico: 'Distrito → Centro'
             }
         },
@@ -94,7 +94,7 @@ const Linha11A = {
                     "PASSARELA DOMENICO ALCIATI (JD. BELA VISTA)": "06:22",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "06:25",
                     "MERCADO MUNICIPAL": "06:35",
-                    "RODOVIÁRIA (PLATAFORMA II SUL)": "06:45"
+                    "RODOVIÁRIA": "06:45"
                 }, servico: 'Distrito → Centro'
             },
             "08:00": {
@@ -105,7 +105,7 @@ const Linha11A = {
                     "PASSARELA DOMENICO ALCIATI (JD. BELA VISTA)": "08:22",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "08:25",
                     "MERCADO MUNICIPAL": "08:35",
-                    "RODOVIÁRIA (PLATAFORMA II SUL)": "08:45"
+                    "RODOVIÁRIA": "08:45"
                 }, servico: 'Distrito → Centro'
             },
             "13:00": {
@@ -116,7 +116,7 @@ const Linha11A = {
                     "PASSARELA DOMENICO ALCIATI (JD. BELA VISTA)": "13:22",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "13:25",
                     "MERCADO MUNICIPAL": "13:35",
-                    "RODOVIÁRIA (PLATAFORMA II SUL)": "13:45"
+                    "RODOVIÁRIA": "13:45"
                 }, servico: 'Distrito → Centro'
             },
             "17:00": {
@@ -127,7 +127,7 @@ const Linha11A = {
                     "PASSARELA DOMENICO ALCIATI (JD. BELA VISTA)": "17:22",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "17:25",
                     "MERCADO MUNICIPAL": "17:35",
-                    "RODOVIÁRIA (PLATAFORMA II SUL)": "17:45"
+                    "RODOVIÁRIA": "17:45"
                 }, servico: 'Distrito → Centro'
             }
         },
@@ -140,7 +140,7 @@ const Linha11A = {
                     "PASSARELA DOMENICO ALCIATI (JD. BELA VISTA)": "08:22",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "08:25",
                     "MERCADO MUNICIPAL": "08:35",
-                    "RODOVIÁRIA (PLATAFORMA II SUL)": "08:45"
+                    "RODOVIÁRIA": "08:45"
                 }, servico: 'Distrito → Centro'
             },
             "16:00": {
@@ -151,7 +151,7 @@ const Linha11A = {
                     "PASSARELA DOMENICO ALCIATI (JD. BELA VISTA)": "16:22",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "16:25",
                     "MERCADO MUNICIPAL": "16:35",
-                    "RODOVIÁRIA (PLATAFORMA II SUL)": "16:45"
+                    "RODOVIÁRIA": "16:45"
                 }, servico: 'Distrito → Centro'
             }
         }

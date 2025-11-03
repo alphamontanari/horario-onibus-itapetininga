@@ -9,7 +9,7 @@ const Linha13B = {
             "12:00": {
                 "atendimento": {
                     "MERCADO MUNICIPAL": "12:00",
-                    "RODOVIÁRIA (PLATAFORMA III - OESTE)": "12:10",
+                    "RODOVIÁRIA": "12:10",
                     "JD. MESQUITA (UBS)": "12:20",
                     "JD. MARABÁ (PREFEITURA)": "12:23",
                     "AV. CIRO ALBUQUERQUE (VILA RECREIO)": "12:25",
@@ -20,7 +20,7 @@ const Linha13B = {
             "15:00": {
                 "atendimento": {
                     "MERCADO MUNICIPAL": "15:00",
-                    "RODOVIÁRIA (PLATAFORMA III - OESTE)": "15:10",
+                    "RODOVIÁRIA": "15:10",
                     "JD. MESQUITA (UBS)": "15:20",
                     "JD. MARABÁ (PREFEITURA)": "15:23",
                     "AV. CIRO ALBUQUERQUE (VILA RECREIO)": "15:25",
@@ -31,7 +31,7 @@ const Linha13B = {
             "18:30": {
                 "atendimento": {
                     "MERCADO MUNICIPAL": "18:30",
-                    "RODOVIÁRIA (PLATAFORMA III - OESTE)": "18:40",
+                    "RODOVIÁRIA": "18:40",
                     "JD. MESQUITA (UBS)": "18:50",
                     "JD. MARABÁ (PREFEITURA)": "18:53",
                     "AV. CIRO ALBUQUERQUE (VILA RECREIO)": "18:55",
@@ -42,7 +42,7 @@ const Linha13B = {
             "21:30": {
                 "atendimento": {
                     "MERCADO MUNICIPAL": "21:30",
-                    "RODOVIÁRIA (PLATAFORMA III - OESTE)": "21:40",
+                    "RODOVIÁRIA": "21:40",
                     "AV. CIRO ALBUQUERQUE": "21:55",
                     "JD. NOVO AEROPORTO": "22:05",
                     "DISTRITO DO MORRO ALTO": "22:25"
@@ -53,7 +53,7 @@ const Linha13B = {
             "06:00": {
                 "atendimento": {
                     "MERCADO MUNICIPAL": "06:00",
-                    "RODOVIÁRIA (PLATAFORMA III - OESTE)": "06:10",
+                    "RODOVIÁRIA": "06:10",
                     "JD. MESQUITA (UBS)": "06:20",
                     "JD. MARABÁ (PREFEITURA)": "06:23",
                     "AV. CIRO ALBUQUERQUE (VILA RECREIO)": "06:25",
@@ -66,7 +66,7 @@ const Linha13B = {
             "12:30": {
                 "atendimento": {
                     "MERCADO MUNICIPAL": "12:30",
-                    "RODOVIÁRIA (PLATAFORMA III - OESTE)": "12:40",
+                    "RODOVIÁRIA": "12:40",
                     "JD. MESQUITA (UBS)": "12:50",
                     "JD. MARABÁ (PREFEITURA)": "12:53",
                     "AV. CIRO ALBUQUERQUE (VILA RECREIO)": "12:55",

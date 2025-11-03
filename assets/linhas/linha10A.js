@@ -16,7 +16,7 @@ const Linha10A = {
                     "VILA SOTTEMO (PASSARELA KM 270)": "06:10",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "06:15",
                     "MERCADO MUNICIPAL": "06:20",
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "06:30"
+                    "RODOVIÁRIA": "06:30"
                 },
                 servico: 'Distrito → Centro',  trajeto : 'diferenciado'
 
@@ -31,7 +31,7 @@ const Linha10A = {
                     "VILA SOTTEMO (PASSARELA KM 270)": "08:00",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "08:05",
                     "MERCADO MUNICIPAL": "08:10",
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "08:20"
+                    "RODOVIÁRIA": "08:20"
                 },
                 servico: 'Distrito → Centro',  trajeto : 'diferenciado'
             },
@@ -44,7 +44,7 @@ const Linha10A = {
                     "VILA SOTTEMO (PASSARELA KM 270)": "09:15",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "09:20",
                     "MERCADO MUNICIPAL": "09:25",
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "09:35"
+                    "RODOVIÁRIA": "09:35"
                 },
                 servico: 'Distrito → Centro',
             },
@@ -57,7 +57,7 @@ const Linha10A = {
                     "VILA SOTTEMO (PASSARELA KM 270)": "10:50",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "10:55",
                     "MERCADO MUNICIPAL": "11:00",
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "11:10"
+                    "RODOVIÁRIA": "11:10"
                 },
                 servico: 'Distrito → Centro',
             },
@@ -71,7 +71,7 @@ const Linha10A = {
                     "VILA SOTTEMO (PASSARELA KM 270)": "12:45",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "12:50",
                     "MERCADO MUNICIPAL": "12:55",
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "13:05"
+                    "RODOVIÁRIA": "13:05"
                 },
                 servico: 'Distrito → Centro',  trajeto : 'diferenciado'
             },
@@ -84,7 +84,7 @@ const Linha10A = {
                     "VILA SOTTEMO (PASSARELA KM 270)": "13:45",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "13:50",
                     "MERCADO MUNICIPAL": "13:55",
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "14:05"
+                    "RODOVIÁRIA": "14:05"
                 },
                 servico: 'Distrito → Centro',
             },
@@ -97,7 +97,7 @@ const Linha10A = {
                     "VILA SOTTEMO (PASSARELA KM 270)": "15:15",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "15:20",
                     "MERCADO MUNICIPAL": "15:25",
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "15:35"
+                    "RODOVIÁRIA": "15:35"
                 },
                 servico: 'Distrito → Centro',
             },
@@ -110,7 +110,7 @@ const Linha10A = {
                     "VILA SOTTEMO (PASSARELA KM 270)": "16:45",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "16:50",
                     "MERCADO MUNICIPAL": "16:55",
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "17:05"
+                    "RODOVIÁRIA": "17:05"
                 },
                 servico: 'Distrito → Centro',
             },
@@ -123,7 +123,7 @@ const Linha10A = {
                     "VILA SOTTEMO (PASSARELA KM 270)": "18:10",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "18:15",
                     "MERCADO MUNICIPAL": "18:20",
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "18:30"
+                    "RODOVIÁRIA": "18:30"
                 },
                 servico: 'Distrito → Centro',
             },
@@ -136,7 +136,7 @@ const Linha10A = {
                     "VILA SOTTEMO (PASSARELA KM 270)": "19:35",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "19:40",
                     "MERCADO MUNICIPAL": "19:45",
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "19:55"
+                    "RODOVIÁRIA": "19:55"
                 },
                 servico: 'Distrito → Centro',
             }
@@ -151,7 +151,7 @@ const Linha10A = {
                     "VILA SOTTEMO (PASSARELA KM 270)": "06:10",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "06:15",
                     "MERCADO MUNICIPAL": "06:20",
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "06:30"
+                    "RODOVIÁRIA": "06:30"
                 },
                 servico: 'Distrito → Centro',
             },
@@ -164,7 +164,7 @@ const Linha10A = {
                     "VILA SOTTEMO (PASSARELA KM 270)": "08:00",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "08:05",
                     "MERCADO MUNICIPAL": "08:10",
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "08:20"
+                    "RODOVIÁRIA": "08:20"
                 },
                 servico: 'Distrito → Centro',
             },
@@ -177,7 +177,7 @@ const Linha10A = {
                     "VILA SOTTEMO (PASSARELA KM 270)": "09:15",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "09:20",
                     "MERCADO MUNICIPAL": "09:25",
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "09:35"
+                    "RODOVIÁRIA": "09:35"
                 },
                 servico: 'Distrito → Centro',
             },
@@ -190,7 +190,7 @@ const Linha10A = {
                     "VILA SOTTEMO (PASSARELA KM 270)": "10:50",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "10:55",
                     "MERCADO MUNICIPAL": "11:00",
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "11:10"
+                    "RODOVIÁRIA": "11:10"
                 },
                 servico: 'Distrito → Centro',
             },
@@ -203,7 +203,7 @@ const Linha10A = {
                     "VILA SOTTEMO (PASSARELA KM 270)": "12:45",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "12:50",
                     "MERCADO MUNICIPAL": "12:55",
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "13:05"
+                    "RODOVIÁRIA": "13:05"
                 },
                 servico: 'Distrito → Centro',
             },
@@ -216,7 +216,7 @@ const Linha10A = {
                     "VILA SOTTEMO (PASSARELA KM 270)": "13:45",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "13:50",
                     "MERCADO MUNICIPAL": "13:55",
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "14:05"
+                    "RODOVIÁRIA": "14:05"
                 },
                 servico: 'Distrito → Centro',
             },
@@ -229,7 +229,7 @@ const Linha10A = {
                     "VILA SOTTEMO (PASSARELA KM 270)": "15:15",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "15:20",
                     "MERCADO MUNICIPAL": "15:25",
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "15:35"
+                    "RODOVIÁRIA": "15:35"
                 },
                 servico: 'Distrito → Centro',
             },
@@ -242,7 +242,7 @@ const Linha10A = {
                     "VILA SOTTEMO (PASSARELA KM 270)": "16:45",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "16:50",
                     "MERCADO MUNICIPAL": "16:55",
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "17:05"
+                    "RODOVIÁRIA": "17:05"
                 },
                 servico: 'Distrito → Centro',
             },
@@ -255,7 +255,7 @@ const Linha10A = {
                     "VILA SOTTEMO (PASSARELA KM 270)": "18:10",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "18:15",
                     "MERCADO MUNICIPAL": "18:20",
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "18:30"
+                    "RODOVIÁRIA": "18:30"
                 },
                 servico: 'Distrito → Centro',
             },
@@ -268,7 +268,7 @@ const Linha10A = {
                     "VILA SOTTEMO (PASSARELA KM 270)": "19:35",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "19:40",
                     "MERCADO MUNICIPAL": "19:45",
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "19:55"
+                    "RODOVIÁRIA": "19:55"
                 },
                 servico: 'Distrito → Centro',
             }
@@ -283,7 +283,7 @@ const Linha10A = {
                     "VILA SOTTEMO (PASSARELA KM 270)": "06:40",
                     "VILA NASTRE I (AV. 5 DE NOVEMBRO)": "06:45",
                     "MERCADO MUNICIPAL": "06:50",
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "07:00"
+                    "RODOVIÁRIA": "07:00"
                 }
             },
             "08:00": {
@@ -295,7 +295,7 @@ const Linha10A = {
                     "VILA SOTTEMO (PASSARELA KM 270)": "08:40",
                     "VILA NASTRE I (AV. 5 DE NOVEMBRO)": "08:45",
                     "MERCADO MUNICIPAL": "08:50",
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "09:00"
+                    "RODOVIÁRIA": "09:00"
                 }
             },
             "13:00": {
@@ -307,7 +307,7 @@ const Linha10A = {
                     "VILA SOTTEMO (PASSARELA KM 270)": "13:40",
                     "VILA NASTRE I (AV. 5 DE NOVEMBRO)": "13:45",
                     "MERCADO MUNICIPAL": "13:50",
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "14:00"
+                    "RODOVIÁRIA": "14:00"
                 }
             },
             "18:00": {
@@ -319,7 +319,7 @@ const Linha10A = {
                     "VILA SOTTEMO (PASSARELA KM 270)": "18:40",
                     "VILA NASTRE I (AV. 5 DE NOVEMBRO)": "18:45",
                     "MERCADO MUNICIPAL": "18:50",
-                    "RODOVIÁRIA (PLATAFORMA SUL)": "19:00"
+                    "RODOVIÁRIA": "19:00"
                 }
             }
         }

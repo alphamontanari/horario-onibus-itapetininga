@@ -8,7 +8,7 @@ const Linha11B = {
         "dia_de_semana": {
             "06:00": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA II SUL)": "06:00",
+                    "RODOVIÁRIA": "06:00",
                     "MERCADO MUNICIPAL": "06:05",
                     "PRAÇA DA BÍBLIA": "06:12",
                     "VILA MÁXIMO": "06:15",
@@ -22,7 +22,7 @@ const Linha11B = {
             },
             "07:05": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA II SUL)": "07:05",
+                    "RODOVIÁRIA": "07:05",
                     "MERCADO MUNICIPAL": "07:15",
                     "PRAÇA DA BÍBLIA": "07:20",
                     "VILA MÁXIMO": "07:23",
@@ -36,7 +36,7 @@ const Linha11B = {
             },
             "09:00": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA II SUL)": "09:00",
+                    "RODOVIÁRIA": "09:00",
                     "MERCADO MUNICIPAL": "09:10",
                     "PRAÇA DA BÍBLIA": "09:15",
                     "VILA MÁXIMO": "09:18",
@@ -50,7 +50,7 @@ const Linha11B = {
             },
             "11:00": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA II SUL)": "11:00",
+                    "RODOVIÁRIA": "11:00",
                     "MERCADO MUNICIPAL": "11:10",
                     "PRAÇA DA BÍBLIA": "11:15",
                     "VILA MÁXIMO": "11:18",
@@ -64,7 +64,7 @@ const Linha11B = {
             },
             "13:00": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA II SUL)": "13:00",
+                    "RODOVIÁRIA": "13:00",
                     "MERCADO MUNICIPAL": "13:10",
                     "PRAÇA DA BÍBLIA": "13:15",
                     "VILA MÁXIMO": "13:18",
@@ -78,7 +78,7 @@ const Linha11B = {
             },
             "15:00": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA II SUL)": "15:00",
+                    "RODOVIÁRIA": "15:00",
                     "MERCADO MUNICIPAL": "15:10",
                     "PRAÇA DA BÍBLIA": "15:15",
                     "VILA MÁXIMO": "15:18",
@@ -93,7 +93,7 @@ const Linha11B = {
             },
             "18:05": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA II SUL)": "18:05",
+                    "RODOVIÁRIA": "18:05",
                     "MERCADO MUNICIPAL": "18:15",
                     "PRAÇA DA BÍBLIA": "18:20",
                     "VILA MÁXIMO": "18:23",
@@ -110,7 +110,7 @@ const Linha11B = {
         "sabado": {
             "07:00": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA II SUL)": "07:00",
+                    "RODOVIÁRIA": "07:00",
                     "MERCADO MUNICIPAL": "07:10",
                     "PRAÇA DA BÍBLIA": "07:15",
                     "VILA MÁXIMO": "07:18",
@@ -124,7 +124,7 @@ const Linha11B = {
             },
             "12:00": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA II SUL)": "12:00",
+                    "RODOVIÁRIA": "12:00",
                     "MERCADO MUNICIPAL": "12:10",
                     "PRAÇA DA BÍBLIA": "12:15",
                     "VILA MÁXIMO": "12:18",
@@ -138,7 +138,7 @@ const Linha11B = {
             },
             "16:00": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA II SUL)": "16:00",
+                    "RODOVIÁRIA": "16:00",
                     "MERCADO MUNICIPAL": "16:10",
                     "PRAÇA DA BÍBLIA": "16:15",
                     "VILA MÁXIMO": "16:18",
@@ -152,7 +152,7 @@ const Linha11B = {
             },
             "18:00": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA II SUL)": "18:00",
+                    "RODOVIÁRIA": "18:00",
                     "MERCADO MUNICIPAL": "18:10",
                     "PRAÇA DA BÍBLIA": "18:15",
                     "VILA MÁXIMO": "18:18",
@@ -168,7 +168,7 @@ const Linha11B = {
         "domingo_feriado": {
             "12:00": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA II SUL)": "12:00",
+                    "RODOVIÁRIA": "12:00",
                     "MERCADO MUNICIPAL": "12:10",
                     "PRAÇA DA BÍBLIA": "12:15",
                     "VILA MÁXIMO": "12:18",
@@ -182,7 +182,7 @@ const Linha11B = {
             },
             "17:00": {
                 "atendimento": {
-                    "RODOVIÁRIA (PLATAFORMA II SUL)": "17:00",
+                    "RODOVIÁRIA": "17:00",
                     "MERCADO MUNICIPAL": "17:10",
                     "PRAÇA DA BÍBLIA": "17:15",
                     "VILA MÁXIMO": "17:18",
