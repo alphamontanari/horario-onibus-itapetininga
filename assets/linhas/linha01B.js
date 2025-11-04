@@ -280,7 +280,7 @@ const Linha01B = {
                     "VILA MAZZEI": "18:50",
                     "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "18:55"
                 }, trajeto : 'diferenciado',  servico: 'Centro → Bairro',
-            }
+            },            
         },
         "sabado": {
             "05:55": {
