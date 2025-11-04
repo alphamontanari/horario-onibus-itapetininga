@@ -196,7 +196,7 @@ const Linha04B = {
                 }, trajeto : 'diferenciado'
             }
         },
-        "sabado": {
+        "sabado": {/*
             "05:45": {
                 "atendimento": {
                     "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "05:45",
@@ -360,7 +360,163 @@ const Linha04B = {
                     "VILA BELO HORIZONTE": "19:57",
                     "JD. SÃO CAMILO": "19:59"
                 }
-            }
+            }*/
+           "05:45": {
+                "atendimento": {
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "05:45",
+                    "AV. SARUTAYÁ": "05:58",
+                    "MERCADO MUNICIPAL": "06:30",
+                    "RODOVIÁRIA": "06:41",
+                    "VILA ARRUDA": "06:50",
+                    "VILA OLHO D' ÁGUA": "06:51",
+                    "JD. CASA GRANDE": "06:53",
+                    "VILA BELO HORIZONTE": "06:58",
+                    "JD. SÃO CAMILO": "07:00"
+                }
+            },
+            "07:00": {
+                "atendimento": {
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "07:00",
+                    "AV. SARUTAYÁ": "07:13",
+                    "MERCADO MUNICIPAL": "07:41",
+                    "RODOVIÁRIA": "07:50",
+                    "VILA ARRUDA": "07:59",
+                    "VILA OLHO D' ÁGUA": "08:00",
+                    "JD. CASA GRANDE": "08:02",
+                    "VILA BELO HORIZONTE": "08:07",
+                    "JD. SÃO CAMILO": "08:09"
+                }
+            },
+            "08:10": {
+                "atendimento": {
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "08:10",
+                    "AV. SARUTAYÁ": "08:23",
+                    "MERCADO MUNICIPAL": "08:51",
+                    "RODOVIÁRIA": "09:00",
+                    "VILA ARRUDA": "09:09",
+                    "VILA OLHO D' ÁGUA": "09:10",
+                    "JD. CASA GRANDE": "09:12",
+                    "VILA BELO HORIZONTE": "09:17",
+                    "JD. SÃO CAMILO": "09:19"
+                }
+            },
+            "09:25": {
+                "atendimento": {
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "09:25",
+                    "AV. SARUTAYÁ": "09:38",
+                    "MERCADO MUNICIPAL": "10:06",
+                    "RODOVIÁRIA": "10:15",
+                    "VILA ARRUDA": "10:24",
+                    "VILA OLHO D' ÁGUA": "10:25",
+                    "JD. CASA GRANDE": "10:27",
+                    "VILA BELO HORIZONTE": "10:32",
+                    "JD. SÃO CAMILO": "10:34"
+                }
+            },
+            "10:40": {
+                "atendimento": {
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "10:40",
+                    "AV. SARUTAYÁ": "10:53",
+                    "MERCADO MUNICIPAL": "11:21",
+                    "RODOVIÁRIA": "11:30",
+                    "VILA ARRUDA": "11:39",
+                    "VILA OLHO D' ÁGUA": "11:40",
+                    "JD. CASA GRANDE": "11:42",
+                    "VILA BELO HORIZONTE": "11:47",
+                    "JD. SÃO CAMILO": "11:49"
+                }
+            },
+            "11:55": {
+                "atendimento": {
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "11:55",
+                    "AV. SARUTAYÁ": "12:08",
+                    "MERCADO MUNICIPAL": "12:36",
+                    "RODOVIÁRIA": "12:45",
+                    "VILA ARRUDA": "12:54",
+                    "VILA OLHO D' ÁGUA": "12:55",
+                    "JD. CASA GRANDE": "12:57",
+                    "VILA BELO HORIZONTE": "13:02",
+                    "JD. SÃO CAMILO": "13:04"
+                }
+            },
+            "13:10": {
+                "atendimento": {
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "13:10",
+                    "AV. SARUTAYÁ": "13:23",
+                    "MERCADO MUNICIPAL": "13:51",
+                    "RODOVIÁRIA": "14:00",
+                    "VILA ARRUDA": "14:09",
+                    "VILA OLHO D' ÁGUA": "14:10",
+                    "JD. CASA GRANDE": "14:12",
+                    "VILA BELO HORIZONTE": "14:17",
+                    "JD. SÃO CAMILO": "14:19"
+                }
+            },
+            "14:25": {
+                "atendimento": {
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "14:25",
+                    "AV. SARUTAYÁ": "14:38",
+                    "MERCADO MUNICIPAL": "15:06",
+                    "RODOVIÁRIA": "15:15",
+                    "VILA ARRUDA": "15:24",
+                    "VILA OLHO D' ÁGUA": "15:25",
+                    "JD. CASA GRANDE": "15:27",
+                    "VILA BELO HORIZONTE": "15:32",
+                    "JD. SÃO CAMILO": "15:34"
+                }
+            },
+            "15:40": {
+                "atendimento": {
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "15:40",
+                    "AV. SARUTAYÁ": "15:53",
+                    "MERCADO MUNICIPAL": "16:21",
+                    "RODOVIÁRIA": "16:30",
+                    "VILA ARRUDA": "16:39",
+                    "VILA OLHO D' ÁGUA": "16:40",
+                    "JD. CASA GRANDE": "16:42",
+                    "VILA BELO HORIZONTE": "16:47",
+                    "JD. SÃO CAMILO": "16:49"
+                }
+            },
+            "16:55": {
+                "atendimento": {
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "16:55",
+                    "AV. SARUTAYÁ": "17:08",
+                    "MERCADO MUNICIPAL": "17:32",
+                    "RODOVIÁRIA": "17:41",
+                    "VILA ARRUDA": "17:50",
+                    "VILA OLHO D' ÁGUA": "17:51",
+                    "JD. CASA GRANDE": "17:53",
+                    "VILA BELO HORIZONTE": "17:58",
+                    "JD. SÃO CAMILO": "18:00"
+                }
+            },
+            "18:00": {
+                "atendimento": {
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "18:00",
+                    "AV. SARUTAYÁ": "18:13",
+                    "MERCADO MUNICIPAL": "18:37",
+                    "RODOVIÁRIA": "18:46",
+                    "VILA ARRUDA": "18:55",
+                    "VILA OLHO D' ÁGUA": "18:56",
+                    "JD. CASA GRANDE": "18:58",
+                    "VILA BELO HORIZONTE": "19:03",
+                    "JD. SÃO CAMILO": "19:05"
+                }
+            },
+            "19:10": {
+                "atendimento": {
+                    "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "19:10",
+                    "AV. SARUTAYÁ": "19:23",
+                    "MERCADO MUNICIPAL": "19:47",
+                    "RODOVIÁRIA": "19:56",
+                    "VILA ARRUDA": "20:05",
+                    "VILA OLHO D' ÁGUA": "20:06",
+                    "JD. CASA GRANDE": "20:08",
+                    "VILA BELO HORIZONTE": "20:13",
+                    "JD. SÃO CAMILO": "20:15"
+                }
+            },
         },
         "domingo_feriado": {
             "06:00": {

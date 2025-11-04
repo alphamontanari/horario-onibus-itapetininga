@@ -184,7 +184,7 @@ const Linha01A = {
           "VILA PRADO ": "22:05",
           "VILA ARRUDA": "22:08",
           "RODOVIÁRIA": "22:15",
-        }, trajeto : 'diferenciado', servico: 'Centro → Bairro',
+        }, trajeto: 'diferenciado', servico: 'Centro → Bairro',
       },
       "23:10": {
         atendimento: {
@@ -195,7 +195,7 @@ const Linha01A = {
           "LAGO DOS IPÊS ": "23:40",
           "VILA PRADO ": "23:45",
           "VILA ARRUDA": "23:48",
-        }, trajeto : 'diferenciado', servico: 'Centro → Bairro',
+        }, trajeto: 'diferenciado', servico: 'Centro → Bairro',
       },
       "14:15": {
         "atendimento": {
@@ -204,10 +204,11 @@ const Linha01A = {
           "VILA SÃO JOÃO": "14:30",
           "PREFEITURA": "14:35",
           "ESTÂNCIA 4 IRMÃOS": "14:40",
-        }, trajeto : 'diferenciado', servico: 'Centro → Bairro',
+        }, trajeto: 'diferenciado', servico: 'Centro → Bairro',
       },
     },
     sabado: {
+      /*
       "05:45": {
         atendimento: {
           "ESTÂNCIA 4 IRMÃOS": "05:45",
@@ -383,6 +384,175 @@ const Linha01A = {
           "VILA SÃO JOÃO": "14:12",
           "RODOVIÁRIA": "14:20",
         }, trajeto : 'diferenciado',  servico: 'Bairro → Centro',
+      },*/
+
+      "05:50": {
+        atendimento: {
+          "ESTÂNCIA 4 IRMÃOS": "05:50",
+          "PREFEITURA": "05:57",
+          "VILA SÃO JOÃO": "06:02",
+          "RODOVIÁRIA": "06:08",
+          "MERCADO MUNICIPAL": "06:18",
+          "VILA RIO BRANCO": "06:29",
+          "VILA REGINA": "06:41",
+          "RESIDÊNCIAL NASCENTES": "06:47",
+          "VILA MAZZEI": "06:48",
+          "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "06:55",
+        }, servico: 'Bairro → Centro → Bairro',
+      },
+      "07:00": {
+        atendimento: {
+          "ESTÂNCIA 4 IRMÃOS": "07:00",
+          "PREFEITURA": "07:07",
+          "VILA SÃO JOÃO": "07:12",
+          "RODOVIÁRIA": "07:18",
+          "MERCADO MUNICIPAL": "07:28",
+          "VILA RIO BRANCO": "07:39",
+          "VILA REGINA": "07:51",
+          "RESIDÊNCIAL NASCENTES": "07:57",
+          "VILA MAZZEI": "07:58",
+          "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "08:05",
+        }, servico: 'Bairro → Centro → Bairro',
+      },
+      "08:10": {
+        atendimento: {
+          "ESTÂNCIA 4 IRMÃOS": "08:10",
+          "PREFEITURA": "08:17",
+          "VILA SÃO JOÃO": "08:22",
+          "RODOVIÁRIA": "08:28",
+          "MERCADO MUNICIPAL": "08:38",
+          "VILA RIO BRANCO": "08:49",
+          "VILA REGINA": "09:01",
+          "RESIDÊNCIAL NASCENTES": "09:07",
+          "VILA MAZZEI": "09:08",
+          "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "09:15",
+        }, servico: 'Bairro → Centro → Bairro',
+      },
+      "09:25": {
+        atendimento: {
+          "ESTÂNCIA 4 IRMÃOS": "09:25",
+          "PREFEITURA": "09:32",
+          "VILA SÃO JOÃO": "09:37",
+          "RODOVIÁRIA": "09:43",
+          "MERCADO MUNICIPAL": "09:53",
+          "VILA RIO BRANCO": "10:04",
+          "VILA REGINA": "10:16",
+          "RESIDÊNCIAL NASCENTES": "10:22",
+          "VILA MAZZEI": "10:23",
+          "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "10:30",
+        }, servico: 'Bairro → Centro → Bairro',
+      },
+      "10:40": {
+        atendimento: {
+          "ESTÂNCIA 4 IRMÃOS": "10:40",
+          "PREFEITURA": "10:47",
+          "VILA SÃO JOÃO": "10:52",
+          "RODOVIÁRIA": "10:58",
+          "MERCADO MUNICIPAL": "11:08",
+          "VILA RIO BRANCO": "11:19",
+          "VILA REGINA": "11:31",
+          "RESIDÊNCIAL NASCENTES": "11:37",
+          "VILA MAZZEI": "11:38",
+          "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "11:45",
+        }, servico: 'Bairro → Centro → Bairro',
+      },
+      "11:55": {
+        atendimento: {
+          "ESTÂNCIA 4 IRMÃOS": "11:55",
+          "PREFEITURA": "12:02",
+          "VILA SÃO JOÃO": "12:07",
+          "RODOVIÁRIA": "12:13",
+          "MERCADO MUNICIPAL": "12:23",
+          "VILA RIO BRANCO": "12:34",
+          "VILA REGINA": "12:46",
+          "RESIDÊNCIAL NASCENTES": "12:52",
+          "VILA MAZZEI": "12:53",
+          "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "13:00",
+        }, servico: 'Bairro → Centro → Bairro',
+      },
+      "13:10": {
+        atendimento: {
+          "ESTÂNCIA 4 IRMÃOS": "13:10",
+          "PREFEITURA": "13:17",
+          "VILA SÃO JOÃO": "13:22",
+          "RODOVIÁRIA": "13:28",
+          "MERCADO MUNICIPAL": "13:38",
+          "VILA RIO BRANCO": "13:49",
+          "VILA REGINA": "14:01",
+          "RESIDÊNCIAL NASCENTES": "14:07",
+          "VILA MAZZEI": "14:08",
+          "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "14:15",
+        }, servico: 'Bairro → Centro → Bairro',
+      },
+      "14:25": {
+        atendimento: {
+          "ESTÂNCIA 4 IRMÃOS": "14:25",
+          "PREFEITURA": "14:32",
+          "VILA SÃO JOÃO": "14:37",
+          "RODOVIÁRIA": "14:43",
+          "MERCADO MUNICIPAL": "14:53",
+          "VILA RIO BRANCO": "15:04",
+          "VILA REGINA": "15:16",
+          "RESIDÊNCIAL NASCENTES": "15:22",
+          "VILA MAZZEI": "15:23",
+          "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "15:30",
+        }, servico: 'Bairro → Centro → Bairro',
+      },
+      "15:40": {
+        atendimento: {
+          "ESTÂNCIA 4 IRMÃOS": "15:40",
+          "PREFEITURA": "15:47",
+          "VILA SÃO JOÃO": "15:52",
+          "RODOVIÁRIA": "15:58",
+          "MERCADO MUNICIPAL": "16:08",
+          "VILA RIO BRANCO": "16:19",
+          "VILA REGINA": "16:31",
+          "RESIDÊNCIAL NASCENTES": "16:37",
+          "VILA MAZZEI": "16:38",
+          "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "16:45",
+        }, servico: 'Bairro → Centro → Bairro',
+      },
+      "16:55": {
+        atendimento: {
+          "ESTÂNCIA 4 IRMÃOS": "16:55",
+          "PREFEITURA": "17:02",
+          "VILA SÃO JOÃO": "17:07",
+          "RODOVIÁRIA": "17:13",
+          "MERCADO MUNICIPAL": "17:23",
+          "VILA RIO BRANCO": "17:34",
+          "VILA REGINA": "17:46",
+          "RESIDÊNCIAL NASCENTES": "17:52",
+          "VILA MAZZEI": "17:53",
+          "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "18:00",
+        }, servico: 'Bairro → Centro → Bairro',
+      },
+      "18:10": {
+        atendimento: {
+          "ESTÂNCIA 4 IRMÃOS": "18:10",
+          "PREFEITURA": "18:17",
+          "VILA SÃO JOÃO": "18:22",
+          "RODOVIÁRIA": "18:28",
+          "MERCADO MUNICIPAL": "18:38",
+          "VILA RIO BRANCO": "18:49",
+          "VILA REGINA": "18:59",
+          "RESIDÊNCIAL NASCENTES": "19:05",
+          "VILA MAZZEI": "19:06",
+          "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "19:10",
+        }, servico: 'Bairro → Centro → Bairro',
+      },
+      "19:10": {
+        atendimento: {
+          "ESTÂNCIA 4 IRMÃOS": "19:10",
+          "PREFEITURA": "19:17",
+          "VILA SÃO JOÃO": "19:22",
+          "RODOVIÁRIA": "19:28",
+          "MERCADO MUNICIPAL": "19:45",
+          "VILA RIO BRANCO": "19:56",
+          "VILA REGINA": "20:08",
+          "RESIDÊNCIAL NASCENTES": "20:14",
+          "VILA MAZZEI": "20:15",
+          "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "20:20",
+        }, servico: 'Bairro → Centro → Bairro',
       },
     },
     domingo_feriado: {
@@ -398,7 +568,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "06:55",
           "VILA MAZZEI": "06:56",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "07:00",
-        }, servico: 'Bairro → Centro → Bairro', 
+        }, servico: 'Bairro → Centro → Bairro',
       },
       "07:00": {
         atendimento: {
@@ -490,7 +660,7 @@ const Linha01A = {
           "PREFEITURA": "09:07",
           "VILA SÃO JOÃO": "09:12",
           "RODOVIÁRIA": "09:20",
-        }, trajeto : 'diferenciado',  servico: 'Bairro → Centro',
+        }, trajeto: 'diferenciado', servico: 'Bairro → Centro',
       },
       "14:00": {
         atendimento: {
@@ -498,7 +668,7 @@ const Linha01A = {
           "PREFEITURA": "14:07",
           "VILA SÃO JOÃO": "14:12",
           "RODOVIÁRIA": "14:20",
-        }, trajeto : 'diferenciado',  servico: 'Bairro → Centro',
+        }, trajeto: 'diferenciado', servico: 'Bairro → Centro',
       },
     },
   },

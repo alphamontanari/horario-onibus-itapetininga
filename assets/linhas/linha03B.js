@@ -87,7 +87,7 @@ const Linha03B = {
           "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "07:54",
           "INSTITUTO FEDERAL (IFSP)": "08:02",
           "JD. MONTE SANTO": "08:04"
-        }, trajeto : 'diferenciado'
+        }, trajeto: 'diferenciado'
       },
       "09:25": {
         "atendimento": {
@@ -98,7 +98,7 @@ const Linha03B = {
           "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "10:19",
           "INSTITUTO FEDERAL (IFSP)": "10:27",
           "JD. MONTE SANTO": "10:29"
-        }, trajeto : 'diferenciado'
+        }, trajeto: 'diferenciado'
       },
       "11:55": {
         "atendimento": {
@@ -109,7 +109,7 @@ const Linha03B = {
           "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "12:49",
           "INSTITUTO FEDERAL (IFSP)": "12:57",
           "JD. MONTE SANTO": "12:59"
-        }, trajeto : 'diferenciado'
+        }, trajeto: 'diferenciado'
       },
       "14:25": {
         "atendimento": {
@@ -120,7 +120,7 @@ const Linha03B = {
           "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "15:19",
           "INSTITUTO FEDERAL (IFSP)": "15:27",
           "JD. MONTE SANTO": "15:29"
-        }, trajeto : 'diferenciado'
+        }, trajeto: 'diferenciado'
       },
       "16:55": {
         "atendimento": {
@@ -131,7 +131,7 @@ const Linha03B = {
           "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "17:49",
           "INSTITUTO FEDERAL (IFSP)": "17:57",
           "JD. MONTE SANTO": "17:59"
-        }, trajeto : 'diferenciado'
+        }, trajeto: 'diferenciado'
       },
       "19:13": {
         "atendimento": {
@@ -142,7 +142,7 @@ const Linha03B = {
           "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "20:07",
           "INSTITUTO FEDERAL (IFSP)": "20:15",
           "JD. MONTE SANTO": "20:17"
-        }, trajeto : 'diferenciado'
+        }, trajeto: 'diferenciado'
       },
       "21:30": {
         "atendimento": {
@@ -154,7 +154,7 @@ const Linha03B = {
           "VALE SÃO FERNANDO": "22:05",
           "JD. MONTE SANTO": "22:15",
           "MERCADO MUNICIPAL.": "23:00"
-        }, trajeto : 'diferenciado'
+        }, trajeto: 'diferenciado'
       },
       "23:10": {
         "atendimento": {
@@ -165,10 +165,10 @@ const Linha03B = {
           "INSTITUTO FEDERAL (IFSP)": "00:20",
           "VALE SÃO FERNANDO": "23:45",
           "JD. MONTE SANTO": "23:55"
-        }, trajeto : 'diferenciado'
+        }, trajeto: 'diferenciado'
       }
     },
-    "sabado": {
+    "sabado": {/*
       "05:50": {
         "atendimento": {
           "BAIRRO CHAPADINHA": "05:50",
@@ -303,7 +303,145 @@ const Linha03B = {
           "INSTITUTO FEDERAL (IFSP)": "18:56",
           "JD. MONTE SANTO": "18:58"
         }, trajeto : 'diferenciado'
-      }
+      }*/
+      "05:50": {
+        "atendimento": {
+          "BAIRRO CHAPADINHA": "05:50",
+          "VILA APOLLO": "05:54",
+          "VILA BARTH": "06:00",
+          "MERCADO MUNICIPAL": "06:30",
+          "RODOVIÁRIA": "06:41",
+          "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "06:50",
+          "INSTITUTO FEDERAL (IFSP)": "06:58",
+          "JD. MONTE SANTO": "07:00"
+        }
+      },
+      "08:10": {
+        "atendimento": {
+          "BAIRRO CHAPADINHA": "08:10",
+          "VILA APOLLO": "08:14",
+          "VILA BARTH": "08:20",
+          "MERCADO MUNICIPAL": "08:50",
+          "RODOVIÁRIA": "09:01",
+          "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "09:10",
+          "INSTITUTO FEDERAL (IFSP)": "09:18",
+          "JD. MONTE SANTO": "09:20"
+        }
+      },
+      "10:40": {
+        "atendimento": {
+          "BAIRRO CHAPADINHA": "10:40",
+          "VILA APOLLO": "10:44",
+          "VILA BARTH": "10:50",
+          "MERCADO MUNICIPAL": "11:20",
+          "RODOVIÁRIA": "11:31",
+          "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "11:40",
+          "INSTITUTO FEDERAL (IFSP)": "11:48",
+          "JD. MONTE SANTO": "11:50"
+        }
+      },
+      "13:10": {
+        "atendimento": {
+          "BAIRRO CHAPADINHA": "13:10",
+          "VILA APOLLO": "13:14",
+          "VILA BARTH": "13:20",
+          "MERCADO MUNICIPAL": "13:50",
+          "RODOVIÁRIA": "14:01",
+          "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "14:10",
+          "INSTITUTO FEDERAL (IFSP)": "14:18",
+          "JD. MONTE SANTO": "14:20"
+        }
+      },
+      "18:10": {
+        "atendimento": {
+          "BAIRRO CHAPADINHA": "18:10",
+          "VILA APOLLO": "18:14",
+          "VILA BARTH": "18:20",
+          "MERCADO MUNICIPAL": "18:50",
+          "RODOVIÁRIA": "19:01",
+          "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "19:10",
+          "INSTITUTO FEDERAL (IFSP)": "19:18",
+          "JD. MONTE SANTO": "19:20"
+        }
+      },
+      "15:40": {
+        "atendimento": {
+          "BAIRRO CHAPADINHA": "15:40",
+          "VILA APOLLO": "15:44",
+          "VILA BARTH": "15:50",
+          "MERCADO MUNICIPAL": "16:20",
+          "RODOVIÁRIA": "16:31",
+          "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "16:40",
+          "INSTITUTO FEDERAL (IFSP)": "16:48",
+          "JD. MONTE SANTO": "16:50"
+        }
+      },
+      "07:00": {
+        "atendimento": {
+          "BAIRRO CHAPADINHA": "07:00",
+          "CENTRAL PARQUE 4L": "07:04",
+          "MERCADO MUNICIPAL": "07:34",
+          "RODOVIÁRIA": "07:45",
+          "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "07:54",
+          "INSTITUTO FEDERAL (IFSP)": "08:02",
+          "JD. MONTE SANTO": "08:04"
+        }, trajeto: 'diferenciado'
+      },
+      "09:25": {
+        "atendimento": {
+          "BAIRRO CHAPADINHA": "09:25",
+          "CENTRAL PARQUE 4L": "09:29",
+          "MERCADO MUNICIPAL": "09:59",
+          "RODOVIÁRIA": "10:10",
+          "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "10:19",
+          "INSTITUTO FEDERAL (IFSP)": "10:27",
+          "JD. MONTE SANTO": "10:29"
+        }, trajeto: 'diferenciado'
+      },
+      "11:55": {
+        "atendimento": {
+          "BAIRRO CHAPADINHA": "11:55",
+          "CENTRAL PARQUE 4L": "11:59",
+          "MERCADO MUNICIPAL": "12:29",
+          "RODOVIÁRIA": "12:40",
+          "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "12:49",
+          "INSTITUTO FEDERAL (IFSP)": "12:57",
+          "JD. MONTE SANTO": "12:59"
+        }, trajeto: 'diferenciado'
+      },
+      "14:25": {
+        "atendimento": {
+          "BAIRRO CHAPADINHA": "14:25",
+          "CENTRAL PARQUE 4L": "14:29",
+          "MERCADO MUNICIPAL": "14:59",
+          "RODOVIÁRIA": "15:10",
+          "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "15:19",
+          "INSTITUTO FEDERAL (IFSP)": "15:27",
+          "JD. MONTE SANTO": "15:29"
+        }, trajeto: 'diferenciado'
+      },
+      "16:55": {
+        "atendimento": {
+          "BAIRRO CHAPADINHA": "16:55",
+          "CENTRAL PARQUE 4L": "16:59",
+          "MERCADO MUNICIPAL": "17:29",
+          "RODOVIÁRIA": "17:40",
+          "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "17:49",
+          "INSTITUTO FEDERAL (IFSP)": "17:57",
+          "JD. MONTE SANTO": "17:59"
+        }, trajeto: 'diferenciado'
+      },
+      "19:13": {
+        "atendimento": {
+          "BAIRRO CHAPADINHA": "19:13",
+          "CENTRAL PARQUE 4L": "19:17",
+          "MERCADO MUNICIPAL": "19:47",
+          "RODOVIÁRIA": "19:58",
+          "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "20:07",
+          "INSTITUTO FEDERAL (IFSP)": "20:15",
+          "JD. MONTE SANTO": "20:17"
+        }, trajeto: 'diferenciado'
+      },
     },
     "domingo_feriado": {
       "06:00": {
@@ -363,7 +501,7 @@ const Linha03B = {
           "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "07:48",
           "INSTITUTO FEDERAL (IFSP)": "07:56",
           "JD. MONTE SANTO": "07:58"
-        }, trajeto : 'diferenciado'
+        }, trajeto: 'diferenciado'
       },
       "09:00": {
         "atendimento": {
@@ -371,7 +509,7 @@ const Linha03B = {
           "CENTRAL PARQUE 4L": "09:04",
           "MERCADO MUNICIPAL": "09:28",
           "RODOVIÁRIA": "09:39"
-        }, trajeto : 'diferenciado'
+        }, trajeto: 'diferenciado'
       },
       "12:00": {
         "atendimento": {
@@ -382,7 +520,7 @@ const Linha03B = {
           "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "12:48",
           "INSTITUTO FEDERAL (IFSP)": "12:56",
           "JD. MONTE SANTO": "12:58"
-        }, trajeto : 'diferenciado'
+        }, trajeto: 'diferenciado'
       },
       "14:00": {
         "atendimento": {
@@ -390,7 +528,7 @@ const Linha03B = {
           "CENTRAL PARQUE 4L": "14:04",
           "MERCADO MUNICIPAL": "14:28",
           "RODOVIÁRIA": "14:39"
-        }, trajeto : 'diferenciado'
+        }, trajeto: 'diferenciado'
       },
       "17:00": {
         "atendimento": {
@@ -401,7 +539,7 @@ const Linha03B = {
           "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "17:48",
           "INSTITUTO FEDERAL (IFSP)": "17:56",
           "JD. MONTE SANTO": "17:58"
-        }, trajeto : 'diferenciado'
+        }, trajeto: 'diferenciado'
       }
     }
   }
