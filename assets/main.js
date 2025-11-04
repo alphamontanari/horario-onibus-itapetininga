@@ -16,7 +16,7 @@ const periodLabels = {
   terca_e_quinta: "Terça e Quinta",
   quarta: "Quarta-feira",
   segunda_e_quinta : "Segunda e Quinta",
-  terca_e_sexta : "terca_e_sexta",
+  terca_e_sexta : "Terça e Sexta",
   sabado: "Sábado",
   domingo_feriado: "Domingo/Feriado",
 };
