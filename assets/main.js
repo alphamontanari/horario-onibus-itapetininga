@@ -13,36 +13,13 @@ const crumbs = document.getElementById("crumbs");
 
 
 
-/* ===== Loading (somente primeira carga) ===== */
-let initialLoadingDone = false;
-const loadingEl = document.getElementById("loading");
-
-function showInitialLoading(msg = "Carregando…") {
-  if (initialLoadingDone || !loadingEl) return;
-  const t = loadingEl.querySelector(".loading-text");
-  if (t) t.textContent = msg;
-  loadingEl.classList.remove("hidden");
-  loadingEl.setAttribute("aria-busy", "true");
-}
-function hideInitialLoading() {
-  if (initialLoadingDone || !loadingEl) return;
-  loadingEl.classList.add("hidden");
-  loadingEl.setAttribute("aria-busy", "false");
-  initialLoadingDone = true; // não mostra nunca mais
-}
-
-
-
-
-
-
 /* ====== HELPERS ====== */
 const periodLabels = {
   dia_de_semana: "Dia de semana",
   terca_e_quinta: "Terça e Quinta",
   quarta: "Quarta-feira",
-  segunda_e_quinta: "Segunda e Quinta",
-  terca_e_sexta: "Terça e Sexta",
+  segunda_e_quinta : "Segunda e Quinta",
+  terca_e_sexta : "Terça e Sexta",
   sabado: "Sábado",
   domingo_feriado: "Domingo/Feriado",
 };
@@ -148,7 +125,6 @@ window.addEventListener("popstate", (evt) => {
 });
 
 // Na primeira carga, alinhe o estado com a URL (hash) e gere o histórico base
-/*
 (function initHistoryOnLoad() {
   // Se já há hash, sincroniza o state a partir dele
   if (location.hash) {
@@ -161,21 +137,6 @@ window.addEventListener("popstate", (evt) => {
   }
   // Empilha estado inicial como replace (não cria um passo “fantasma”)
   pushHistory({ replace: true });
-})();*/
-
-(function initHistoryOnLoad() {
-  if (location.hash) {
-    const initial = parseHashToState();
-    state.nivel = initial.nivel;
-    state.linhaKey = initial.linhaKey;
-    state.periodo = initial.periodo;
-    state.hora = initial.hora;
-    state.query = initial.query;
-  }
-  pushHistory({ replace: true });
-
-  // Mostra somente na primeira carga
-  showInitialLoading("Carregando linhas…");
 })();
 
 
@@ -329,8 +290,7 @@ function renderNivel1() {
   updateNivel1Lista();
 }
 
-/*
-/* Atualiza SÓ os cards da lista do nível 1 
+/* Atualiza SÓ os cards da lista do nível 1 */
 function updateNivel1Lista() {
   if (!_n1List) return;
 
@@ -365,10 +325,8 @@ function updateNivel1Lista() {
     _n1List.appendChild(card);
   });
 }
-*/
 
 /* Atualiza SÓ os cards da lista do nível 1 */
-/*
 function updateNivel1Lista() {
   if (!_n1List) return;
 
@@ -403,42 +361,6 @@ function updateNivel1Lista() {
     _n1List.appendChild(card);
   });
 }
-  */
-
-function updateNivel1Lista() {
-  if (!_n1List) return;
-  _n1List.innerHTML = "";
-
-  const linhasArr = Object.entries(LINHAS).map(([key, l]) => ({ ...l, _key: key }));
-  const filtered = linhasArr.filter((l) => matchesSearch(l, state.query));
-
-  if (!filtered.length) {
-    _n1List.innerHTML = `<div class="card">Nenhuma linha encontrada.</div>`;
-    hideInitialLoading(); // encerra overlay da primeira carga
-    return;
-  }
-
-  filtered.forEach((l) => {
-    const card = document.createElement("div");
-    card.className = "card";
-    card.innerHTML = `
-      <button class="line-btn" type="button">
-        LINHA ${escapeHtml(l.id)}<span class="sub">${escapeHtml(l.nome)}</span>
-      </button>`;
-    card.querySelector("button").addEventListener("click", () => {
-      // sem overlay aqui — só na primeira carga
-      state.linhaKey = l._key;
-      state.nivel = 2;
-      state.hora = null;
-      state.periodo = null;
-      render();
-    });
-    _n1List.appendChild(card);
-  });
-
-  hideInitialLoading(); // primeira render da lista concluída
-}
-
 
 
 /* Exibe horários por linha nível 2 */
