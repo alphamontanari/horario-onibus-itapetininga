@@ -47,10 +47,10 @@ Linha02A = {
           "BAIRRO CAMBUI": "08:19",
           "VILA CAROLINA": "08:24",
           "AV. CINCO DE NOVEMBRO": "08:26",
-          "MERCADO MUNICIPAL ": "08:50",
-          "RODOVIÁRIA": "09:02",
-          "JD. FOGAÇA": "09:08",
-          "TABOÃOZINHO": "09:18"
+          "MERCADO MUNICIPAL ": "08:34",
+          "RODOVIÁRIA": "08:46",
+          "JD. FOGAÇA": "08:52",
+          "TABOÃOZINHO": "09:00"
         }
       },
       "09:25": {
@@ -112,17 +112,17 @@ Linha02A = {
           "JD. FOGAÇA": "15:07",
           "TABOÃOZINHO": "15:25"
         }
-      },
+      },      
       "15:40": {
         "atendimento": {
           "JD. BELA VISTA": "15:40",
           "BAIRRO CAMBUI": "15:49",
           "VILA CAROLINA": "15:54",
           "AV. CINCO DE NOVEMBRO": "15:56",
-          "MERCADO MUNICIPAL ": "16:20",
-          "RODOVIÁRIA": "16:32",
-          "JD. FOGAÇA": "16:38",
-          "TABOÃOZINHO": "16:48"
+          "MERCADO MUNICIPAL ": "16:04",
+          "RODOVIÁRIA": "16:16",
+          "JD. FOGAÇA": "16:22",
+          "TABOÃOZINHO": "16:30"
         }
       },
       "16:55": {
@@ -131,10 +131,10 @@ Linha02A = {
           "BAIRRO CAMBUI": "17:04",
           "VILA CAROLINA": "17:09",
           "AV. CINCO DE NOVEMBRO": "17:11",
-          "MERCADO MUNICIPAL ": "17:35",
-          "RODOVIÁRIA": "17:47",
-          "JD. FOGAÇA": "17:53",
-          "TABOÃOZINHO": "18:03"
+          "MERCADO MUNICIPAL ": "17:19",
+          "RODOVIÁRIA": "17:31",
+          "JD. FOGAÇA": "17:37",
+          "TABOÃOZINHO": "17:45"
         }
       },
       "18:10": {
@@ -143,10 +143,10 @@ Linha02A = {
           "BAIRRO CAMBUI": "18:19",
           "VILA CAROLINA": "18:24",
           "AV. CINCO DE NOVEMBRO": "18:26",
-          "MERCADO MUNICIPAL ": "18:50",
-          "RODOVIÁRIA": "19:02",
-          "JD. FOGAÇA": "19:08",
-          "TABOÃOZINHO": "19:18"
+          "MERCADO MUNICIPAL ": "18:34",
+          "RODOVIÁRIA": "18:46",
+          "JD. FOGAÇA": "18:52",
+          "TABOÃOZINHO": "19:00"
         }
       },
       "19:10": {
@@ -155,10 +155,10 @@ Linha02A = {
           "BAIRRO CAMBUI": "19:19",
           "VILA CAROLINA": "19:24",
           "AV. CINCO DE NOVEMBRO": "19:26",
-          "MERCADO MUNICIPAL ": "19:50",
-          "RODOVIÁRIA": "20:02",
-          "JD. FOGAÇA": "20:08",
-          "TABOÃOZINHO": "20:18"
+          "MERCADO MUNICIPAL ": "19:34",
+          "RODOVIÁRIA": "19:46",
+          "JD. FOGAÇA": "19:52",
+          "TABOÃOZINHO": "20:00"
         }
       },
       "14:15": {
@@ -219,7 +219,7 @@ Linha02A = {
           "JD. FOGAÇA": "07:42",
           "TABOÃOZINHO": "08:50"
         }
-      },
+      },      
       "08:10": {
         "atendimento": {
           "JD. BELA VISTA": "08:10",
@@ -229,7 +229,7 @@ Linha02A = {
           "MERCADO MUNICIPAL ": "08:34",
           "RODOVIÁRIA": "08:46",
           "JD. FOGAÇA": "08:52",
-          "TABOÃOZINHO": "09:18"
+          "TABOÃOZINHO": "09:00"
         }
       },
       "09:25": {
@@ -334,10 +334,10 @@ Linha02A = {
           "BAIRRO CAMBUI": "19:19",
           "VILA CAROLINA": "19:24",
           "AV. CINCO DE NOVEMBRO": "19:26",
-          "MERCADO MUNICIPAL ": "19:50",
-          "RODOVIÁRIA": "20:02",
-          "JD. FOGAÇA": "20:08",
-          "TABOÃOZINHO": "20:18"
+          "MERCADO MUNICIPAL ": "19:34",
+          "RODOVIÁRIA": "19:46",
+          "JD. FOGAÇA": "19:52",
+          "TABOÃOZINHO": "20:00"
         }
       },
     },
