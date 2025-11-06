@@ -1,5 +1,5 @@
 const Linha20A = {
-  "id": "20",
+  "id": "20A",
   "cod": "Linha20A",
   "nome": "RESIDENCIAL VILLAGGIO DI CAPRI → MERCADO MUNICIPAL",
   "partida": "RESIDENCIAL VILLAGGIO DI CAPRI",

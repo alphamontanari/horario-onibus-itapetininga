@@ -1,5 +1,5 @@
 === Horário Ônibus Itapetininga ===
-Contributors: alphamontanari
+Contributors: JARVIS
 Tags: ônibus, transporte público, itapetininga, horários, mobilidade
 Requires at least: 6.0
 Tested up to: 6.6
@@ -9,7 +9,7 @@ License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
 Plugin para melhorar a visualização de horários de ônibus pela população de Itapetininga-SP.  
-Desenvolvido por André Luiz Montanari, servidor público da área de comunicação da Prefeitura Municipal de Itapetininga.
+Desenvolvido por JARVIS, servidor público da área de comunicação da Prefeitura Municipal de Itapetininga.
 
 == Description ==
 Este plugin permite que cidadãos consultem, de forma rápida e fluída, os horários das linhas de ônibus municipais.

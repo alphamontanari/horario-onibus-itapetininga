@@ -3,8 +3,8 @@
  * Plugin Name: Horário Ônibus Itapetininga
  * Plugin URI: https://github.com/alphamontanari/horario-onibus-itapetininga
  * Description: Linhas de Ônibus Itapetininga
- * Version: 1.3.8.11
- * Author: André Luiz Montanari
+ * Version: 1.3.8.12
+ * Author: JARVIS
  * Author URI: https://github.com/alphamontanari
  * License: GPLv3
  *
@@ -130,12 +130,17 @@ add_action('template_redirect', function () {
   </head>
 
   <body>
-    <!-- Não para site da prefeitura
-    <button id="copyLinkBtn" class="fab-copy" type="button" aria-label="Copiar link">
-      🔗 <span class="label">Copiar endereço</span>
-    </button>
-    <span id="copyLinkHint" class="copy-hint" role="status" aria-live="polite"></span>
-     -->
+    
+
+  <div id="loading" class="loading hidden" aria-live="polite" aria-busy="false" role="status">
+    <div class="loading-box">
+        <div class="spinner" aria-hidden="true"></div>
+        <div class="loading-text">Carregando…</div>
+    </div>
+  </div>
+
+
+
 
     <div class="wrap">
       <div id="crumbs" class="crumbs" aria-live="polite"></div>
@@ -154,50 +159,7 @@ add_action('template_redirect', function () {
         try { if (typeof <?php echo $v; ?> !== 'undefined') LINHAS.<?php echo $v; ?> = <?php echo $v; ?>; } catch (e) { }
       <?php endforeach; ?>
       // console.log(LINHAS);
-    </script>
-
-    <!-- FUNÇÃO COMPARTILHAR URL -->
-    <script>
-        (function () {
-          const btn = document.getElementById('copyLinkBtn');
-          const hint = document.getElementById('copyLinkHint');
-
-          async function copy(text) {
-            // Clipboard API (HTTPS/localhost)
-            if (navigator.clipboard && window.isSecureContext) {
-              await navigator.clipboard.writeText(text);
-              return true;
-            }
-            // Fallback (funciona em + navegadores)
-            const ta = document.createElement('textarea');
-            ta.value = text;
-            ta.setAttribute('readonly', '');
-            ta.style.position = 'fixed';
-            ta.style.left = '-9999px';
-            document.body.appendChild(ta);
-            ta.select();
-            const ok = document.execCommand('copy');
-            document.body.removeChild(ta);
-            if (!ok) throw new Error('copy fallback falhou');
-            return true;
-          }
-
-          async function onCopyClick() {
-            const url = window.location.href;           // pega o URL no momento do clique
-            try {
-              await copy(url);
-              hint.textContent = 'Link copiado!';
-            } catch {
-              hint.textContent = 'Não foi possível copiar';
-            }
-            // feedback rápido (você estiliza depois)
-            clearTimeout(onCopyClick._t);
-            onCopyClick._t = setTimeout(() => hint.textContent = '', 1500);
-          }
-
-          btn.addEventListener('click', onCopyClick);
-        })();
-    </script>
+    </script>    
 
     <!-- FUNÇÕES PRINCIPAIS -->
     <script src="main.js"></script>
