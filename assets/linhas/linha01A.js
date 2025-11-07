@@ -154,9 +154,9 @@ const Linha01A = {
           "RODOVIÁRIA": "18:28",
           "MERCADO MUNICIPAL": "18:38",
           "VILA RIO BRANCO": "18:49",
-          "VILA REGINA": "18:59",
-          "RESIDÊNCIAL NASCENTES": "19:05",
-          "VILA MAZZEI": "19:06",
+          "VILA REGINA": "19:01",
+          "RESIDÊNCIAL NASCENTES": "19:07",
+          "VILA MAZZEI": "19:08",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "19:10",
         }, servico: 'Bairro → Centro → Bairro',
       },
@@ -200,10 +200,54 @@ const Linha01A = {
       "14:15": {
         "atendimento": {
           "MERCADO MUNICIPAL": "14:15",
-          "RODOVIÁRIA": "14:25",
-          "VILA SÃO JOÃO": "14:30",
-          "PREFEITURA": "14:35",
-          "ESTÂNCIA 4 IRMÃOS": "14:40",
+          "VILA RIO BRANCO": "14:24",
+          "VILA REGINA": "14:36",
+          "RESIDENCIAL NASCENTES": "14:40",
+          "VILA MAZZEI": "14:41",
+          "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "14:45",
+        }, trajeto: 'diferenciado', servico: 'Centro → Bairro',
+      },
+      "10:15": {
+        "atendimento": {
+          "RODOVIÁRIA": "10:15",
+          "MERCADO MUNICIPAL": "10:25",
+          "VILA RIO BRANCO": "10:34",
+          "VILA REGINA": "10:46",
+          "RESIDÊNCIAL NASCENTES": "10:51",
+          "MAZZEI": "10:52",
+          "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "10:55"
+        }, trajeto: 'diferenciado', servico: 'Centro → Bairro',
+      },
+      "16:00": {
+        "atendimento": {
+          "RODOVIÁRIA": "16:00",
+          "MERCADO MUNICIPAL": "16:10",
+          "VILA RIO BRANCO": "16:21",
+          "VILA REGINA": "16:33",
+          "RESIDÊNCIAL NASCENTES": "16:39",
+          "MAZZEI": "16:40",
+          "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "16:43"
+        }, trajeto: 'diferenciado', servico: 'Centro → Bairro',
+      },
+      "17:10": {
+        "atendimento": {
+          "RODOVIÁRIA": "17:10",
+          "MERCADO MUNICIPAL": "17:20",
+          "VILA RIO BRANCO": "17:31",
+          "VILA REGINA": "17:43",
+          "RESIDÊNCIAL NASCENTES": "17:49",
+          "MAZZEI": "17:50",
+          "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "17:53"
+        }, trajeto: 'diferenciado', servico: 'Centro → Bairro',
+      },
+      "18:30": {
+        "atendimento": {
+          "MERCADO MUNICIPAL": "18:30",
+          "VILA RIO BRANCO ": "18:41",
+          "VILA REGINA": "18:43",
+          "RESIDÊNCIAL NASCENTES": "18:48",
+          "VILA MAZZEI": "18:50",
+          "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "18:55"
         }, trajeto: 'diferenciado', servico: 'Centro → Bairro',
       },
     },
@@ -356,9 +400,9 @@ const Linha01A = {
           "RODOVIÁRIA": "18:28",
           "MERCADO MUNICIPAL": "18:38",
           "VILA RIO BRANCO": "18:49",
-          "VILA REGINA": "18:59",
-          "RESIDÊNCIAL NASCENTES": "19:05",
-          "VILA MAZZEI": "19:06",
+          "VILA REGINA": "19:01",
+          "RESIDÊNCIAL NASCENTES": "19:07",
+          "VILA MAZZEI": "19:08",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "19:10",
         }, servico: 'Bairro → Centro → Bairro',
       },

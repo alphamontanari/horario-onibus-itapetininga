@@ -116,16 +116,16 @@ const Linha01B = {
                     "ESTÂNCIA 4 IRMÃOS": "16:38"
                 }, servico: 'Bairro → Centro → Bairro',
             },
-            "16:55": {
+            "17:00": {
                 "atendimento": {
-                    "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "16:55",
-                    "VILA REGINA": "17:00",
-                    "VILA RIO BRANCO ": "17:13",
-                    "MERCADO MUNICIPAL ": "17:26",
-                    "RODOVIÁRIA": "17:38",
-                    "VILA SÃO JOÃO": "17:43",
-                    "PREFEITURA": "17:48",
-                    "ESTÂNCIA 4 IRMÃOS": "17:53"
+                    "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "17:00",
+                    "VILA REGINA": "17:10",
+                    "VILA RIO BRANCO ": "17:18",
+                    "MERCADO MUNICIPAL ": "17:31",
+                    "RODOVIÁRIA": "17:43",
+                    "VILA SÃO JOÃO": "17:48",
+                    "PREFEITURA": "17:53",
+                    "ESTÂNCIA 4 IRMÃOS": "17:58"
                 }, servico: 'Bairro → Centro → Bairro',
             },
             "18:10": {
@@ -228,62 +228,18 @@ const Linha01B = {
                     "MERCADO MUNICIPAL": "18:05"
                 }, trajeto: 'diferenciado', servico: 'Bairro → Centro',
             },
-            "10:15": {
-                "atendimento": {
-                    "RODOVIÁRIA": "10:15",
-                    "MERCADO MUNICIPAL": "10:25",
-                    "VILA RIO BRANCO": "10:34",
-                    "VILA REGINA": "10:46",
-                    "RESIDÊNCIAL NASCENTES": "10:51",
-                    "MAZZEI": "10:52",
-                    "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "10:55"
-                }, trajeto: 'diferenciado', servico: 'Centro → Bairro',
-            },
-            "16:00": {
-                "atendimento": {
-                    "RODOVIÁRIA": "16:00",
-                    "MERCADO MUNICIPAL": "16:10",
-                    "VILA RIO BRANCO": "16:19",
-                    "VILA REGINA": "16:31",
-                    "RESIDÊNCIAL NASCENTES": "16:36",
-                    "MAZZEI": "16:37",
-                    "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "16:40"
-                }, trajeto: 'diferenciado', servico: 'Centro → Bairro',
-            },
-            "17:10": {
-                "atendimento": {
-                    "RODOVIÁRIA": "17:10",
-                    "MERCADO MUNICIPAL": "17:20",
-                    "VILA RIO BRANCO": "17:29",
-                    "VILA REGINA": "17:41",
-                    "RESIDÊNCIAL NASCENTES": "17:46",
-                    "MAZZEI": "17:47",
-                    "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "17:50"
-                }, trajeto: 'diferenciado', servico: 'Centro → Bairro',
-            },
             "14:15": {
                 "atendimento": {
                     "MERCADO MUNICIPAL": "14:15",
-                    "VILA RIO BRANCO ": "14:24",
-                    "VILA REGINA": "14:36",
-                    "RESIDÊNCIAL NASCENTES": "14:40",
-                    "VILA MAZZEI": "14:41",
-                    "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "14:45"
-                }, trajeto: 'diferenciado', servico: 'Centro → Bairro',
-            },
-            "18:30": {
-                "atendimento": {
-                    "MERCADO MUNICIPAL": "18:30",
-                    "VILA RIO BRANCO ": "18:41",
-                    "VILA REGINA": "18:43",
-                    "RESIDÊNCIAL NASCENTES": "18:48",
-                    "VILA MAZZEI": "18:50",
-                    "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "18:55"
+                    "RODOVIÁRIA": "14:25",
+                    "VILA SÃO JOÃO": "14:30",
+                    "PREFEITURA": "14:35",
+                    "ESTÂNCIA 4 IRMÃOS": "14:40",
                 }, trajeto: 'diferenciado', servico: 'Centro → Bairro',
             },
         },
         "sabado": {
-             "05:45": {
+            "05:45": {
                 "atendimento": {
                     "RESIDENCIAL NASCENTES": "05:45",
                     "VILA MAZZEI": "05:50",
