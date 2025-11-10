@@ -177,7 +177,7 @@ const Linha03A = {
       }
     },
     "sabado": {
-      "05:50": {
+       "05:50": {
         "atendimento": {
           "JARDIM MONTE SANTO": "05:50",
           "INSTITUTO FEDERAL (IFSP)": "05:57",
@@ -220,7 +220,7 @@ const Linha03A = {
           "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "13:21",
           "RODOVIÁRIA": "13:32",
           "MERCADO MUNICIPAL": "13:42",
-          "VILA BARTH": "14:57",
+          "VILA BARTH": "13:57",
           "VILA APOLLO": "14:04",
           "BAIRRO CHAPADINHA": "14:15"
         }
@@ -256,8 +256,8 @@ const Linha03A = {
           "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "07:11",
           "RODOVIÁRIA": "07:22",
           "MERCADO MUNICIPAL": "07:32",
-          "CENTRAL PARQUE 4L": "15:16",
-          "POLICLÍNICA MUNICIPAL": "15:17",
+          "CENTRAL PARQUE 4L": "07:51",
+          "POLICLÍNICA MUNICIPAL": "07:52",
           "BAIRRO CHAPADINHA": "08:05"
         },
         "trajeto": "diferenciado"
@@ -269,8 +269,8 @@ const Linha03A = {
           "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "09:36",
           "RODOVIÁRIA": "09:47",
           "MERCADO MUNICIPAL": "09:57",
-          "CENTRAL PARQUE 4L": "10:15",
-          "POLICLÍNICA MUNICIPAL": "10:16",
+          "CENTRAL PARQUE 4L": "10:16",
+          "POLICLÍNICA MUNICIPAL": "10:17",
           "BAIRRO CHAPADINHA": "10:30"
         },
         "trajeto": "diferenciado"
@@ -317,13 +317,13 @@ const Linha03A = {
       "19:18": {
         "atendimento": {
           "JARDIM MONTE SANTO": "19:18",
-          "INSTITUTO FEDERAL (IFSP)": "19:25",
-          "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "19:29",
-          "RODOVIÁRIA": "19:40",
+          "INSTITUTO FEDERAL (IFSP)": "19:23",
+          "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "19:25",
+          "RODOVIÁRIA": "19:35",
           "MERCADO MUNICIPAL": "19:45",
           "CENTRAL PARQUE 4L": "20:04",
           "POLICLÍNICA MUNICIPAL": "20:05",
-          "BAIRRO CHAPADINHA": "20:24"
+          "BAIRRO CHAPADINHA": "21:20"
         },
         "trajeto": "diferenciado"
       }
