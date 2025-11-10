@@ -179,37 +179,37 @@ const Linha01B = {
                 "atendimento": {
                     "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "07:00",
                     "WALDOMIRO DE CARVALHO": "07:08",
-                    "RIO BRANCO": "07:08",
-                    "MERCADO MUNICIPAL": "07:13",
-                    "RODOVIÁRIA": "07:23",
-                    "SÃO JOÃO": "07:28",
-                    "JD. MARABÁ": "07:33"
+                    "RIO BRANCO": "07:10",
+                    "MERCADO MUNICIPAL": "07:25",
+                    "RODOVIÁRIA": "07:35",
+                    "SÃO JOÃO": "07:40",
+                    "JD. MARABÁ": "07:45"
                 }, trajeto: 'diferenciado', servico: 'Bairro → Centro → Bairro',
             },
             "08:08": {
                 "atendimento": {
                     "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "08:08",
                     "WALDOMIRO DE CARVALHO": "08:16",
-                    "RIO BRANCO": "08:16",
-                    "MERCADO MUNICIPAL": "08:21",
-                    "RODOVIÁRIA": "08:31"
+                    "RIO BRANCO": "08:18",
+                    "MERCADO MUNICIPAL": "08:33",
+                    "RODOVIÁRIA": "08:45"
                 }, trajeto: 'diferenciado', servico: 'Bairro → Centro',
             },
             "10:55": {
                 "atendimento": {
                     "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "10:55",
                     "WALDOMIRO DE CARVALHO": "11:03",
-                    "RIO BRANCO": "11:03",
-                    "MERCADO MUNICIPAL": "11:08",
-                    "RODOVIÁRIA": "11:18"
+                    "RIO BRANCO": "11:05",
+                    "MERCADO MUNICIPAL": "11:28",
+                    "RODOVIÁRIA": "11:40"
                 }, trajeto: 'diferenciado', servico: 'Bairro → Centro',
             },
             "14:42": {
                 "atendimento": {
                     "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "14:42",
                     "WALDOMIRO DE CARVALHO": "14:50",
-                    "RIO BRANCO": "14:50",
-                    "MERCADO MUNICIPAL": "14:55"
+                    "RIO BRANCO": "14:52",
+                    "MERCADO MUNICIPAL": "15:00"
                 }, trajeto: 'diferenciado', servico: 'Bairro → Centro',
             },
             "16:40": {
