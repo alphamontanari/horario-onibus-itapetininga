@@ -49,7 +49,7 @@ const Linha03A = {
           "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "13:21",
           "RODOVIÁRIA": "13:32",
           "MERCADO MUNICIPAL": "13:42",
-          "VILA BARTH": "14:57",
+          "VILA BARTH": "13:57",
           "VILA APOLLO": "14:04",
           "BAIRRO CHAPADINHA": "14:15"
         }
@@ -85,10 +85,11 @@ const Linha03A = {
           "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "07:11",
           "RODOVIÁRIA": "07:22",
           "MERCADO MUNICIPAL": "07:32",
-          "CENTRAL PARQUE 4L": "15:16",
-          "POLICLÍNICA MUNICIPAL": "15:17",
+          "CENTRAL PARQUE 4L": "07:51",
+          "POLICLÍNICA MUNICIPAL": "07:52",
           "BAIRRO CHAPADINHA": "08:05"
-        }, trajeto: 'diferenciado'
+        },
+        "trajeto": "diferenciado"
       },
       "09:25": {
         "atendimento": {
@@ -97,10 +98,11 @@ const Linha03A = {
           "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "09:36",
           "RODOVIÁRIA": "09:47",
           "MERCADO MUNICIPAL": "09:57",
-          "CENTRAL PARQUE 4L": "10:15",
-          "POLICLÍNICA MUNICIPAL": "10:16",
+          "CENTRAL PARQUE 4L": "10:16",
+          "POLICLÍNICA MUNICIPAL": "10:17",
           "BAIRRO CHAPADINHA": "10:30"
-        }, trajeto: 'diferenciado'
+        },
+        "trajeto": "diferenciado"
       },
       "11:55": {
         "atendimento": {
@@ -112,7 +114,8 @@ const Linha03A = {
           "CENTRAL PARQUE 4L": "12:46",
           "POLICLÍNICA MUNICIPAL": "12:47",
           "BAIRRO CHAPADINHA": "13:00"
-        }, trajeto: 'diferenciado'
+        },
+        "trajeto": "diferenciado"
       },
       "14:25": {
         "atendimento": {
@@ -124,7 +127,8 @@ const Linha03A = {
           "CENTRAL PARQUE 4L": "15:16",
           "POLICLÍNICA MUNICIPAL": "15:17",
           "BAIRRO CHAPADINHA": "15:30"
-        }, trajeto: 'diferenciado'
+        },
+        "trajeto": "diferenciado"
       },
       "16:55": {
         "atendimento": {
@@ -136,19 +140,21 @@ const Linha03A = {
           "CENTRAL PARQUE 4L": "17:46",
           "POLICLÍNICA MUNICIPAL": "17:47",
           "BAIRRO CHAPADINHA": "18:00"
-        }, trajeto: 'diferenciado'
+        },
+        "trajeto": "diferenciado"
       },
       "19:18": {
         "atendimento": {
           "JARDIM MONTE SANTO": "19:18",
-          "INSTITUTO FEDERAL (IFSP)": "19:25",
-          "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "19:29",
-          "RODOVIÁRIA": "19:40",
+          "INSTITUTO FEDERAL (IFSP)": "19:23",
+          "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "19:25",
+          "RODOVIÁRIA": "19:35",
           "MERCADO MUNICIPAL": "19:45",
           "CENTRAL PARQUE 4L": "20:04",
           "POLICLÍNICA MUNICIPAL": "20:05",
-          "BAIRRO CHAPADINHA": "20:24"
-        }, trajeto: 'diferenciado'
+          "BAIRRO CHAPADINHA": "21:20"
+        },
+        "trajeto": "diferenciado"
       },
       "21:20": {
         "atendimento": {
@@ -157,7 +163,8 @@ const Linha03A = {
           "CENTRAL PARQUE 4L": "21:40",
           "BAIRRO CHAPADINHA": "22:00",
           "MERCADO MUNICIPAL.": "22:20"
-        }, trajeto: 'diferenciado'
+        },
+        "trajeto": "diferenciado"
       },
       "23:10": {
         "atendimento": {
@@ -165,7 +172,8 @@ const Linha03A = {
           "MERCADO MUNICIPAL": "23:20",
           "CENTRAL PARQUE 4L": "23:30",
           "BAIRRO CHAPADINHA": "23:50"
-        }, trajeto: 'diferenciado'
+        },
+        "trajeto": "diferenciado"
       }
     },
     "sabado": {
@@ -251,7 +259,8 @@ const Linha03A = {
           "CENTRAL PARQUE 4L": "15:16",
           "POLICLÍNICA MUNICIPAL": "15:17",
           "BAIRRO CHAPADINHA": "08:05"
-        }, trajeto: 'diferenciado'
+        },
+        "trajeto": "diferenciado"
       },
       "09:25": {
         "atendimento": {
@@ -263,7 +272,8 @@ const Linha03A = {
           "CENTRAL PARQUE 4L": "10:15",
           "POLICLÍNICA MUNICIPAL": "10:16",
           "BAIRRO CHAPADINHA": "10:30"
-        }, trajeto: 'diferenciado'
+        },
+        "trajeto": "diferenciado"
       },
       "11:55": {
         "atendimento": {
@@ -275,7 +285,8 @@ const Linha03A = {
           "CENTRAL PARQUE 4L": "12:46",
           "POLICLÍNICA MUNICIPAL": "12:47",
           "BAIRRO CHAPADINHA": "13:00"
-        }, trajeto: 'diferenciado'
+        },
+        "trajeto": "diferenciado"
       },
       "14:25": {
         "atendimento": {
@@ -287,7 +298,8 @@ const Linha03A = {
           "CENTRAL PARQUE 4L": "15:16",
           "POLICLÍNICA MUNICIPAL": "15:17",
           "BAIRRO CHAPADINHA": "15:30"
-        }, trajeto: 'diferenciado'
+        },
+        "trajeto": "diferenciado"
       },
       "16:55": {
         "atendimento": {
@@ -299,7 +311,8 @@ const Linha03A = {
           "CENTRAL PARQUE 4L": "17:46",
           "POLICLÍNICA MUNICIPAL": "17:47",
           "BAIRRO CHAPADINHA": "18:00"
-        }, trajeto: 'diferenciado'
+        },
+        "trajeto": "diferenciado"
       },
       "19:18": {
         "atendimento": {
@@ -311,8 +324,9 @@ const Linha03A = {
           "CENTRAL PARQUE 4L": "20:04",
           "POLICLÍNICA MUNICIPAL": "20:05",
           "BAIRRO CHAPADINHA": "20:24"
-        }, trajeto: 'diferenciado'
-      },
+        },
+        "trajeto": "diferenciado"
+      }
     },
     "domingo_feriado": {
       "06:00": {
@@ -357,7 +371,8 @@ const Linha03A = {
           "INSTITUTO FEDERAL (IFSP)": "14:07",
           "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "14:11",
           "RODOVIÁRIA": "14:21"
-        }, trajeto: 'diferenciado'
+        },
+        "trajeto": "diferenciado"
       },
       "18:00": {
         "atendimento": {
@@ -380,7 +395,8 @@ const Linha03A = {
           "MERCADO MUNICIPAL": "07:31",
           "CENTRAL PARQUE 4L": "07:51",
           "BAIRRO CHAPADINHA": "07:59"
-        }, trajeto: 'diferenciado'
+        },
+        "trajeto": "diferenciado"
       },
       "12:00": {
         "atendimento": {
@@ -391,7 +407,8 @@ const Linha03A = {
           "MERCADO MUNICIPAL": "12:31",
           "CENTRAL PARQUE 4L": "12:51",
           "BAIRRO CHAPADINHA": "12:59"
-        }, trajeto: 'diferenciado'
+        },
+        "trajeto": "diferenciado"
       },
       "17:00": {
         "atendimento": {
@@ -402,7 +419,8 @@ const Linha03A = {
           "MERCADO MUNICIPAL": "17:31",
           "CENTRAL PARQUE 4L": "17:51",
           "BAIRRO CHAPADINHA": "17:59"
-        }, trajeto: 'diferenciado'
+        },
+        "trajeto": "diferenciado"
       },
       "09:00": {
         "atendimento": {
@@ -410,7 +428,8 @@ const Linha03A = {
           "INSTITUTO FEDERAL (IFSP)": "09:07",
           "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "09:11",
           "RODOVIÁRIA": "09:21"
-        }, trajeto: 'diferenciado'
+        },
+        "trajeto": "diferenciado"
       }
     }
   }
