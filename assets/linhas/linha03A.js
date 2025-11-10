@@ -326,7 +326,7 @@ const Linha03A = {
           "BAIRRO CHAPADINHA": "21:20"
         },
         "trajeto": "diferenciado"
-      }
+      },
     },
     "domingo_feriado": {
       "06:00": {

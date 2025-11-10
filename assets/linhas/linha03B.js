@@ -330,7 +330,7 @@ const Linha03B = {
           "JD. MONTE SANTO": "21:15",
         },
         "trajeto": "diferenciado",
-      }
+      },
     },
     domingo_feriado: {
       "06:00": {

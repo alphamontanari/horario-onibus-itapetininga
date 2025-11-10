@@ -212,13 +212,6 @@ const Linha02B = {
           "JD. BELA VISTA": "07:58"
         }
       },
-      "08:08": {
-        "atendimento": {
-          "BAIRRO TABOÃOZINHO": "08:08",
-          "JD. FOGAÇA": "08:14",
-          "RODOVIÁRIA": "08:24"
-        }, trajeto: 'diferenciado'
-      },
       "08:10": {
         "atendimento": {
           "BAIRRO TABOÃOZINHO": "08:10",
@@ -278,14 +271,6 @@ const Linha02B = {
           "RESIDENCIAL CAMBUÍ": "14:00",
           "JD. BELA VISTA": "14:03"
         }
-      },
-      "14:24": {
-        "atendimento": {
-          "MERCADO MUNICIPAL": "14:25",
-          "AV. CINCO DE NOVEMBRO": "14:40",
-          "VILA CAROLINA": "14:42",
-          "RESIDENCIAL CAMBUÍ": "14:47"
-        }, trajeto: 'diferenciado'
       },
       "14:25": {
         "atendimento": {
