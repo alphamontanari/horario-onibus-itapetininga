@@ -49,7 +49,7 @@ const Linha03B = {
           "VILA BARTH": "13:20",
           "MERCADO MUNICIPAL": "13:32",
           "RODOVIÁRIA": "13:43",
-          "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "14:52",
+          "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "13:52",
           "INSTITUTO FEDERAL (IFSP)": "14:00",
           "JD. MONTE SANTO": "14:10",
         },
@@ -225,7 +225,7 @@ const Linha03B = {
           "VILA BARTH": "13:20",
           "MERCADO MUNICIPAL": "13:32",
           "RODOVIÁRIA": "13:43",
-          "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "14:52",
+          "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "13:52",
           "INSTITUTO FEDERAL (IFSP)": "14:00",
           "JD. MONTE SANTO": "14:10",
         },
@@ -330,7 +330,7 @@ const Linha03B = {
           "JD. MONTE SANTO": "21:15",
         },
         "trajeto": "diferenciado",
-      },
+      }
     },
     domingo_feriado: {
       "06:00": {

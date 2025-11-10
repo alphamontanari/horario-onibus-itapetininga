@@ -75,7 +75,7 @@ const Linha04B = {
         "atendimento": {
           "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "11:55",
           "AV. SARUTAYÁ": "12:08",
-          "MERCADO MUNICIPAL": "11:15",
+          "MERCADO MUNICIPAL": "12:15",
           "RODOVIÁRIA": "12:26",
           "VILA ARRUDA": "11:35",
           "VILA OLHO D' ÁGUA": "12:36",
@@ -269,7 +269,7 @@ const Linha04B = {
         "atendimento": {
           "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)": "11:55",
           "AV. SARUTAYÁ": "12:08",
-          "MERCADO MUNICIPAL": "11:15",
+          "MERCADO MUNICIPAL": "12:15",
           "RODOVIÁRIA": "12:26",
           "VILA ARRUDA": "11:35",
           "VILA OLHO D' ÁGUA": "12:36",

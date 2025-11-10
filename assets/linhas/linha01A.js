@@ -244,7 +244,7 @@ const Linha01A = {
         "atendimento": {
           "MERCADO MUNICIPAL": "18:30",
           "VILA RIO BRANCO ": "18:41",
-          "VILA REGINA": "18:43",
+          "AV. DR. WALDOMIRO DE CARVALHO": "18:43",
           "RESIDÊNCIAL NASCENTES": "18:48",
           "VILA MAZZEI": "18:50",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "18:55"
@@ -419,7 +419,7 @@ const Linha01A = {
           "VILA MAZZEI": "20:15",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "20:20",
         }, servico: 'Bairro → Centro → Bairro',
-      },
+      }
     },
     domingo_feriado: {
       "06:00": {

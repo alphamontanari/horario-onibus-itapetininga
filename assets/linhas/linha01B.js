@@ -349,16 +349,16 @@ const Linha01B = {
                     "ESTÂNCIA 4 IRMÃOS": "16:38"
                 }, servico: 'Bairro → Centro → Bairro',
             },
-            "16:55": {
+            "17:00": {
                 "atendimento": {
-                    "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "16:55",
-                    "VILA REGINA": "17:00",
-                    "VILA RIO BRANCO ": "17:13",
-                    "MERCADO MUNICIPAL ": "17:26",
-                    "RODOVIÁRIA": "17:38",
-                    "VILA SÃO JOÃO": "17:43",
-                    "PREFEITURA": "17:48",
-                    "ESTÂNCIA 4 IRMÃOS": "17:53"
+                    "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "17:00",
+                    "VILA REGINA": "17:10",
+                    "VILA RIO BRANCO ": "17:18",
+                    "MERCADO MUNICIPAL ": "17:31",
+                    "RODOVIÁRIA": "17:43",
+                    "VILA SÃO JOÃO": "17:48",
+                    "PREFEITURA": "17:53",
+                    "ESTÂNCIA 4 IRMÃOS": "17:58"
                 }, servico: 'Bairro → Centro → Bairro',
             },
             "18:10": {
@@ -384,7 +384,7 @@ const Linha01B = {
                     "PREFEITURA": "20:03",
                     "ESTÂNCIA 4 IRMÃOS": "20:08"
                 }, servico: 'Bairro → Centro → Bairro',
-            },
+            }
         },
         "domingo_feriado": {
             "06:00": {

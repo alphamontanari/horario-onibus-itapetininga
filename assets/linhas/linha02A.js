@@ -339,7 +339,7 @@ Linha02A = {
           "JD. FOGAÇA": "19:52",
           "TABOÃOZINHO": "20:00"
         }
-      },
+      }
     },
     "domingo_feriado": {
       "06:00": {

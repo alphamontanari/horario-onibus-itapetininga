@@ -44,7 +44,7 @@ const Linha02B = {
           "RODOVIÁRIA": "08:26",
           "MERCADO MUNICIPAL": "08:36",
           "AV. CINCO DE NOVEMBRO": "08:52",
-          "VILA CAROLINA": "05:55",
+          "VILA CAROLINA": "08:55",
           "RESIDENCIAL CAMBUÍ": "09:00",
           "JD. BELA VISTA": "09:03"
         }
@@ -219,7 +219,7 @@ const Linha02B = {
           "RODOVIÁRIA": "08:26",
           "MERCADO MUNICIPAL": "08:36",
           "AV. CINCO DE NOVEMBRO": "08:52",
-          "VILA CAROLINA": "05:55",
+          "VILA CAROLINA": "08:55",
           "RESIDENCIAL CAMBUÍ": "09:00",
           "JD. BELA VISTA": "09:03"
         }
@@ -331,7 +331,7 @@ const Linha02B = {
           "RESIDENCIAL CAMBUÍ": "20:15",
           "JD. BELA VISTA": "20:18"
         }
-      },
+      }
     },
     "domingo_feriado": {
       "06:00": {
