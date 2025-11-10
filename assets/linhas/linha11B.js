@@ -57,9 +57,9 @@ const Linha11B = {
                     "VILA RIO BRANCO": "11:20",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "11:25",
                     "PASSARELA DOMENICO ALCIATI (JD. BELA VISTA)": "11:28",
-                    "CASTROLANDA - COOPERATIVA AGROINDUSTRIA": "11:35",
-                    "DISTRITO DA CONCEIÇÃO": "11:45",
-                    "DISTRITO DO GRAMADINHO": "11:55"
+                    "CASTROLANDA - COOPERATIVA AGROINDUSTRIA": "11:30",
+                    "DISTRITO DA CONCEIÇÃO": "11:40",
+                    "DISTRITO DO GRAMADINHO": "11:50"
                 }, servico: 'Centro → Distrito'
             },
             "13:00": {
@@ -71,9 +71,9 @@ const Linha11B = {
                     "VILA RIO BRANCO": "13:20",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "13:25",
                     "PASSARELA DOMENICO ALCIATI (JD. BELA VISTA)": "13:28",
-                    "CASTROLANDA - COOPERATIVA AGROINDUSTRIA": "13:35",
-                    "DISTRITO DA CONCEIÇÃO": "13:45",
-                    "DISTRITO DO GRAMADINHO": "13:55"
+                    "CASTROLANDA - COOPERATIVA AGROINDUSTRIA": "13:30",
+                    "DISTRITO DA CONCEIÇÃO": "13:40",
+                    "DISTRITO DO GRAMADINHO": "13:50"
                 }, servico: 'Centro → Distrito'
             },
             "15:00": {
@@ -85,9 +85,9 @@ const Linha11B = {
                     "VILA RIO BRANCO": "15:20",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "15:25",
                     "PASSARELA DOMENICO ALCIATI (JD. BELA VISTA)": "15:28",
-                    "CASTROLANDA - COOPERATIVA AGROINDUSTRIA": "15:35",
-                    "DISTRITO DA CONCEIÇÃO": "15:45",
-                    "DISTRITO DO GRAMADINHO": "15:55",
+                    "CASTROLANDA - COOPERATIVA AGROINDUSTRIA": "15:30",
+                    "DISTRITO DA CONCEIÇÃO": "15:40",
+                    "DISTRITO DO GRAMADINHO": "15:50",
                     "BAIRRO SETE CURVAS": "16:00"
                 }, servico: 'Centro → Distrito', trajeto: 'diferenciado'
             },

@@ -25,7 +25,7 @@ const Linha16B = {
           "PASSARELA DOMENICO ALCIATI (JD. BELA VISTA)": "16:14",
           "VILA BARTH ": "16:18",
           "VILA SÃO JOSÉ": "16:20",
-          "VILA SERAFIM": "16:22",
+          "VILA SERAFIM": "16:24",
           "VILA NOVA ITAPETININGA (VIA MARGINAL)": "16:27",
           "RECINTO DE EXPOSIÇÕES ACÁCIO DE MORAES TERRA": "16:33",
           "PRAÇA NOSSA SENHORA APARECIDA": "16:42",
@@ -38,11 +38,11 @@ const Linha16B = {
           "PASSARELA DOMENICO ALCIATI (JD. BELA VISTA)": "19:14",
           "VILA BARTH ": "19:18",
           "VILA SÃO JOSÉ": "19:20",
-          "VILA SERAFIM": "19:22",
+          "VILA SERAFIM": "19:24",
           "VILA NOVA ITAPETININGA (VIA MARGINAL)": "19:27",
-          "RECINTO DE EXPOSIÇÕES ACÁCIO DE MORAES TERRA": "19:33",
-          "PRAÇA NOSSA SENHORA APARECIDA": "19:42",
-          "RODOVIÁRIA": "19:50"
+          "RECINTO DE EXPOSIÇÕES ACÁCIO DE MORAES TERRA": "19:30",
+          "PRAÇA NOSSA SENHORA APARECIDA": "19:32",
+          "RODOVIÁRIA": "19:35"
         }, servico: 'BAIRRO → CENTRO'
       }
     }

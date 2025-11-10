@@ -15,7 +15,7 @@ const Linha09B = {
                     "VILA RIO BRANCO": "06:20",
                     "VILA RUBENS": "06:21",
                     "VILA NASTRI I (VIA 5 DE NOVEMBRO)": "06:25",
-                    "VILA SOTTEMO (PASSARELA KM 270)": "06:27",
+                    "VILA SOTTEMO (PASSARELA SOUBHI LAWAND)": "06:27",
                     "3M DO BRASIL": "06:29",
                     "JBS FOODS S.A": "06:35",
                     "DISTRITO DO TUPI": "07:00"
@@ -32,7 +32,7 @@ const Linha09B = {
                     "VILA RIO BRANCO": "10:20",
                     "VILA RUBENS": "10:21",
                     "VILA NASTRI I (VIA 5 DE NOVEMBRO)": "10:25",
-                    "VILA SOTTEMO (PASSARELA KM 270)": "10:27",
+                    "VILA SOTTEMO (PASSARELA SOUBHI LAWAND)": "10:27",
                     "3M DO BRASIL": "10:29",
                     "JBS FOODS S.A": "10:35",
                     "DISTRITO DO TUPI": "11:00"
@@ -49,7 +49,7 @@ const Linha09B = {
                     "VILA RIO BRANCO": "13:30",
                     "VILA RUBENS": "13:31",
                     "VILA NASTRI I (VIA 5 DE NOVEMBRO)": "13:35",
-                    "VILA SOTTEMO (PASSARELA KM 270)": "13:37",
+                    "VILA SOTTEMO (PASSARELA SOUBHI LAWAND)": "13:37",
                     "3M DO BRASIL": "13:39",
                     "JBS FOODS S.A": "13:45",
                     "DISTRITO DO TUPI": "14:10"
@@ -66,7 +66,7 @@ const Linha09B = {
                     "VILA RIO BRANCO": "17:40",
                     "VILA RUBENS": "17:41",
                     "VILA NASTRI I (VIA 5 DE NOVEMBRO)": "17:45",
-                    "VILA SOTTEMO (PASSARELA KM 270)": "17:47",
+                    "VILA SOTTEMO (PASSARELA SOUBHI LAWAND)": "17:47",
                     "3M DO BRASIL": "17:49",
                     "JBS FOODS S.A": "17:55",
                     "DISTRITO DO TUPI": "18:20"
