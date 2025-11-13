@@ -18,7 +18,7 @@ const Linha01B = {
                     "VILA SÃO JOÃO": "06:47",
                     "PREFEITURA": "06:52",
                     "ESTÂNCIA 4 IRMÃOS": "06:58"
-                }, trajeto: 'diferenciado', servico: 'Bairro → Centro → Bairro',
+                }, trajeto: 'diferenciado', servico: 'BAIRRO → CENTRO → BAIRRO',
             },
             "07:00": {
                 "atendimento": {
@@ -30,7 +30,7 @@ const Linha01B = {
                     "VILA SÃO JOÃO": "07:48",
                     "PREFEITURA": "07:53",
                     "ESTÂNCIA 4 IRMÃOS": "07:58"
-                }, servico: 'Bairro → Centro → Bairro',
+                }, servico: 'BAIRRO → CENTRO → BAIRRO',
             },
             "08:10": {
                 "atendimento": {
@@ -42,7 +42,7 @@ const Linha01B = {
                     "VILA SÃO JOÃO": "08:58",
                     "PREFEITURA": "09:03",
                     "ESTÂNCIA 4 IRMÃOS": "09:08"
-                }, servico: 'Bairro → Centro → Bairro',
+                }, servico: 'BAIRRO → CENTRO → BAIRRO',
             },
             "09:25": {
                 "atendimento": {
@@ -54,7 +54,7 @@ const Linha01B = {
                     "VILA SÃO JOÃO": "10:13",
                     "PREFEITURA": "10:18",
                     "ESTÂNCIA 4 IRMÃOS": "10:23"
-                }, servico: 'Bairro → Centro → Bairro',
+                }, servico: 'BAIRRO → CENTRO → BAIRRO',
             },
             "10:40": {
                 "atendimento": {
@@ -66,7 +66,7 @@ const Linha01B = {
                     "VILA SÃO JOÃO": "11:28",
                     "PREFEITURA": "11:33",
                     "ESTÂNCIA 4 IRMÃOS": "11:38"
-                }, servico: 'Bairro → Centro → Bairro',
+                }, servico: 'BAIRRO → CENTRO → BAIRRO',
             },
             "11:55": {
                 "atendimento": {
@@ -78,7 +78,7 @@ const Linha01B = {
                     "VILA SÃO JOÃO": "12:43",
                     "PREFEITURA": "12:48",
                     "ESTÂNCIA 4 IRMÃOS": "12:53"
-                }, servico: 'Bairro → Centro → Bairro',
+                }, servico: 'BAIRRO → CENTRO → BAIRRO',
             },
             "13:10": {
                 "atendimento": {
@@ -90,7 +90,7 @@ const Linha01B = {
                     "VILA SÃO JOÃO": "13:58",
                     "PREFEITURA": "14:03",
                     "ESTÂNCIA 4 IRMÃOS": "14:08"
-                }, servico: 'Bairro → Centro → Bairro',
+                }, servico: 'BAIRRO → CENTRO → BAIRRO',
             },
             "14:25": {
                 "atendimento": {
@@ -102,7 +102,7 @@ const Linha01B = {
                     "VILA SÃO JOÃO": "15:13",
                     "PREFEITURA": "15:18",
                     "ESTÂNCIA 4 IRMÃOS": "15:23"
-                }, servico: 'Bairro → Centro → Bairro',
+                }, servico: 'BAIRRO → CENTRO → BAIRRO',
             },
             "15:40": {
                 "atendimento": {
@@ -114,7 +114,7 @@ const Linha01B = {
                     "VILA SÃO JOÃO": "16:28",
                     "PREFEITURA": "16:33",
                     "ESTÂNCIA 4 IRMÃOS": "16:38"
-                }, servico: 'Bairro → Centro → Bairro',
+                }, servico: 'BAIRRO → CENTRO → BAIRRO',
             },
             "17:00": {
                 "atendimento": {
@@ -126,7 +126,7 @@ const Linha01B = {
                     "VILA SÃO JOÃO": "17:48",
                     "PREFEITURA": "17:53",
                     "ESTÂNCIA 4 IRMÃOS": "17:58"
-                }, servico: 'Bairro → Centro → Bairro',
+                }, servico: 'BAIRRO → CENTRO → BAIRRO',
             },
             "18:10": {
                 "atendimento": {
@@ -138,7 +138,7 @@ const Linha01B = {
                     "VILA SÃO JOÃO": "18:58",
                     "PREFEITURA": "19:03",
                     "ESTÂNCIA 4 IRMÃOS": "19:08"
-                }, servico: 'Bairro → Centro → Bairro',
+                }, servico: 'BAIRRO → CENTRO → BAIRRO',
             },
             "19:10": {
                 "atendimento": {
@@ -150,7 +150,7 @@ const Linha01B = {
                     "VILA SÃO JOÃO": "19:58",
                     "PREFEITURA": "20:03",
                     "ESTÂNCIA 4 IRMÃOS": "20:08"
-                }, servico: 'Bairro → Centro → Bairro',
+                }, servico: 'BAIRRO → CENTRO → BAIRRO',
             },
             "21:30": {
                 "atendimento": {
@@ -162,7 +162,7 @@ const Linha01B = {
                     "VILA MAZZEI ": "22:00",
                     "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "22:08",
                     "MERCADO MUNICIPAL.": "22:23",
-                }, trajeto: 'diferenciado', servico: 'Centro → Bairro → Centro',
+                }, trajeto: 'diferenciado', servico: 'Centro → BAIRRO → CENTRO',
             },
             "23:00": {
                 "atendimento": {
@@ -178,55 +178,55 @@ const Linha01B = {
             "07:01": {
                 "atendimento": {
                     "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "07:00",
-                    "WALDOMIRO DE CARVALHO": "07:08",
+                    "AV. DR. WALDOMIRO DE CARVALHO": "07:08",
                     "RIO BRANCO": "07:10",
                     "MERCADO MUNICIPAL": "07:25",
                     "RODOVIÁRIA": "07:35",
-                    "SÃO JOÃO": "07:40",
+                    "VILA SÃO JOÃO": "07:40",
                     "JD. MARABÁ": "07:45"
-                }, trajeto: 'diferenciado', servico: 'Bairro → Centro → Bairro',
+                }, trajeto: 'diferenciado', servico: 'BAIRRO → CENTRO → BAIRRO',
             },
             "08:08": {
                 "atendimento": {
                     "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "08:08",
-                    "WALDOMIRO DE CARVALHO": "08:16",
+                    "AV. DR. WALDOMIRO DE CARVALHO": "08:16",
                     "RIO BRANCO": "08:18",
                     "MERCADO MUNICIPAL": "08:33",
                     "RODOVIÁRIA": "08:45"
-                }, trajeto: 'diferenciado', servico: 'Bairro → Centro',
+                }, trajeto: 'diferenciado', servico: 'BAIRRO → CENTRO',
             },
             "10:55": {
                 "atendimento": {
                     "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "10:55",
-                    "WALDOMIRO DE CARVALHO": "11:03",
+                    "AV. DR. WALDOMIRO DE CARVALHO": "11:03",
                     "RIO BRANCO": "11:05",
                     "MERCADO MUNICIPAL": "11:28",
                     "RODOVIÁRIA": "11:40"
-                }, trajeto: 'diferenciado', servico: 'Bairro → Centro',
+                }, trajeto: 'diferenciado', servico: 'BAIRRO → CENTRO',
             },
             "14:42": {
                 "atendimento": {
                     "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "14:42",
-                    "WALDOMIRO DE CARVALHO": "14:50",
+                    "AV. DR. WALDOMIRO DE CARVALHO": "14:50",
                     "RIO BRANCO": "14:52",
                     "MERCADO MUNICIPAL": "15:00"
-                }, trajeto: 'diferenciado', servico: 'Bairro → Centro',
+                }, trajeto: 'diferenciado', servico: 'BAIRRO → CENTRO',
             },
             "16:40": {
                 "atendimento": {
                     "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "16:40",
-                    "WALDOMIRO DE CARVALHO": "16:48",
+                    "AV. DR. WALDOMIRO DE CARVALHO": "16:48",
                     "RIO BRANCO": "16:50",
                     "MERCADO MUNICIPAL": "16:55"
-                }, trajeto: 'diferenciado', servico: 'Bairro → Centro',
+                }, trajeto: 'diferenciado', servico: 'BAIRRO → CENTRO',
             },
             "17:50": {
                 "atendimento": {
                     "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "17:50",
-                    "WALDOMIRO DE CARVALHO": "17:58",
+                    "AV. DR. WALDOMIRO DE CARVALHO": "17:58",
                     "RIO BRANCO": "18:00",
                     "MERCADO MUNICIPAL": "18:05"
-                }, trajeto: 'diferenciado', servico: 'Bairro → Centro',
+                }, trajeto: 'diferenciado', servico: 'BAIRRO → CENTRO',
             },
             "14:15": {
                 "atendimento": {
@@ -251,7 +251,7 @@ const Linha01B = {
                     "VILA SÃO JOÃO": "06:47",
                     "PREFEITURA": "06:52",
                     "ESTÂNCIA 4 IRMÃOS": "06:58"
-                }, trajeto: 'diferenciado', servico: 'Bairro → Centro → Bairro',
+                }, trajeto: 'diferenciado', servico: 'BAIRRO → CENTRO → BAIRRO',
             },
             "07:00": {
                 "atendimento": {
@@ -263,7 +263,7 @@ const Linha01B = {
                     "VILA SÃO JOÃO": "07:48",
                     "PREFEITURA": "07:53",
                     "ESTÂNCIA 4 IRMÃOS": "07:58"
-                }, servico: 'Bairro → Centro → Bairro',
+                }, servico: 'BAIRRO → CENTRO → BAIRRO',
             },
             "08:10": {
                 "atendimento": {
@@ -275,7 +275,7 @@ const Linha01B = {
                     "VILA SÃO JOÃO": "08:58",
                     "PREFEITURA": "09:03",
                     "ESTÂNCIA 4 IRMÃOS": "09:08"
-                }, servico: 'Bairro → Centro → Bairro',
+                }, servico: 'BAIRRO → CENTRO → BAIRRO',
             },
             "09:25": {
                 "atendimento": {
@@ -287,7 +287,7 @@ const Linha01B = {
                     "VILA SÃO JOÃO": "10:13",
                     "PREFEITURA": "10:18",
                     "ESTÂNCIA 4 IRMÃOS": "10:23"
-                }, servico: 'Bairro → Centro → Bairro',
+                }, servico: 'BAIRRO → CENTRO → BAIRRO',
             },
             "10:40": {
                 "atendimento": {
@@ -299,7 +299,7 @@ const Linha01B = {
                     "VILA SÃO JOÃO": "11:28",
                     "PREFEITURA": "11:33",
                     "ESTÂNCIA 4 IRMÃOS": "11:38"
-                }, servico: 'Bairro → Centro → Bairro',
+                }, servico: 'BAIRRO → CENTRO → BAIRRO',
             },
             "11:55": {
                 "atendimento": {
@@ -311,7 +311,7 @@ const Linha01B = {
                     "VILA SÃO JOÃO": "12:43",
                     "PREFEITURA": "12:48",
                     "ESTÂNCIA 4 IRMÃOS": "12:53"
-                }, servico: 'Bairro → Centro → Bairro',
+                }, servico: 'BAIRRO → CENTRO → BAIRRO',
             },
             "13:10": {
                 "atendimento": {
@@ -323,7 +323,7 @@ const Linha01B = {
                     "VILA SÃO JOÃO": "13:58",
                     "PREFEITURA": "14:03",
                     "ESTÂNCIA 4 IRMÃOS": "14:08"
-                }, servico: 'Bairro → Centro → Bairro',
+                }, servico: 'BAIRRO → CENTRO → BAIRRO',
             },
             "14:25": {
                 "atendimento": {
@@ -335,7 +335,7 @@ const Linha01B = {
                     "VILA SÃO JOÃO": "15:13",
                     "PREFEITURA": "15:18",
                     "ESTÂNCIA 4 IRMÃOS": "15:23"
-                }, servico: 'Bairro → Centro → Bairro',
+                }, servico: 'BAIRRO → CENTRO → BAIRRO',
             },
             "15:40": {
                 "atendimento": {
@@ -347,7 +347,7 @@ const Linha01B = {
                     "VILA SÃO JOÃO": "16:28",
                     "PREFEITURA": "16:33",
                     "ESTÂNCIA 4 IRMÃOS": "16:38"
-                }, servico: 'Bairro → Centro → Bairro',
+                }, servico: 'BAIRRO → CENTRO → BAIRRO',
             },
             "17:00": {
                 "atendimento": {
@@ -359,7 +359,7 @@ const Linha01B = {
                     "VILA SÃO JOÃO": "17:48",
                     "PREFEITURA": "17:53",
                     "ESTÂNCIA 4 IRMÃOS": "17:58"
-                }, servico: 'Bairro → Centro → Bairro',
+                }, servico: 'BAIRRO → CENTRO → BAIRRO',
             },
             "18:10": {
                 "atendimento": {
@@ -371,7 +371,7 @@ const Linha01B = {
                     "VILA SÃO JOÃO": "18:58",
                     "PREFEITURA": "19:03",
                     "ESTÂNCIA 4 IRMÃOS": "19:08"
-                }, servico: 'Bairro → Centro → Bairro',
+                }, servico: 'BAIRRO → CENTRO → BAIRRO',
             },
             "19:10": {
                 "atendimento": {
@@ -383,7 +383,7 @@ const Linha01B = {
                     "VILA SÃO JOÃO": "19:58",
                     "PREFEITURA": "20:03",
                     "ESTÂNCIA 4 IRMÃOS": "20:08"
-                }, servico: 'Bairro → Centro → Bairro',
+                }, servico: 'BAIRRO → CENTRO → BAIRRO',
             }
         },
         "domingo_feriado": {
@@ -397,7 +397,7 @@ const Linha01B = {
                     "VILA SÃO JOÃO": "06:48",
                     "PREFEITURA": "06:53",
                     "ESTÂNCIA 4 IRMÃOS": "06:58"
-                }, servico: 'Bairro → Centro → Bairro',
+                }, servico: 'BAIRRO → CENTRO → BAIRRO',
             },
             "07:00": {
                 "atendimento": {
@@ -409,7 +409,7 @@ const Linha01B = {
                     "VILA SÃO JOÃO": "07:48",
                     "PREFEITURA": "07:53",
                     "ESTÂNCIA 4 IRMÃOS": "07:58"
-                }, servico: 'Bairro → Centro → Bairro',
+                }, servico: 'BAIRRO → CENTRO → BAIRRO',
             },
             "08:00": {
                 "atendimento": {
@@ -421,7 +421,7 @@ const Linha01B = {
                     "VILA SÃO JOÃO": "08:48",
                     "PREFEITURA": "08:53",
                     "ESTÂNCIA 4 IRMÃOS": "08:58"
-                }, servico: 'Bairro → Centro → Bairro',
+                }, servico: 'BAIRRO → CENTRO → BAIRRO',
             },
             "09:00": {
                 "atendimento": {
@@ -430,7 +430,7 @@ const Linha01B = {
                     "VILA RIO BRANCO ": "18:18",
                     "MERCADO MUNICIPAL ": "18:31",
                     "RODOVIÁRIA": "18:43"
-                }, trajeto: 'diferenciado', servico: 'Bairro → Centro',
+                }, trajeto: 'diferenciado', servico: 'BAIRRO → CENTRO',
             },
             "12:00": {
                 "atendimento": {
@@ -442,7 +442,7 @@ const Linha01B = {
                     "VILA SÃO JOÃO": "12:48",
                     "PREFEITURA": "12:53",
                     "ESTÂNCIA 4 IRMÃOS": "12:58"
-                }, servico: 'Bairro → Centro → Bairro',
+                }, servico: 'BAIRRO → CENTRO → BAIRRO',
             },
             "13:00": {
                 "atendimento": {
@@ -454,7 +454,7 @@ const Linha01B = {
                     "VILA SÃO JOÃO": "13:48",
                     "PREFEITURA": "13:53",
                     "ESTÂNCIA 4 IRMÃOS": "13:58"
-                }, servico: 'Bairro → Centro → Bairro',
+                }, servico: 'BAIRRO → CENTRO → BAIRRO',
             },
             "14:00": {
                 "atendimento": {
@@ -463,7 +463,7 @@ const Linha01B = {
                     "VILA RIO BRANCO ": "14:18",
                     "MERCADO MUNICIPAL ": "14:31",
                     "RODOVIÁRIA": "14:43"
-                }, trajeto: 'diferenciado', servico: 'Bairro → Centro',
+                }, trajeto: 'diferenciado', servico: 'BAIRRO → CENTRO',
             },
             "17:00": {
                 "atendimento": {
@@ -475,7 +475,7 @@ const Linha01B = {
                     "VILA SÃO JOÃO": "17:48",
                     "PREFEITURA": "17:53",
                     "ESTÂNCIA 4 IRMÃOS": "17:58"
-                }, servico: 'Bairro → Centro → Bairro',
+                }, servico: 'BAIRRO → CENTRO → BAIRRO',
             },
             "18:00": {
                 "atendimento": {
@@ -487,7 +487,7 @@ const Linha01B = {
                     "VILA SÃO JOÃO": "18:48",
                     "PREFEITURA": "18:53",
                     "ESTÂNCIA 4 IRMÃOS": "18:58"
-                }, servico: 'Bairro → Centro → Bairro',
+                }, servico: 'BAIRRO → CENTRO → BAIRRO',
             }
         }
     }

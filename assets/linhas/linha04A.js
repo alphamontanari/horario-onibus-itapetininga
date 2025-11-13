@@ -1,7 +1,7 @@
 const Linha04A = {
   "id": "04A",
   "cod": "Linha04A",
-  "nome": "JD. SÃO CAMILO → VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)",
+  "nome": "JARDIM SÃO CAMILO → VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)",
   "partida": "JD. SÃO CAMILO",
   "chegada": "VIDA NOVA ITAPETININGA (VALE SAN FERNANDO)",
   "horarios": {

@@ -1,9 +1,9 @@
 const Linha02B = {
   "id": "02B",
   "cod": "Linha02B",
-  "nome": "BAIRRO TABOÃOZINHO → JD. BELA VISTA",
+  "nome": "BAIRRO TABOÃOZINHO → JARDIM BELA VISTA",
   "partida": "BAIRRO TABOÃOZINHO",
-  "chegada": "JD. JD. BELA VISTA",
+  "chegada": "JD. BELA VISTA",
   "horarios": {
     "dia_de_semana": {
       "05:50": {

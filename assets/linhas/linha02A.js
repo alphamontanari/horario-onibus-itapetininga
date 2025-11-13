@@ -1,7 +1,7 @@
 Linha02A = {
   "id": "02A",
   "cod": "Linha02A",
-  "nome": "JD. BELA VISTA → TABOÃOZINHO",
+  "nome": "JARDIM BELA VISTA → BAIRRO TABOÃOZINHO",
   "partida": "JD. BELA VISTA",
   "chegada": "TABOÃOZINHO",
   "horarios": {
@@ -32,7 +32,7 @@ Linha02A = {
       },
       "08:08": {
         "atendimento": {
-          "JD. JD. BELA VISTA": "08:32",
+          "JD. BELA VISTA": "08:32",
           "VILA CAROLINA": "08:50",
           "AV. CINCO DE NOVEMBRO": "09:00",
           "MERCADO MUNICIPAL": "09:00",

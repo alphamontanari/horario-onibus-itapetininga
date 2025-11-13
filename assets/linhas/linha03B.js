@@ -3,12 +3,13 @@ const Linha03B = {
   cod: "Linha03B",
   nome: "BAIRRO CHAPADINHA → JARDIM MONTE SANTO",
   partida: "BAIRRO CHAPADINHA",
-  chegada: "JARDIM MONTE SANTO",
+  chegada: "JD. MONTE SANTO",
   horarios: {
     dia_de_semana: {
       "05:50": {
         atendimento: {
           "BAIRRO CHAPADINHA": "05:50",
+          "ETEC DARCY PEREIRA DE MORAES": "05:52",
           "VILA APOLLO": "05:54",
           "VILA BARTH": "06:00",
           "MERCADO MUNICIPAL": "06:30",
@@ -21,6 +22,7 @@ const Linha03B = {
       "08:10": {
         atendimento: {
           "BAIRRO CHAPADINHA": "08:10",
+          "ETEC DARCY PEREIRA DE MORAES": "08:12",
           "VILA APOLLO": "08:14",
           "VILA BARTH": "08:20",
           "MERCADO MUNICIPAL": "08:32",
@@ -33,6 +35,7 @@ const Linha03B = {
       "10:40": {
         atendimento: {
           "BAIRRO CHAPADINHA": "10:40",
+          "ETEC DARCY PEREIRA DE MORAES": "10:42",
           "VILA APOLLO": "10:44",
           "VILA BARTH": "10:50",
           "MERCADO MUNICIPAL": "11:02",
@@ -45,6 +48,7 @@ const Linha03B = {
       "13:10": {
         atendimento: {
           "BAIRRO CHAPADINHA": "13:10",
+          "ETEC DARCY PEREIRA DE MORAES": "13:12",
           "VILA APOLLO": "13:14",
           "VILA BARTH": "13:20",
           "MERCADO MUNICIPAL": "13:32",
@@ -57,6 +61,7 @@ const Linha03B = {
       "18:10": {
         atendimento: {
           "BAIRRO CHAPADINHA": "18:10",
+          "ETEC DARCY PEREIRA DE MORAES": "18:12",
           "VILA APOLLO": "18:14",
           "VILA BARTH": "18:20",
           "MERCADO MUNICIPAL": "18:32",
@@ -69,6 +74,7 @@ const Linha03B = {
       "15:40": {
         atendimento: {
           "BAIRRO CHAPADINHA": "15:40",
+          "ETEC DARCY PEREIRA DE MORAES": "15:42",
           "VILA APOLLO": "15:44",
           "VILA BARTH": "15:50",
           "MERCADO MUNICIPAL": "16:02",
@@ -80,7 +86,8 @@ const Linha03B = {
       },
       "07:00": {
         atendimento: {
-          "BAIRRO CHAPADINHA": "07:00",
+          "BAIRRO CHAPADINHA": "07:00",          
+          "ETEC DARCY PEREIRA DE MORAES": "07:02",
           "POLICLÍNICA MUNICIPAL": "07:09",
           "CENTRAL PARQUE 4L": "07:10",
           "MERCADO MUNICIPAL": "07:21",
@@ -93,7 +100,8 @@ const Linha03B = {
       },
       "09:25": {
         atendimento: {
-          "BAIRRO CHAPADINHA": "09:25",
+          "BAIRRO CHAPADINHA": "09:25",          
+          "ETEC DARCY PEREIRA DE MORAES": "09:27",
           "POLICLÍNICA MUNICIPAL": "09:34",
           "CENTRAL PARQUE 4L": "09:35",
           "MERCADO MUNICIPAL": "09:46",
@@ -106,7 +114,8 @@ const Linha03B = {
       },
       "11:55": {
         atendimento: {
-          "BAIRRO CHAPADINHA": "11:55",
+          "BAIRRO CHAPADINHA": "11:55",          
+          "ETEC DARCY PEREIRA DE MORAES": "11:57",
           "POLICLÍNICA MUNICIPAL": "12:04",
           "CENTRAL PARQUE 4L": "12:05",
           "MERCADO MUNICIPAL": "12:16",
@@ -120,7 +129,8 @@ const Linha03B = {
       "14:25": {
         atendimento: {
           "BAIRRO CHAPADINHA": "14:25",
-          "POLICLÍNICA MUNICIPAL": "14:34",
+          "ETEC DARCY PEREIRA DE MORAES": "14:27",
+          "POLICLÍNICA MUNICIPAL": "14:34",          
           "CENTRAL PARQUE 4L": "14:35",
           "MERCADO MUNICIPAL": "14:46",
           "RODOVIÁRIA": "14:57",
@@ -133,7 +143,8 @@ const Linha03B = {
       "16:55": {
         atendimento: {
           "BAIRRO CHAPADINHA": "16:55",
-          "POLICLÍNICA MUNICIPAL": "17:04",
+          "ETEC DARCY PEREIRA DE MORAES": "16:57",
+          "POLICLÍNICA MUNICIPAL": "17:04",          
           "CENTRAL PARQUE 4L": "17:05",
           "MERCADO MUNICIPAL": "17:16",
           "RODOVIÁRIA": "17:27",
@@ -146,6 +157,7 @@ const Linha03B = {
       "19:13": {
         atendimento: {
           "BAIRRO CHAPADINHA": "19:13",
+          "ETEC DARCY PEREIRA DE MORAES": "19:15",
           "CENTRAL PARQUE 4L": "19:22",
           "MERCADO MUNICIPAL": "19:34",
           "RODOVIÁRIA": "19:45",
@@ -185,6 +197,7 @@ const Linha03B = {
       "05:50": {
         atendimento: {
           "BAIRRO CHAPADINHA": "05:50",
+          "ETEC DARCY PEREIRA DE MORAES": "05:52",
           "VILA APOLLO": "05:54",
           "VILA BARTH": "06:00",
           "MERCADO MUNICIPAL": "06:30",
@@ -197,6 +210,7 @@ const Linha03B = {
       "08:10": {
         atendimento: {
           "BAIRRO CHAPADINHA": "08:10",
+          "ETEC DARCY PEREIRA DE MORAES": "08:12",
           "VILA APOLLO": "08:14",
           "VILA BARTH": "08:20",
           "MERCADO MUNICIPAL": "08:32",
@@ -209,6 +223,7 @@ const Linha03B = {
       "10:40": {
         atendimento: {
           "BAIRRO CHAPADINHA": "10:40",
+          "ETEC DARCY PEREIRA DE MORAES": "10:42",
           "VILA APOLLO": "10:44",
           "VILA BARTH": "10:50",
           "MERCADO MUNICIPAL": "11:02",
@@ -221,6 +236,7 @@ const Linha03B = {
       "13:10": {
         atendimento: {
           "BAIRRO CHAPADINHA": "13:10",
+          "ETEC DARCY PEREIRA DE MORAES": "13:12",
           "VILA APOLLO": "13:14",
           "VILA BARTH": "13:20",
           "MERCADO MUNICIPAL": "13:32",
@@ -233,6 +249,7 @@ const Linha03B = {
       "18:10": {
         atendimento: {
           "BAIRRO CHAPADINHA": "18:10",
+          "ETEC DARCY PEREIRA DE MORAES": "18:12",
           "VILA APOLLO": "18:14",
           "VILA BARTH": "18:20",
           "MERCADO MUNICIPAL": "18:32",
@@ -245,6 +262,7 @@ const Linha03B = {
       "15:40": {
         atendimento: {
           "BAIRRO CHAPADINHA": "15:40",
+          "ETEC DARCY PEREIRA DE MORAES": "15:42",
           "VILA APOLLO": "15:44",
           "VILA BARTH": "15:50",
           "MERCADO MUNICIPAL": "16:02",
@@ -256,7 +274,8 @@ const Linha03B = {
       },
       "07:00": {
         atendimento: {
-          "BAIRRO CHAPADINHA": "07:00",
+          "BAIRRO CHAPADINHA": "07:00",          
+          "ETEC DARCY PEREIRA DE MORAES": "07:02",
           "POLICLÍNICA MUNICIPAL": "07:09",
           "CENTRAL PARQUE 4L": "07:10",
           "MERCADO MUNICIPAL": "07:21",
@@ -270,6 +289,7 @@ const Linha03B = {
       "09:25": {
         atendimento: {
           "BAIRRO CHAPADINHA": "09:25",
+          "ETEC DARCY PEREIRA DE MORAES": "09:27",
           "POLICLÍNICA MUNICIPAL": "09:34",
           "CENTRAL PARQUE 4L": "09:35",
           "MERCADO MUNICIPAL": "09:46",
@@ -283,6 +303,7 @@ const Linha03B = {
       "11:55": {
         atendimento: {
           "BAIRRO CHAPADINHA": "11:55",
+          "ETEC DARCY PEREIRA DE MORAES": "11:57",
           "POLICLÍNICA MUNICIPAL": "12:04",
           "CENTRAL PARQUE 4L": "12:05",
           "MERCADO MUNICIPAL": "12:16",
@@ -296,6 +317,7 @@ const Linha03B = {
       "14:25": {
         atendimento: {
           "BAIRRO CHAPADINHA": "14:25",
+          "ETEC DARCY PEREIRA DE MORAES": "14:27",
           "POLICLÍNICA MUNICIPAL": "14:34",
           "CENTRAL PARQUE 4L": "14:35",
           "MERCADO MUNICIPAL": "14:46",
@@ -309,6 +331,7 @@ const Linha03B = {
       "16:55": {
         atendimento: {
           "BAIRRO CHAPADINHA": "16:55",
+          "ETEC DARCY PEREIRA DE MORAES": "16:57",
           "POLICLÍNICA MUNICIPAL": "17:04",
           "CENTRAL PARQUE 4L": "17:05",
           "MERCADO MUNICIPAL": "17:16",
@@ -322,6 +345,7 @@ const Linha03B = {
       "19:13": {
         atendimento: {
           "BAIRRO CHAPADINHA": "19:13",
+          "ETEC DARCY PEREIRA DE MORAES": "19:15",
           "CENTRAL PARQUE 4L": "19:22",
           "MERCADO MUNICIPAL": "19:34",
           "RODOVIÁRIA": "19:45",
@@ -336,6 +360,7 @@ const Linha03B = {
       "06:00": {
         atendimento: {
           "BAIRRO CHAPADINHA": "06:00",
+          "PARQUE ECOLÓGICO REGINA FREIRE": "06:02",
           "VILA APOLLO": "06:04",
           "VILA BARTH": "06:10",
           "MERCADO MUNICIPAL": "06:30",
@@ -348,6 +373,7 @@ const Linha03B = {
       "08:00": {
         atendimento: {
           "BAIRRO CHAPADINHA": "08:00",
+          "PARQUE ECOLÓGICO REGINA FREIRE": "08:02",
           "VILA APOLLO": "08:04",
           "VILA BARTH": "08:10",
           "MERCADO MUNICIPAL": "08:30",
@@ -360,6 +386,7 @@ const Linha03B = {
       "13:00": {
         atendimento: {
           "BAIRRO CHAPADINHA": "13:00",
+          "PARQUE ECOLÓGICO REGINA FREIRE": "13:02",
           "VILA APOLLO": "13:04",
           "VILA BARTH": "13:10",
           "MERCADO MUNICIPAL": "13:30",
@@ -372,6 +399,7 @@ const Linha03B = {
       "18:00": {
         atendimento: {
           "BAIRRO CHAPADINHA": "18:00",
+          "PARQUE ECOLÓGICO REGINA FREIRE": "18:02",
           "VILA APOLLO": "18:04",
           "VILA BARTH": "18:10",
           "MERCADO MUNICIPAL": "18:30",
@@ -384,6 +412,7 @@ const Linha03B = {
       "07:00": {
         atendimento: {
           "BAIRRO CHAPADINHA": "07:00",
+          "PARQUE ECOLÓGICO REGINA FREIRE": "07:02",
           "CENTRAL PARQUE 4L": "07:04",
           "MERCADO MUNICIPAL": "07:28",
           "RODOVIÁRIA": "07:39",
@@ -396,6 +425,7 @@ const Linha03B = {
       "09:00": {
         atendimento: {
           "BAIRRO CHAPADINHA": "09:00",
+          "PARQUE ECOLÓGICO REGINA FREIRE": "09:02",
           "CENTRAL PARQUE 4L": "09:04",
           "MERCADO MUNICIPAL": "09:28",
           "RODOVIÁRIA": "09:39",
@@ -405,6 +435,7 @@ const Linha03B = {
       "12:00": {
         atendimento: {
           "BAIRRO CHAPADINHA": "12:00",
+          "PARQUE ECOLÓGICO REGINA FREIRE": "12:02",
           "CENTRAL PARQUE 4L": "12:04",
           "MERCADO MUNICIPAL": "12:28",
           "RODOVIÁRIA": "12:39",
@@ -417,6 +448,7 @@ const Linha03B = {
       "14:00": {
         atendimento: {
           "BAIRRO CHAPADINHA": "14:00",
+          "PARQUE ECOLÓGICO REGINA FREIRE": "14:02",
           "CENTRAL PARQUE 4L": "14:04",
           "MERCADO MUNICIPAL": "14:28",
           "RODOVIÁRIA": "14:39",
@@ -426,6 +458,7 @@ const Linha03B = {
       "17:00": {
         atendimento: {
           "BAIRRO CHAPADINHA": "17:00",
+          "PARQUE ECOLÓGICO REGINA FREIRE": "17:02",
           "CENTRAL PARQUE 4L": "17:04",
           "MERCADO MUNICIPAL": "17:28",
           "RODOVIÁRIA": "17:39",

@@ -9,6 +9,8 @@ const Linha19B = {
             "18:10": {
                 "atendimento": {
                     "BAIRRO CHAPADINHA": "18:10",
+                    "ETEC DARCY PEREIRA DE MORAES": "18:12",
+                    "POLICLÍNICA MUNICIPAL": "18:16",
                     "CENTRAL PARQUE 4L": "18:17",
                     "RUA QUINTINO BOCAIUVA": "18:20",
                     "MERCADO MUNICIPAL": "18:25",

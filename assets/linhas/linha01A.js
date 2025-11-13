@@ -18,7 +18,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "06:57",
           "VILA MAZZEI": "06:58",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "06:59",
-        }, servico: 'Bairro → Centro → Bairro',
+        }, servico: 'BAIRRO → CENTRO → BAIRRO',
       },
       "07:00": {
         atendimento: {
@@ -32,7 +32,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "07:57",
           "VILA MAZZEI": "07:58",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "08:05",
-        }, servico: 'Bairro → Centro → Bairro',
+        }, servico: 'BAIRRO → CENTRO → BAIRRO',
       },
       "08:10": {
         atendimento: {
@@ -46,7 +46,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "09:07",
           "VILA MAZZEI": "09:08",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "09:15",
-        }, servico: 'Bairro → Centro → Bairro',
+        }, servico: 'BAIRRO → CENTRO → BAIRRO',
       },
       "09:25": {
         atendimento: {
@@ -60,7 +60,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "10:22",
           "VILA MAZZEI": "10:23",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "10:30",
-        }, servico: 'Bairro → Centro → Bairro',
+        }, servico: 'BAIRRO → CENTRO → BAIRRO',
       },
       "10:40": {
         atendimento: {
@@ -74,7 +74,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "11:37",
           "VILA MAZZEI": "11:38",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "11:45",
-        }, servico: 'Bairro → Centro → Bairro',
+        }, servico: 'BAIRRO → CENTRO → BAIRRO',
       },
       "11:55": {
         atendimento: {
@@ -88,7 +88,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "12:52",
           "VILA MAZZEI": "12:53",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "13:00",
-        }, servico: 'Bairro → Centro → Bairro',
+        }, servico: 'BAIRRO → CENTRO → BAIRRO',
       },
       "13:10": {
         atendimento: {
@@ -102,7 +102,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "14:07",
           "VILA MAZZEI": "14:08",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "14:15",
-        }, servico: 'Bairro → Centro → Bairro',
+        }, servico: 'BAIRRO → CENTRO → BAIRRO',
       },
       "14:25": {
         atendimento: {
@@ -116,7 +116,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "15:22",
           "VILA MAZZEI": "15:23",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "15:30",
-        }, servico: 'Bairro → Centro → Bairro',
+        }, servico: 'BAIRRO → CENTRO → BAIRRO',
       },
       "15:40": {
         atendimento: {
@@ -130,7 +130,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "16:37",
           "VILA MAZZEI": "16:38",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "16:45",
-        }, servico: 'Bairro → Centro → Bairro',
+        }, servico: 'BAIRRO → CENTRO → BAIRRO',
       },
       "16:55": {
         atendimento: {
@@ -144,7 +144,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "17:52",
           "VILA MAZZEI": "17:53",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "18:00",
-        }, servico: 'Bairro → Centro → Bairro',
+        }, servico: 'BAIRRO → CENTRO → BAIRRO',
       },
       "18:10": {
         atendimento: {
@@ -158,7 +158,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "19:07",
           "VILA MAZZEI": "19:08",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "19:10",
-        }, servico: 'Bairro → Centro → Bairro',
+        }, servico: 'BAIRRO → CENTRO → BAIRRO',
       },
       "19:10": {
         atendimento: {
@@ -172,7 +172,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "20:14",
           "VILA MAZZEI": "20:15",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "20:20",
-        }, servico: 'Bairro → Centro → Bairro',
+        }, servico: 'BAIRRO → CENTRO → BAIRRO',
       },
       "21:30": {
         atendimento: {
@@ -214,7 +214,7 @@ const Linha01A = {
           "VILA RIO BRANCO": "10:34",
           "VILA REGINA": "10:46",
           "RESIDÊNCIAL NASCENTES": "10:51",
-          "MAZZEI": "10:52",
+          "VILA MAZZEI": "10:52",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "10:55"
         }, trajeto: 'diferenciado', servico: 'Centro → Bairro',
       },
@@ -225,7 +225,7 @@ const Linha01A = {
           "VILA RIO BRANCO": "16:21",
           "VILA REGINA": "16:33",
           "RESIDÊNCIAL NASCENTES": "16:39",
-          "MAZZEI": "16:40",
+          "VILA MAZZEI": "16:40",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "16:43"
         }, trajeto: 'diferenciado', servico: 'Centro → Bairro',
       },
@@ -236,7 +236,7 @@ const Linha01A = {
           "VILA RIO BRANCO": "17:31",
           "VILA REGINA": "17:43",
           "RESIDÊNCIAL NASCENTES": "17:49",
-          "MAZZEI": "17:50",
+          "VILA MAZZEI": "17:50",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "17:53"
         }, trajeto: 'diferenciado', servico: 'Centro → Bairro',
       },
@@ -264,7 +264,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "06:57",
           "VILA MAZZEI": "06:58",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "06:59",
-        }, servico: 'Bairro → Centro → Bairro',
+        }, servico: 'BAIRRO → CENTRO → BAIRRO',
       },
       "07:00": {
         atendimento: {
@@ -278,7 +278,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "07:57",
           "VILA MAZZEI": "07:58",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "08:05",
-        }, servico: 'Bairro → Centro → Bairro',
+        }, servico: 'BAIRRO → CENTRO → BAIRRO',
       },
       "08:10": {
         atendimento: {
@@ -292,7 +292,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "09:07",
           "VILA MAZZEI": "09:08",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "09:15",
-        }, servico: 'Bairro → Centro → Bairro',
+        }, servico: 'BAIRRO → CENTRO → BAIRRO',
       },
       "09:25": {
         atendimento: {
@@ -306,7 +306,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "10:22",
           "VILA MAZZEI": "10:23",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "10:30",
-        }, servico: 'Bairro → Centro → Bairro',
+        }, servico: 'BAIRRO → CENTRO → BAIRRO',
       },
       "10:40": {
         atendimento: {
@@ -320,7 +320,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "11:37",
           "VILA MAZZEI": "11:38",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "11:45",
-        }, servico: 'Bairro → Centro → Bairro',
+        }, servico: 'BAIRRO → CENTRO → BAIRRO',
       },
       "11:55": {
         atendimento: {
@@ -334,7 +334,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "12:52",
           "VILA MAZZEI": "12:53",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "13:00",
-        }, servico: 'Bairro → Centro → Bairro',
+        }, servico: 'BAIRRO → CENTRO → BAIRRO',
       },
       "13:10": {
         atendimento: {
@@ -348,7 +348,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "14:07",
           "VILA MAZZEI": "14:08",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "14:15",
-        }, servico: 'Bairro → Centro → Bairro',
+        }, servico: 'BAIRRO → CENTRO → BAIRRO',
       },
       "14:25": {
         atendimento: {
@@ -362,7 +362,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "15:22",
           "VILA MAZZEI": "15:23",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "15:30",
-        }, servico: 'Bairro → Centro → Bairro',
+        }, servico: 'BAIRRO → CENTRO → BAIRRO',
       },
       "15:40": {
         atendimento: {
@@ -376,7 +376,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "16:37",
           "VILA MAZZEI": "16:38",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "16:45",
-        }, servico: 'Bairro → Centro → Bairro',
+        }, servico: 'BAIRRO → CENTRO → BAIRRO',
       },
       "16:55": {
         atendimento: {
@@ -390,7 +390,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "17:52",
           "VILA MAZZEI": "17:53",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "18:00",
-        }, servico: 'Bairro → Centro → Bairro',
+        }, servico: 'BAIRRO → CENTRO → BAIRRO',
       },
       "18:10": {
         atendimento: {
@@ -404,7 +404,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "19:07",
           "VILA MAZZEI": "19:08",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "19:10",
-        }, servico: 'Bairro → Centro → Bairro',
+        }, servico: 'BAIRRO → CENTRO → BAIRRO',
       },
       "19:10": {
         atendimento: {
@@ -418,7 +418,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "20:14",
           "VILA MAZZEI": "20:15",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "20:20",
-        }, servico: 'Bairro → Centro → Bairro',
+        }, servico: 'BAIRRO → CENTRO → BAIRRO',
       }
     },
     domingo_feriado: {
@@ -434,7 +434,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "06:55",
           "VILA MAZZEI": "06:56",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "07:00",
-        }, servico: 'Bairro → Centro → Bairro',
+        }, servico: 'BAIRRO → CENTRO → BAIRRO',
       },
       "07:00": {
         atendimento: {
@@ -448,7 +448,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "07:55",
           "VILA MAZZEI": "07:56",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "08:00",
-        }, servico: 'Bairro → Centro → Bairro',
+        }, servico: 'BAIRRO → CENTRO → BAIRRO',
       },
       "08:00": {
         atendimento: {
@@ -462,7 +462,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "08:55",
           "VILA MAZZEI": "08:56",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "09:00",
-        }, servico: 'Bairro → Centro → Bairro',
+        }, servico: 'BAIRRO → CENTRO → BAIRRO',
       },
       "12:00": {
         atendimento: {
@@ -476,7 +476,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "12:55",
           "VILA MAZZEI": "12:56",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "13:00",
-        }, servico: 'Bairro → Centro → Bairro',
+        }, servico: 'BAIRRO → CENTRO → BAIRRO',
       },
       "13:00": {
         atendimento: {
@@ -490,7 +490,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "13:55",
           "VILA MAZZEI": "13:56",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "14:00",
-        }, servico: 'Bairro → Centro → Bairro',
+        }, servico: 'BAIRRO → CENTRO → BAIRRO',
       },
       "17:00": {
         atendimento: {
@@ -504,7 +504,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "17:55",
           "VILA MAZZEI": "17:56",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "18:00",
-        }, servico: 'Bairro → Centro → Bairro',
+        }, servico: 'BAIRRO → CENTRO → BAIRRO',
       },
       "18:00": {
         atendimento: {
@@ -518,7 +518,7 @@ const Linha01A = {
           "RESIDÊNCIAL NASCENTES": "18:55",
           "VILA MAZZEI": "18:56",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "19:00",
-        }, servico: 'Bairro → Centro → Bairro',
+        }, servico: 'BAIRRO → CENTRO → BAIRRO',
       },
       "09:00": {
         atendimento: {
@@ -526,7 +526,7 @@ const Linha01A = {
           "PREFEITURA": "09:07",
           "VILA SÃO JOÃO": "09:12",
           "RODOVIÁRIA": "09:20",
-        }, trajeto: 'diferenciado', servico: 'Bairro → Centro',
+        }, trajeto: 'diferenciado', servico: 'BAIRRO → CENTRO',
       },
       "14:00": {
         atendimento: {
@@ -534,7 +534,7 @@ const Linha01A = {
           "PREFEITURA": "14:07",
           "VILA SÃO JOÃO": "14:12",
           "RODOVIÁRIA": "14:20",
-        }, trajeto: 'diferenciado', servico: 'Bairro → Centro',
+        }, trajeto: 'diferenciado', servico: 'BAIRRO → CENTRO',
       },
     },
   },

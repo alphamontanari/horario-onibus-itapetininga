@@ -1,7 +1,7 @@
 const Linha06B = {
     "id": "06B",
     "cod": "Linha06B",
-    "nome": "VILA PIEDADE → JD. PAULISTA",
+    "nome": "VILA PIEDADE → JARDIM PAULISTA",
     "partida": "VILA PIEDADE",
     "chegada": "JD. PAULISTA",
     "horarios": {

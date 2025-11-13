@@ -17,7 +17,7 @@ const Linha09A = {
                     "MERCADO MUNICIPAL": "08:12",
                     "RODOVIÁRIA": "08:22"
                 },
-                servico: 'Bairro → Centro',
+                servico: 'BAIRRO → CENTRO',
                 trajeto: 'diferenciado',
             },
             "11:15": {
@@ -31,7 +31,7 @@ const Linha09A = {
                     "MERCADO MUNICIPAL": "12:08",
                     "RODOVIÁRIA": "12:18"
                 },
-                servico: 'Bairro → Centro',
+                servico: 'BAIRRO → CENTRO',
                 trajeto: 'diferenciado',
             },
             "14:10": {
@@ -44,7 +44,7 @@ const Linha09A = {
                     "MERCADO MUNICIPAL": "15:45",
                     "RODOVIÁRIA": "15:55"
                 },
-                servico: 'Bairro → Centro',
+                servico: 'BAIRRO → CENTRO',
                 trajeto: 'diferenciado',
             },
             "18:30": {
@@ -57,7 +57,7 @@ const Linha09A = {
                     "MERCADO MUNICIPAL": "19:15",
                     "RODOVIÁRIA": "19:25"
                 },
-                servico: 'Bairro → Centro',
+                servico: 'BAIRRO → CENTRO',
                 trajeto: 'diferenciado',
             },
             "21:30": {
