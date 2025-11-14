@@ -179,7 +179,7 @@ const Linha01B = {
                 "atendimento": {
                     "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "07:00",
                     "AV. DR. WALDOMIRO DE CARVALHO": "07:08",
-                    "RIO BRANCO": "07:10",
+                    "VILA RIO BRANCO": "07:10",
                     "MERCADO MUNICIPAL": "07:25",
                     "RODOVIÁRIA": "07:35",
                     "VILA SÃO JOÃO": "07:40",
@@ -190,7 +190,7 @@ const Linha01B = {
                 "atendimento": {
                     "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "08:08",
                     "AV. DR. WALDOMIRO DE CARVALHO": "08:16",
-                    "RIO BRANCO": "08:18",
+                    "VILA RIO BRANCO": "08:18",
                     "MERCADO MUNICIPAL": "08:33",
                     "RODOVIÁRIA": "08:45"
                 }, trajeto: 'diferenciado', servico: 'BAIRRO → CENTRO',
@@ -199,7 +199,7 @@ const Linha01B = {
                 "atendimento": {
                     "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "10:55",
                     "AV. DR. WALDOMIRO DE CARVALHO": "11:03",
-                    "RIO BRANCO": "11:05",
+                    "VILA RIO BRANCO": "11:05",
                     "MERCADO MUNICIPAL": "11:28",
                     "RODOVIÁRIA": "11:40"
                 }, trajeto: 'diferenciado', servico: 'BAIRRO → CENTRO',
@@ -208,7 +208,7 @@ const Linha01B = {
                 "atendimento": {
                     "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "14:42",
                     "AV. DR. WALDOMIRO DE CARVALHO": "14:50",
-                    "RIO BRANCO": "14:52",
+                    "VILA RIO BRANCO": "14:52",
                     "MERCADO MUNICIPAL": "15:00"
                 }, trajeto: 'diferenciado', servico: 'BAIRRO → CENTRO',
             },
@@ -216,7 +216,7 @@ const Linha01B = {
                 "atendimento": {
                     "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "16:40",
                     "AV. DR. WALDOMIRO DE CARVALHO": "16:48",
-                    "RIO BRANCO": "16:50",
+                    "VILA RIO BRANCO": "16:50",
                     "MERCADO MUNICIPAL": "16:55"
                 }, trajeto: 'diferenciado', servico: 'BAIRRO → CENTRO',
             },
@@ -224,7 +224,7 @@ const Linha01B = {
                 "atendimento": {
                     "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "17:50",
                     "AV. DR. WALDOMIRO DE CARVALHO": "17:58",
-                    "RIO BRANCO": "18:00",
+                    "VILA RIO BRANCO": "18:00",
                     "MERCADO MUNICIPAL": "18:05"
                 }, trajeto: 'diferenciado', servico: 'BAIRRO → CENTRO',
             },
