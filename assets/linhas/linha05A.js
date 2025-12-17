@@ -116,7 +116,9 @@ const Linha05A = {
                     "AV. CINCO DE NOVEMBRO" : "21:50",
                     "NASTRI II (BANCÁRIOS)": "22:05",
                     "AV. CINCO DE NOVEMBRO." : "22:15",
-                    "MERCADO MUNICIPAL.": "23:10"
+                    "MERCADO MUNICIPAL.": "22:20",
+					"RODOVIÁRIA": "22:30",
+					"PORTAL DOS PINHEIROS": "22:45"
                 }, trajeto : 'diferenciado'
             }
         },

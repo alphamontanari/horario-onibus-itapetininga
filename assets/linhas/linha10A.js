@@ -127,9 +127,9 @@ const Linha10A = {
                 },
                 servico: 'Distrito → Centro',
             },
-            "19:00": {
+            "18:30": {
                 "atendimento": {
-                    "DISTRITO DO RECHÃ": "19:00",
+                    "DISTRITO DO RECHÃ": "18:30",
                     "DISTRITO DO TUPI (PASSARELA)": "19:15",
                     "JBS FOODS S.A": "19:25",
                     "3M DO BRASIL": "19:30",
