@@ -173,7 +173,7 @@ const Linha01A = {
           "VILA MAZZEI": "20:15",
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "20:20",
         }, servico: 'BAIRRO → CENTRO → BAIRRO',
-      },
+      },/*
       "21:30": {
         atendimento: {
           "MERCADO MUNICIPAL": "21:30",
@@ -184,6 +184,18 @@ const Linha01A = {
           "VILA PRADO ": "22:05",
           "VILA ARRUDA": "22:08",
           "RODOVIÁRIA": "22:15",
+        }, trajeto: 'diferenciado', servico: 'Centro → Bairro',
+      },*/
+      "21:45": {
+        atendimento: {
+          "MERCADO MUNICIPAL": "21:45",
+          "RODOVIÁRIA.": "21:55",
+          "VILA SÃO JOÃO": "22:05",
+          "PREFEITURA": "22:10",
+          "LAGO DOS IPÊS ": "22:15",
+          "VILA PRADO ": "22:20",
+          "VILA ARRUDA": "22:23",
+          "RODOVIÁRIA": "22:30",
         }, trajeto: 'diferenciado', servico: 'Centro → Bairro',
       },
       "23:10": {
