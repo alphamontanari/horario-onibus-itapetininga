@@ -15,7 +15,7 @@ const Linha08B = {
                     "RODOVIÁRIA": "08:00",
                     "MERCADO MUNICIPAL": "08:10"
                 }, 
-                servico: 'Bairro → Centro', 
+                servico: 'BAIRRO → CENTRO', 
                 trajeto : 'diferenciado',     
             }
         }

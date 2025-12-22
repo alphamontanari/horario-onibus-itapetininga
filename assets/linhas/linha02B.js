@@ -1,9 +1,9 @@
 const Linha02B = {
   "id": "02B",
   "cod": "Linha02B",
-  "nome": "BAIRRO TABOÃOZINHO → JD. BELA VISTA",
+  "nome": "BAIRRO TABOÃOZINHO → JARDIM BELA VISTA",
   "partida": "BAIRRO TABOÃOZINHO",
-  "chegada": "JD. JD. BELA VISTA",
+  "chegada": "JD. BELA VISTA",
   "horarios": {
     "dia_de_semana": {
       "05:50": {
@@ -44,7 +44,7 @@ const Linha02B = {
           "RODOVIÁRIA": "08:26",
           "MERCADO MUNICIPAL": "08:36",
           "AV. CINCO DE NOVEMBRO": "08:52",
-          "VILA CAROLINA": "05:55",
+          "VILA CAROLINA": "08:55",
           "RESIDENCIAL CAMBUÍ": "09:00",
           "JD. BELA VISTA": "09:03"
         }
@@ -219,7 +219,7 @@ const Linha02B = {
           "RODOVIÁRIA": "08:26",
           "MERCADO MUNICIPAL": "08:36",
           "AV. CINCO DE NOVEMBRO": "08:52",
-          "VILA CAROLINA": "05:55",
+          "VILA CAROLINA": "08:55",
           "RESIDENCIAL CAMBUÍ": "09:00",
           "JD. BELA VISTA": "09:03"
         }
@@ -331,7 +331,7 @@ const Linha02B = {
           "RESIDENCIAL CAMBUÍ": "20:15",
           "JD. BELA VISTA": "20:18"
         }
-      },
+      }
     },
     "domingo_feriado": {
       "06:00": {

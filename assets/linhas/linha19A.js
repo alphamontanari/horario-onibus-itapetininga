@@ -18,6 +18,7 @@ const Linha19A = {
                     "PRAÇA DA BÍBLIA": "06:42",
                     "RUA DR. JÚLIO PRESTES": "06:45",
                     "CENTRAL PARQUE 4L": "06:50",
+                    "ETEC DARCY PEREIRA DE MORAES": "06:53",
                     "BAIRRO CHAPADINHA": "06:55"
                 }
             }

@@ -14,8 +14,7 @@ const Linha12B = {
                     "DISTRITO DA CONCEIÇÃO": "11:25",
                     "DISTRITO DA VARGINHA": "11:45",
                     "BAIRRO SÃO ROQUE": "11:50",
-                    "BAIRRO DO RETIRO": "12:15",
-                    "BAIRRO DA PESCARIA": "12:35"
+                    "BAIRRO DO RETIRO": "12:40"
                 }, servico: 'Centro → Distrito'
             },
             "14:25": {

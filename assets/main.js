@@ -672,6 +672,7 @@ function splitHoursByNight(periodObj) {
  * dentro do subconjunto de horas escolhido (subsetHoras).
  * Se não achar, cai para a primeira hora do período inteiro.
  */
+/*
 function getOrderedStopsForSubset(periodObj, subsetHoras) {
   const horas = (subsetHoras && subsetHoras.length) ? subsetHoras.slice() : Object.keys(periodObj || {});
   if (!horas.length) return [];
@@ -681,12 +682,133 @@ function getOrderedStopsForSubset(periodObj, subsetHoras) {
     return Object.keys(primeiro.atendimento);
   }
   return [];
+}*/
+
+function normalizeStopKey(name) {
+  return String(name || "")
+    .trim()          // tira espaços extras
+    .replace(/\.$/, ""); // remove ponto final solto, ex: "MERCADO MUNICIPAL."
 }
+/*
+function getOrderedStopsForSubset(periodObj, subsetHoras) {
+  const horas = (subsetHoras && subsetHoras.length)
+    ? subsetHoras.slice()
+    : Object.keys(periodObj || {});
+
+  horas.sort(naturalTimeSort);
+
+  const seen = new Set();
+  const stops = [];
+
+  for (const h of horas) {
+    const at = periodObj[h]?.atendimento || {};
+    for (const rawName of Object.keys(at)) {
+      const norm = normalizeStopKey(rawName);
+      if (!seen.has(norm)) {
+        seen.add(norm);
+        stops.push(norm);
+      }
+    }
+  }
+
+  return stops;
+}
+  */
+
+function getOrderedStopsForSubset(periodObj, subsetHoras) {
+  const horas = (subsetHoras && subsetHoras.length)
+    ? subsetHoras.slice()
+    : Object.keys(periodObj || {});
+
+  if (!horas.length) return [];
+
+  horas.sort(naturalTimeSort);
+
+  const ordered = [];      // lista final de pontos (normalizados)
+  const seen = new Set();  // para não repetir
+
+  const addStopAtEndIfNew = (rawName) => {
+    const norm = normalizeStopKey(rawName);
+    if (!seen.has(norm)) {
+      seen.add(norm);
+      ordered.push(norm);
+    }
+  };
+
+  // 1) Base: usa o primeiro horário (normalmente o mais “completo”) como espinha dorsal
+  const firstAt = periodObj[horas[0]]?.atendimento || {};
+  for (const rawName of Object.keys(firstAt)) {
+    addStopAtEndIfNew(rawName);
+  }
+
+  // 2) Percorre os outros horários para inserir pontos novos na posição correta
+  for (const h of horas) {
+    const at = periodObj[h]?.atendimento || {};
+
+    // Mapa horário -> minuto para este horário específico
+    const timeMap = {};
+    for (const [rawName, horaStr] of Object.entries(at)) {
+      const norm = normalizeStopKey(rawName);
+      timeMap[norm] = timeToMinutes(horaStr);
+    }
+
+    for (const [rawName, horaStr] of Object.entries(at)) {
+      const norm = normalizeStopKey(rawName);
+      if (seen.has(norm)) continue; // já está na lista
+
+      const tNew = timeToMinutes(horaStr);
+
+      let bestIndex = -1;
+      let bestTime = -Infinity;
+
+      let fallbackBeforeIndex = -1;
+      let fallbackAfterTime = Infinity;
+
+      // Procura, dentro dos pontos já ordenados, quem aparece antes/depois desse novo ponto
+      ordered.forEach((sNorm, idx) => {
+        const t = timeMap[sNorm];
+        if (t == null) return; // esse ponto não existe nesta viagem
+
+        if (t <= tNew && t > bestTime) {
+          // melhor “antecessor” conhecido
+          bestTime = t;
+          bestIndex = idx;
+        }
+
+        if (t >= tNew && t < fallbackAfterTime) {
+          // melhor “sucessor” conhecido
+          fallbackAfterTime = t;
+          fallbackBeforeIndex = idx;
+        }
+      });
+
+      let insertIndex;
+      if (bestIndex !== -1) {
+        // insere logo depois do antecessor
+        insertIndex = bestIndex + 1;
+      } else if (fallbackBeforeIndex !== -1) {
+        // não tem antecessor, mas tem sucessor → entra antes dele
+        insertIndex = fallbackBeforeIndex;
+      } else {
+        // não deu pra comparar com ninguém (caso bem extremo) → vai pro final
+        insertIndex = ordered.length;
+      }
+
+      ordered.splice(insertIndex, 0, norm);
+      seen.add(norm);
+    }
+  }
+
+  return ordered;
+}
+
+
 
 /**
  * Monta matriz para a tabela com base em um subconjunto de horas (subsetHoras).
  * O itinerário (stops) é inferido a partir do primeiro horário desse subconjunto.
  */
+/*
 function buildTableMatrix(periodObj, subsetHoras) {
   const horas = (subsetHoras || []).slice().sort(naturalTimeSort);
   const stops = getOrderedStopsForSubset(periodObj, horas);
@@ -703,6 +825,69 @@ function buildTableMatrix(periodObj, subsetHoras) {
 
   return { columns, body, horas, stops };
 }
+  
+
+function buildTableMatrix(periodObj, subsetHoras) {
+  const horas = (subsetHoras || []).slice().sort(naturalTimeSort);
+  const stops = getOrderedStopsForSubset(periodObj, horas);
+
+  const columns = ["Locais de atendimento", ...horas];
+  const body = stops.map((stopNorm) => {
+    const row = [stopNorm]; // pode exibir o normalizado; se quiser o original, dá pra mapear depois
+
+    for (const h of horas) {
+      const at = periodObj[h]?.atendimento || {};
+      let cel = "-";
+
+      for (const rawName of Object.keys(at)) {
+        const norm = normalizeStopKey(rawName);
+        if (norm === stopNorm) {
+          cel = at[rawName]; // valor original
+          break;
+        }
+      }
+
+      row.push(cel || "-");
+    }
+
+    return row;
+  });
+
+  return { columns, body, horas, stops };
+}
+*/
+
+function buildTableMatrix(periodObj, subsetHoras) {
+  const horas = (subsetHoras || []).slice().sort(naturalTimeSort);
+  const stops = getOrderedStopsForSubset(periodObj, horas);
+
+  const columns = ["Locais de atendimento", ...horas];
+
+  const body = stops.map((stopNorm) => {
+    const row = [stopNorm];
+
+    for (const h of horas) {
+      const at = periodObj[h]?.atendimento || {};
+      let cel = "-";
+
+      for (const [rawName, horaStr] of Object.entries(at)) {
+        const norm = normalizeStopKey(rawName);
+        if (norm === stopNorm) {
+          cel = horaStr;
+          break;
+        }
+      }
+
+      row.push(cel || "-");
+    }
+
+    return row;
+  });
+
+  return { columns, body, horas, stops };
+}
+
+
 
 /* ====== PDF: Gerador ====== */
 async function generateLineSchedulePDF(linha) {

@@ -321,7 +321,7 @@ h1 {
 
 .btn-pdf {
   position: fixed;
-  bottom: 20px;
+  top: 10px;
   right: 20px;
   background: var(--brand);
   color: #fff;
