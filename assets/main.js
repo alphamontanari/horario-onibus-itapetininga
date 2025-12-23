@@ -595,6 +595,9 @@ function renderNivel3() {
         `).join("")}
       </ol>
     </div>
+    <div style="font-size:0.85rem; color:#555; margin-top:1rem;">
+    <p>Os horários de passagens são estimados com base na distância do trajeto, nas condições de tráfego e no volume médio de passageiros, podendo variar conforme o dia da semana e o horário da operação.</p>
+    </div>
   `;
   app.appendChild(card);
 }
