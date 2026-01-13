@@ -10,6 +10,7 @@ const Linha06B = {
                 "atendimento": {
                     "VILA PIEDADE": "06:10",
                     "VILA SANTANA": "06:17",
+                    "RESIDENCIAL COPACABANA": "06:23",
                     "JD. SANTA INÊS": "06:25",
                     "RUA DR. JÚLIO PRESTES": "06:34",
                     "RUA QUINTINO BOCAIÚVA": "06:37",
@@ -22,6 +23,7 @@ const Linha06B = {
                 "atendimento": {
                     "VILA PIEDADE": "07:35",
                     "VILA SANTANA": "07:42",
+                    "RESIDENCIAL COPACABANA": "07:48",
                     "JD. SANTA INÊS": "07:50",
                     "RUA DR. JÚLIO PRESTES": "07:59",
                     "RUA QUINTINO BOCAIÚVA": "08:00",
@@ -34,6 +36,7 @@ const Linha06B = {
                 "atendimento": {
                     "VILA PIEDADE": "08:55",
                     "VILA SANTANA": "09:02",
+                    "RESIDENCIAL COPACABANA": "09:08",
                     "JD. SANTA INÊS": "09:10",
                     "RUA DR. JÚLIO PRESTES": "09:19",
                     "RUA QUINTINO BOCAIÚVA": "09:20",
@@ -46,6 +49,7 @@ const Linha06B = {
                 "atendimento": {
                     "VILA PIEDADE": "10:15",
                     "VILA SANTANA": "10:22",
+                    "RESIDENCIAL COPACABANA": "10:28",
                     "JD. SANTA INÊS": "10:30",
                     "RUA DR. JÚLIO PRESTES": "10:39",
                     "RUA QUINTINO BOCAIÚVA": "10:40",
@@ -58,6 +62,7 @@ const Linha06B = {
                 "atendimento": {
                     "VILA PIEDADE": "11:35",
                     "VILA SANTANA": "11:42",
+                    "RESIDENCIAL COPACABANA": "11:48",
                     "JD. SANTA INÊS": "11:50",
                     "RUA DR. JÚLIO PRESTES": "11:59",
                     "RUA QUINTINO BOCAIÚVA": "12:00",
@@ -70,6 +75,7 @@ const Linha06B = {
                 "atendimento": {
                     "VILA PIEDADE": "12:58",
                     "VILA SANTANA": "13:05",
+                    "RESIDENCIAL COPACABANA": "13:10",
                     "JD. SANTA INÊS": "13:13",
                     "RUA DR. JÚLIO PRESTES": "13:22",
                     "RUA QUINTINO BOCAIÚVA": "13:23",
@@ -82,6 +88,7 @@ const Linha06B = {
                 "atendimento": {
                     "VILA PIEDADE": "14:26",
                     "VILA SANTANA": "14:33",
+                    "RESIDENCIAL COPACABANA": "14:38",
                     "JD. SANTA INÊS": "14:41",
                     "RUA DR. JÚLIO PRESTES": "14:50",
                     "RUA QUINTINO BOCAIÚVA": "14:51",
@@ -94,6 +101,7 @@ const Linha06B = {
                 "atendimento": {
                     "VILA PIEDADE": "16:19",
                     "VILA SANTANA": "16:26",
+                    "RESIDENCIAL COPACABANA": "16:30",
                     "JD. SANTA INÊS": "16:34",
                     "RUA DR. JÚLIO PRESTES": "16:43",
                     "RUA QUINTINO BOCAIÚVA": "16:44",
@@ -106,6 +114,7 @@ const Linha06B = {
                 "atendimento": {
                     "VILA PIEDADE": "17:42",
                     "VILA SANTANA": "17:49",
+                    "RESIDENCIAL COPACABANA": "17:54",
                     "JD. SANTA INÊS": "17:57",
                     "RUA DR. JÚLIO PRESTES": "18:06",
                     "RUA QUINTINO BOCAIÚVA": "18:07",
@@ -118,6 +127,7 @@ const Linha06B = {
                 "atendimento": {
                     "VILA PIEDADE": "19:00",
                     "VILA SANTANA": "19:07",
+                    "RESIDENCIAL COPACABANA": "19:12",
                     "JD. SANTA INÊS": "19:15",
                     "RUA DR. JÚLIO PRESTES": "19:24",
                     "RUA QUINTINO BOCAIÚVA": "19:25",
@@ -132,6 +142,7 @@ const Linha06B = {
                 "atendimento": {
                     "VILA PIEDADE": "06:20",
                     "VILA SANTANA": "06:27",
+                    "RESIDENCIAL COPACABANA": "06:32",
                     "JD. SANTA INÊS": "06:35",
                     "RUA DR. JÚLIO PRESTES": "06:44",
                     "RUA QUINTINO BOCAIÚVA": "06:45",
@@ -144,6 +155,7 @@ const Linha06B = {
                 "atendimento": {
                     "VILA PIEDADE": "07:40",
                     "VILA SANTANA": "07:47",
+                    "RESIDENCIAL COPACABANA": "07:52",
                     "JD. SANTA INÊS": "07:55",
                     "RUA DR. JÚLIO PRESTES": "08:04",
                     "RUA QUINTINO BOCAIÚVA": "08:05",
@@ -156,6 +168,7 @@ const Linha06B = {
                 "atendimento": {
                     "VILA PIEDADE": "11:50",
                     "VILA SANTANA": "11:57",
+                    "RESIDENCIAL COPACABANA": "12:02",
                     "JD. SANTA INÊS": "12:05",
                     "RUA DR. JÚLIO PRESTES": "12:14",
                     "RUA QUINTINO BOCAIÚVA": "12:15",
@@ -168,6 +181,7 @@ const Linha06B = {
                 "atendimento": {
                     "VILA PIEDADE": "13:10",
                     "VILA SANTANA": "13:17",
+                    "RESIDENCIAL COPACABANA": "13:22",
                     "JD. SANTA INÊS": "13:25",
                     "RUA DR. JÚLIO PRESTES": "13:34",
                     "RUA QUINTINO BOCAIÚVA": "13:35",
@@ -180,6 +194,7 @@ const Linha06B = {
                 "atendimento": {
                     "VILA PIEDADE": "17:00",
                     "VILA SANTANA": "17:07",
+                    "RESIDENCIAL COPACABANA": "17:12",
                     "JD. SANTA INÊS": "17:15",
                     "RUA DR. JÚLIO PRESTES": "17:24",
                     "RUA QUINTINO BOCAIÚVA": "17:25",
@@ -192,6 +207,7 @@ const Linha06B = {
                 "atendimento": {
                     "VILA PIEDADE": "18:20",
                     "VILA SANTANA": "18:27",
+                    "RESIDENCIAL COPACABANA": "18:32",
                     "JD. SANTA INÊS": "18:35",
                     "RUA DR. JÚLIO PRESTES": "18:44",
                     "RUA QUINTINO BOCAIÚVA": "18:45",
@@ -206,6 +222,7 @@ const Linha06B = {
                 "atendimento": {
                     "VILA PIEDADE": "08:10",
                     "VILA SANTANA": "08:17",
+                    "RESIDENCIAL COPACABANA": "08:22",
                     "JD. SANTA INÊS": "08:25",
                     "RUA DR. JÚLIO PRESTES": "08:34",
                     "RUA QUINTINO BOCAIÚVA": "08:35",
@@ -216,6 +233,7 @@ const Linha06B = {
                 "atendimento": {
                     "VILA PIEDADE": "12:00",
                     "VILA SANTANA": "12:07",
+                    "RESIDENCIAL COPACABANA": "12:12",
                     "JD. SANTA INÊS": "12:15",
                     "RUA DR. JÚLIO PRESTES": "12:24",
                     "RUA QUINTINO BOCAIÚVA": "12:25",
