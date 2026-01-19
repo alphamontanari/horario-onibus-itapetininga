@@ -18,7 +18,7 @@ const Linha10A = {
                     "MERCADO MUNICIPAL": "06:20",
                     "RODOVIÁRIA (CORREDOR)": "06:30"
                 },
-                servico: 'Distrito → Centro',  trajeto : 'diferenciado'
+                servico: 'Distrito → Centro', trajeto: 'diferenciado'
 
             },
             "07:20": {
@@ -33,7 +33,7 @@ const Linha10A = {
                     "MERCADO MUNICIPAL": "08:10",
                     "RODOVIÁRIA (CORREDOR)": "08:20"
                 },
-                servico: 'Distrito → Centro',  trajeto : 'diferenciado'
+                servico: 'Distrito → Centro', trajeto: 'diferenciado'
             },
             "08:40": {
                 "atendimento": {
@@ -73,7 +73,7 @@ const Linha10A = {
                     "MERCADO MUNICIPAL": "12:55",
                     "RODOVIÁRIA (CORREDOR)": "13:05"
                 },
-                servico: 'Distrito → Centro',  trajeto : 'diferenciado'
+                servico: 'Distrito → Centro', trajeto: 'diferenciado'
             },
             "13:10": {
                 "atendimento": {
@@ -114,16 +114,16 @@ const Linha10A = {
                 },
                 servico: 'Distrito → Centro',
             },
-            "17:40": {
+            "17:50": {
                 "atendimento": {
-                    "DISTRITO DO RECHÃ": "17:40",
-                    "DISTRITO DO TUPI (PASSARELA)": "17:55",
-                    "JBS FOODS S.A": "18:00",
-                    "3M DO BRASIL": "18:05",
-                    "VILA SOTTEMO (PASSARELA SOUBHI LAWAND)": "18:10",
-                    "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "18:15",
-                    "MERCADO MUNICIPAL": "18:25",
-                    "RODOVIÁRIA (CORREDOR)": "18:30"
+                    "DISTRITO DO RECHÃ": "17:50",
+                    "DISTRITO DO TUPI (PASSARELA)": "18:05",
+                    "JBS FOODS S.A": "18:10",
+                    "3M DO BRASIL": "18:15",
+                    "VILA SOTTEMO (PASSARELA SOUBHI LAWAND)": "18:20",
+                    "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "18:25",
+                    "MERCADO MUNICIPAL": "18:35",
+                    "RODOVIÁRIA (CORREDOR)": "18:40"
                 },
                 servico: 'Distrito → Centro',
             },
@@ -246,16 +246,16 @@ const Linha10A = {
                 },
                 servico: 'Distrito → Centro',
             },
-            "17:40": {
+            "17:50": {
                 "atendimento": {
-                    "DISTRITO DO RECHÃ": "17:40",
-                    "DISTRITO DO TUPI (PASSARELA)": "17:50",
-                    "JBS FOODS S.A": "18:00",
-                    "3M DO BRASIL": "18:05",
-                    "VILA SOTTEMO (PASSARELA SOUBHI LAWAND)": "18:10",
-                    "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "18:15",
-                    "MERCADO MUNICIPAL": "18:20",
-                    "RODOVIÁRIA (CORREDOR)": "18:30"
+                    "DISTRITO DO RECHÃ": "17:50",
+                    "DISTRITO DO TUPI (PASSARELA)": "18:05",
+                    "JBS FOODS S.A": "18:10",
+                    "3M DO BRASIL": "18:15",
+                    "VILA SOTTEMO (PASSARELA SOUBHI LAWAND)": "18:20",
+                    "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "18:25",
+                    "MERCADO MUNICIPAL": "18:35",
+                    "RODOVIÁRIA (CORREDOR)": "18:40"
                 },
                 servico: 'Distrito → Centro',
             },
