@@ -192,7 +192,7 @@ const Linha10B = {
           "3M DO BRASIL": "23:33",
           "JBS FOODS S.A": "23:40",
           "DISTRITO DO TUPI": "23:45",
-          "DISTRITO DO RECHÃ": "00:10",
+          "DISTRITO DO RECHÃ": "24:10",
         },
         servico: "Centro → Distrito",
       },
