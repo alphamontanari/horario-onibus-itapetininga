@@ -6,7 +6,7 @@ const Linha06B = {
     "chegada": "JD. PAULISTA",
     "horarios": {
         "dia_de_semana": {
-            "06:10": {
+            "06:05": {
                 "atendimento": {
                     "VILA PIEDADE": "06:05",
                     "VILA SANTANA": "06:12",

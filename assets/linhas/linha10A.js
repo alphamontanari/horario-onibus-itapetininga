@@ -124,9 +124,9 @@ const Linha10A = {
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "18:25",
                     "MERCADO MUNICIPAL": "18:35",
                     "RODOVIÁRIA (CORREDOR)": "18:40",
-                    "UNIFSP -CENTRO UNIVERSITÁRIO SUDOESTE PAULISTA": "18:40",
-                    "CEPROM - CENTRO MUNICIPAL DE EDUCAÇÃO PROFISSIONAL": "18:40",
-                    "FACULDADE ANHANGUERA (ITAPÊ SHOPPING)": "18:40"
+                    "UNIFSP -CENTRO UNIVERSITÁRIO SUDOESTE PAULISTA": "18:45",
+                    "CEPROM - CENTRO MUNICIPAL DE EDUCAÇÃO PROFISSIONAL": "18:50",
+                    "FACULDADE ANHANGUERA (ITAPÊ SHOPPING)": "19:00"
                 },
                 servico: 'Distrito → Centro',
             },
