@@ -123,7 +123,10 @@ const Linha10A = {
                     "VILA SOTTEMO (PASSARELA SOUBHI LAWAND)": "18:20",
                     "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "18:25",
                     "MERCADO MUNICIPAL": "18:35",
-                    "RODOVIÁRIA (CORREDOR)": "18:40"
+                    "RODOVIÁRIA (CORREDOR)": "18:40",
+                    "UNIFSP -CENTRO UNIVERSITÁRIO SUDOESTE PAULISTA": "18:40",
+                    "CEPROM - CENTRO MUNICIPAL DE EDUCAÇÃO PROFISSIONAL": "18:40",
+                    "FACULDADE ANHANGUERA (ITAPÊ SHOPPING)": "18:40"
                 },
                 servico: 'Distrito → Centro',
             },

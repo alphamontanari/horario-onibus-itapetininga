@@ -8,15 +8,15 @@ const Linha06B = {
         "dia_de_semana": {
             "06:10": {
                 "atendimento": {
-                    "VILA PIEDADE": "06:10",
-                    "VILA SANTANA": "06:17",
-                    "RESIDENCIAL COPACABANA": "06:23",
-                    "JD. SANTA INÊS": "06:25",
-                    "RUA DR. JÚLIO PRESTES": "06:34",
-                    "RUA QUINTINO BOCAIÚVA": "06:37",
-                    "MERCADO MUNICIPAL": "06:40",
-                    "RODOVIÁRIA": "06:50",
-                    "JD. PAULISTA": "07:00"
+                    "VILA PIEDADE": "06:05",
+                    "VILA SANTANA": "06:12",
+                    "RESIDENCIAL COPACABANA": "06:18",
+                    "JD. SANTA INÊS": "06:20",
+                    "RUA DR. JÚLIO PRESTES": "06:29",
+                    "RUA QUINTINO BOCAIÚVA": "06:32",
+                    "MERCADO MUNICIPAL": "06:35",
+                    "RODOVIÁRIA": "06:45",
+                    "JD. PAULISTA": "06:55"
                 }
             },
             "07:35": {

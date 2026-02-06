@@ -176,6 +176,26 @@ const Linha10B = {
         },
         servico: "Centro → Distrito",
       },
+      "22:10": {
+        atendimento: {
+          "UNIFSP -CENTRO UNIVERSITÁRIO SUDOESTE PAULISTA": "22:10",
+          "CEPROM - CENTRO MUNICIPAL DE EDUCAÇÃO PROFISSIONAL": "22:20",
+          "FACULDADE ANHANGUERA (ITAPÊ SHOPPING)": "22:30",
+          "RUA DR. VIRGÍLIO DE REZENDE": "22:35",
+          "MERCADO MUNICIPAL (INTEGRAÇÃO DAS LINHAS)": "23:10",
+          "PRAÇA DA BÍBLIA": "23:15",
+          "VILA MÁXIMO": "23:18",
+          "VILA RIO BRANCO": "23:20",
+          "VILA RUBENS": "23:22",
+          "VILA NASTRI I (VIA 5 DE NOVEMBRO)": "23:25",
+          "VILA SOTTEMO (PASSARELA SOUBHI LAWAND)": "23:30",
+          "3M DO BRASIL": "23:33",
+          "JBS FOODS S.A": "23:40",
+          "DISTRITO DO TUPI": "23:45",
+          "DISTRITO DO RECHÃ": "00:10",
+        },
+        servico: "Centro → Distrito",
+      },
     },
     sabado: {
       "05:50": {
