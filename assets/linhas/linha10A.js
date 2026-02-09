@@ -101,18 +101,18 @@ const Linha10A = {
                 },
                 servico: 'Distrito → Centro',
             },
-            "16:12": {
+            "16:10": {
                 "atendimento": {
-                    "DISTRITO DO RECHÃ": "16:12",
-                    "DISTRITO DO TUPI (PASSARELA)": "16:25",
-                    "JBS FOODS S.A": "16:35",
-                    "3M DO BRASIL": "16:40",
-                    "VILA SOTTEMO (PASSARELA SOUBHI LAWAND)": "16:45",
-                    "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "16:50",
-                    "MERCADO MUNICIPAL": "16:55",
-                    "RODOVIÁRIA (CORREDOR)": "17:05"
+                    "DISTRITO DO RECHÃ": "16:10",
+                    "DISTRITO DO TUPI (PASSARELA)": "16:23",
+                    "JBS FOODS S.A": "16:33",
+                    "3M DO BRASIL": "16:38",
+                    "VILA SOTTEMO (PASSARELA SOUBHI LAWAND)": "16:43",
+                    "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "16:48",
+                    "MERCADO MUNICIPAL": "16:53",
+                    "RODOVIÁRIA (CORREDOR)": "17:03"
                 },
-                servico: 'Distrito → Centro',
+                "servico": "Distrito → Centro"
             },
             "17:50": {
                 "atendimento": {
@@ -130,18 +130,18 @@ const Linha10A = {
                 },
                 servico: 'Distrito → Centro',
             },
-            "18:30": {
+            "18:45": {
                 "atendimento": {
-                    "DISTRITO DO RECHÃ": "18:30",
-                    "DISTRITO DO TUPI (PASSARELA)": "19:15",
-                    "JBS FOODS S.A": "19:25",
-                    "3M DO BRASIL": "19:30",
-                    "VILA SOTTEMO (PASSARELA SOUBHI LAWAND)": "19:35",
-                    "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "19:40",
-                    "MERCADO MUNICIPAL": "19:45",
-                    "RODOVIÁRIA (CORREDOR)": "19:55"
+                    "DISTRITO DO RECHÃ": "18:45",
+                    "DISTRITO DO TUPI (PASSARELA)": "19:30",
+                    "JBS FOODS S.A": "19:40",
+                    "3M DO BRASIL": "19:45",
+                    "VILA SOTTEMO (PASSARELA SOUBHI LAWAND)": "19:50",
+                    "AV. 5 DE NOVEMBRO (VILA NASTRI I)": "19:55",
+                    "MERCADO MUNICIPAL": "20:00",
+                    "RODOVIÁRIA (CORREDOR)": "20:10"
                 },
-                servico: 'Distrito → Centro',
+                "servico": "Distrito → Centro"
             }
         },
         "sabado": {
