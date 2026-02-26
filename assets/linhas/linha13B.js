@@ -39,14 +39,16 @@ const Linha13B = {
                     "DISTRITO DO MORRO ALTO": "19:25"
                 }, servico: 'Centro → Distrito'
             },
-            "21:30": {
+            "21:45": {
                 "atendimento": {
-                    "MERCADO MUNICIPAL": "21:30",
-                    "RODOVIÁRIA": "21:40",
-                    "AV. CIRO ALBUQUERQUE": "21:55",
-                    "JD. NOVO AEROPORTO": "22:05",
-                    "DISTRITO DO MORRO ALTO": "22:25"
-                }, servico: 'Centro → Distrito', trajeto: 'diferenciado'
+                    "MERCADO MUNICIPAL": "21:45",
+                    "RODOVIÁRIA": "21:55",
+                    "AV. CIRO ALBUQUERQUE": "22:10",
+                    "JD. NOVO AEROPORTO": "22:20",
+                    "DISTRITO DO MORRO ALTO": "22:40"
+                },
+                "servico": "Centro → Distrito",
+                "trajeto": "diferenciado"
             }
         },
         "sabado": {

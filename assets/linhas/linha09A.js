@@ -60,18 +60,18 @@ const Linha09A = {
                 servico: 'BAIRRO → CENTRO',
                 trajeto: 'diferenciado',
             },
-            "21:30": {
+            "21:45": {
                 "atendimento": {
-                    "DISTRITO DO TUPI": "21:30",
-                    "JBS FOODS S.A": "21:55",
-                    "3M DO BRASIL": "22:00",
-                    "VILA SOTTEMO (PASSARELA SOUBHI LAWAND)": "22:05",
-                    "AV. 5 DE NOVEMBRO": "22:10",
-                    "MERCADO MUNICIPAL": "22:22",
-                    "RODOVIÁRIA": "22:32"
+                    "DISTRITO DO TUPI": "21:45",
+                    "JBS FOODS S.A": "22:10",
+                    "3M DO BRASIL": "22:15",
+                    "VILA SOTTEMO (PASSARELA SOUBHI LAWAND)": "22:20",
+                    "AV. 5 DE NOVEMBRO": "22:25",
+                    "MERCADO MUNICIPAL": "22:37",
+                    "RODOVIÁRIA": "22:47"
                 },
-                servico: 'Período Escolar',
-                trajeto: 'diferenciado',
+                "servico": "Período Escolar",
+                "trajeto": "diferenciado"
             }
         }
     }

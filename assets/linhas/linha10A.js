@@ -90,7 +90,8 @@ const Linha10A = {
             },
             "14:30": {
                 "atendimento": {
-                    "DISTRITO DO RECHÃ": "14:30",
+                    "VILA INCUBATÓRIO": "14:30",
+                    "DISTRITO DO RECHÃ": "14:40",
                     "DISTRITO DO TUPI (PASSARELA)": "14:55",
                     "JBS FOODS S.A": "15:05",
                     "3M DO BRASIL": "15:10",

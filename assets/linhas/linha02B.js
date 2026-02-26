@@ -18,6 +18,16 @@ const Linha02B = {
           "JD. BELA VISTA": "06:57",
         },
       },
+      "06:20": {
+        atendimento: {
+          "BAIRRO TABOÃOZINHO": "06:20",
+          "JD. FOGAÇA": "06:26",
+          "RODOVIÁRIA": "06:40",
+          "MERCADO MUNICIPAL": "06:50"
+        },
+        trajeto: "diferenciado",
+        servico: "BAIRRO → CENTRO"
+      },
       "07:00": {
         atendimento: {
           "BAIRRO TABOÃOZINHO": "07:00",
