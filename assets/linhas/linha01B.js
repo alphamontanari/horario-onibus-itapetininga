@@ -22,6 +22,18 @@ const Linha01B = {
         trajeto: "diferenciado",
         servico: "BAIRRO → CENTRO → BAIRRO",
       },
+      "06:20": {
+        atendimento: {
+          "RESIDENCIAL NASCENTES": "06:20",
+          "VILA MAZZEI": "06:22",
+          "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "06:24",
+          "VILA REGINA": "06:35",
+          "VILA RIO BRANCO": "06:45",
+          "MERCADO MUNICIPAL": "06:50"
+        },
+        trajeto: "diferenciado",
+        servico: "BAIRRO → CENTRO"
+      },
       "07:00": {
         atendimento: {
           "RESIDENCIAL CRISTOVÃO COLOMBO (PACAEMBU 2)": "07:00",
