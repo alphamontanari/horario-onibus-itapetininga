@@ -188,7 +188,7 @@ const Linha03B = {
           "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "22:05",
           "VALE SÃO FERNANDO": "22:20",
           "JD. MONTE SANTO": "22:30",
-          "INSTITUTO FEDERAL (IFSP)": "22:55",
+          "INSTITUTO FEDERAL (IFSP)": "22:45",
           "MERCADO MUNICIPAL.": "23:10",
         },
         trajeto: "diferenciado",
