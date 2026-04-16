@@ -167,40 +167,37 @@ const Linha03A = {
           "BAIRRO CHAPADINHA": "20:20",
         },
         trajeto: "diferenciado",
-      } /* 
-        "21:20": {
-          "atendimento": {
-            "RODOVIÁRIA": "21:20",
-            "MERCADO MUNICIPAL": "21:30",
-            "CENTRAL PARQUE 4L": "21:40",
-            "ETEC DARCY PEREIRA DE MORAES": "21:58",
-            "BAIRRO CHAPADINHA":"22:00",
-            "MERCADO MUNICIPAL.": "22:20"
-          },
-          "trajeto": "diferenciado"
-        },
-  */,
-      "21:45": {
+      },
+      "21:35": {
         atendimento: {
-          RODOVIÁRIA: "21:45",
-          "MERCADO MUNICIPAL": "21:55",
-          "CENTRAL PARQUE 4L": "22:05",
-          "ETEC DARCY PEREIRA DE MORAES": "22:23",
-          "BAIRRO CHAPADINHA": "22:25",
-          "MERCADO MUNICIPAL.": "22:45",
+          "RODOVIÁRIA": "21:35",
+          "MERCADO MUNICIPAL": "21:45",
+          "CENTRAL PARQUE 4L": "21:55",
+          "ETEC DARCY PEREIRA DE MORAES": "22:05",
+          "BAIRRO CHAPADINHA": "22:10"
         },
         trajeto: "diferenciado",
+        servico: 'CENTRO → BAIRRO'
       },
-
+      "22:30": {
+        atendimento: {
+          "JD. MONTE SANTO": "22:30",
+          "INSTITUTO FEDERAL (IFSP)": "22:40",
+          "RUA DR. VIRGÍLIO DE REZENDE": "22:45",
+          "MERCADO MUNICIPAL": "22:50"
+        },
+        trajeto: "diferenciado",
+        servico: 'BAIRRO → CENTRO'
+      },
       "23:10": {
         atendimento: {
-          RODOVIÁRIA: "23:10",
-          "MERCADO MUNICIPAL": "23:20",
-          "CENTRAL PARQUE 4L": "23:30",
-          "ETEC DARCY PEREIRA DE MORAES": "23:48",
-          "BAIRRO CHAPADINHA": "23:50",
+          "MERCADO MUNICIPAL": "23:10",
+          "CENTRAL PARQUE 4L": "23:20",
+          "ETEC DARCY PEREIRA DE MORAES": "23:28",
+          "BAIRRO CHAPADINHA": "23:30",
         },
         trajeto: "diferenciado",
+        servico: 'CENTRO → BAIRRO'
       },
     },
     sabado: {

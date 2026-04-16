@@ -160,51 +160,55 @@ const Linha03B = {
           "ETEC DARCY PEREIRA DE MORAES": "19:15",
           "CENTRAL PARQUE 4L": "19:22",
           "MERCADO MUNICIPAL": "19:34",
-          RODOVIÁRIA: "19:45",
+          "RODOVIÁRIA": "19:45",
           "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "19:54",
           "INSTITUTO FEDERAL (IFSP)": "20:02",
           "JD. MONTE SANTO": "21:15",
         },
         trajeto: "diferenciado",
-      } /*
-      "21:30": {
-        atendimento: {
-          "MERCADO MUNICIPAL": "21:30",
-          "RODOVIÁRIA": "21:40",
-          "VILA NOVA ITAPETININGA (LADO DIREITO)": "21:45",
-          "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "21:50",
-          "INSTITUTO FEDERAL (IFSP)": "22:40",
-          "VALE SÃO FERNANDO": "22:05",
-          "JD. MONTE SANTO": "22:15",
-          "MERCADO MUNICIPAL.": "23:00",
-        },
-        "trajeto": "diferenciado",
-      },*/,
+      },
       "21:45": {
         atendimento: {
           "MERCADO MUNICIPAL": "21:45",
-          RODOVIÁRIA: "21:55",
-          "VILA NOVA ITAPETININGA (LADO DIREITO)": "22:00",
-          "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "22:05",
-          "VALE SÃO FERNANDO": "22:20",
-          "JD. MONTE SANTO": "22:30",
-          "INSTITUTO FEDERAL (IFSP)": "22:45",
-          "MERCADO MUNICIPAL.": "23:10",
+          "RODOVIÁRIA": "21:53",
+          "VILA NOVA ITAPETININGA (LADO DIREITO)": "21:58",
+          "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "21:59",
+          "VALE SÃO FERNANDO": "22:10",
+          "JD. MONTE SANTO": "22:25",
         },
         trajeto: "diferenciado",
+        servico: 'CENTRO → BAIRRO'
       },
-
+       "22:35": {
+        atendimento: {
+          "ETEC DARCY PEREIRA DE MORAES": "22:35",
+          "VILA BARTH": "22:45",
+          "MERCADO MUNICIPAL": "22:55"
+        },
+        trajeto: "diferenciado",
+        servico: 'BAIRRO → CENTRO'
+      },
+      "22:40": {
+        atendimento: {
+          "BAIRRO CHAPADINHA": "22:40",
+          "ETEC DARCY PEREIRA DE MORAES": "22:40",
+          "VILA BARTH": "22:50",
+          "MERCADO MUNICIPAL": "22:55"
+        },
+        trajeto: "diferenciado",
+        servico: 'BAIRRO → CENTRO'
+      },
       "23:10": {
         atendimento: {
           "MERCADO MUNICIPAL": "23:10",
-          RODOVIÁRIA: "23:20",
-          "VILA NOVA ITAPETININGA (LADO DIREITO)": "23:25",
-          "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "23:30",
-          "INSTITUTO FEDERAL (IFSP)": "00:20",
-          "VALE SÃO FERNANDO": "23:45",
-          "JD. MONTE SANTO": "23:55",
+          "RODOVIÁRIA": "23:17",
+          "VILA NOVA ITAPETININGA (LADO DIREITO)": "23:23",
+          "VILA NOVA ITAPETININGA (LADO ESQUERDO)": "23:24",
+          "VALE SÃO FERNANDO": "23:33",
+          "JD. MONTE SANTO": "23:50",
         },
         trajeto: "diferenciado",
+        servico: 'CENTRO → BAIRRO'
       },
     },
     sabado: {

@@ -227,6 +227,7 @@ const Linha06B = {
                     "RUA DR. JÚLIO PRESTES": "08:34",
                     "RUA QUINTINO BOCAIÚVA": "08:35",
                     "MERCADO MUNICIPAL": "08:40"
+                    "RODOVIÁRIA": "08:40"
                 }, trajeto : 'diferenciado'
             },
             "12:00": {
