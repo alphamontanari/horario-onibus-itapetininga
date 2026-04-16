@@ -226,8 +226,8 @@ const Linha06B = {
                     "JD. SANTA INÊS": "08:25",
                     "RUA DR. JÚLIO PRESTES": "08:34",
                     "RUA QUINTINO BOCAIÚVA": "08:35",
-                    "MERCADO MUNICIPAL": "08:40"
-                    "RODOVIÁRIA": "08:40"
+                    "MERCADO MUNICIPAL": "08:40",
+                    "RODOVIÁRIA": "08:50"
                 }, trajeto : 'diferenciado'
             },
             "12:00": {
