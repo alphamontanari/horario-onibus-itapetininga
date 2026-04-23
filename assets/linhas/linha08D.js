@@ -18,6 +18,17 @@ const Linha08D = {
                 }, 
                 servico: 'Período Escolar', 
                 trajeto : 'diferenciado',     
+            },
+             "14:50": {
+                "atendimento": {
+                    "MERCADO MUNICIPAL": "14:50",
+                    "RODOVIÁRIA": "15:00",
+                    "SHOPPING": "15:05",
+                    "RODOVIA GLADYS BERNARDES MINHOTO": "15:10",
+                    "ETEC PROF. EDSON GALVÃO (COLÉGIO AGRICOLA)": "15:35"
+                }, 
+                servico: 'Período Escolar', 
+                trajeto : 'diferenciado',     
             }
         }
     }
