@@ -32,9 +32,9 @@ const Linha08B = {
             },
             "15:30": {
                 "atendimento": {
-                    "PENITENCIÁRIA": "15:25",
-                    "BAIRRO CAPÃO ALTO": "15:30",
-                    "ETEC PROF. EDSON GALVÃO (COLÉGIO AGRICOLA)": "15:42",
+                    "PENITENCIÁRIA": "15:20",
+                    "BAIRRO CAPÃO ALTO": "15:25",
+                    "ETEC PROF. EDSON GALVÃO (COLÉGIO AGRICOLA)": "15:30",
                     "RODOVIA GLADYS BERNARDES MINHOTO": "15:45",
                     "VILA OLHO D' ÁGUA": "15:50",
                     "RODOVIÁRIA": "15:55"
