@@ -6,15 +6,16 @@ const Linha09A = {
     "chegada": "RODOVIÁRIA",
     "horarios": {
         "dia_de_semana": {
-            "05:20": {
+            "05:40": {
                 "atendimento": {
-                    "DISTRITO DO TUPI": "05:20",
+                    "IGREJA COMUNIDADE IMACULADO CORAÇÃO DE MARIA": "05:30",
+                    "PRAÇA MATHIAS MANOEL RODRIGUES": "05:40",
                     "JBS FOODS S.A": "05:45",
                     "3M DO BRASIL": "05:50",
                     "VILA SOTTEMO (PASSARELA SOUBHI LAWAND)": "05:55",
                     "AV. 5 DE NOVEMBRO": "06:00",
-                    "RUA GENERAL CARNEIRO": "06:08",
-                    "MERCADO MUNICIPAL": "06:10",
+                    "RUA GENERAL CARNEIRO": "06:18",
+                    "MERCADO MUNICIPAL": "06:30",
                 },
                 servico: 'BAIRRO → CENTRO',
                 trajeto: 'diferenciado',
