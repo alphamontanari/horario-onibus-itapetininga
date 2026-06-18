@@ -1,16 +1,16 @@
 const Linha21B = {
     "id": "21B",
     "cod": "Linha21B",
-    "nome": "BAIRRO SABIAÚNA → RODOVIÁRIA",
+    "nome": "RODOVIÁRIA → BAIRRO SABIAÚNA",
     "partida": "RODOVIÁRIA",
     "chegada": "BAIRRO SABIAÚNA",
     "horarios": {
         "segunda_e_quinta": {
-            "07:40": {
+            "15:30": {
                 "atendimento": {
                     "RODOVIÁRIA": "15:30",
                     "BAIRRO DO MATO SECO": "15:50",
-                    "BAIRRO SABIAÚNA": "14:00"
+                    "BAIRRO SABIAÚNA": "16:20"
                 }
             }
         }
