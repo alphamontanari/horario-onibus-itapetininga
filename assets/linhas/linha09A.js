@@ -8,8 +8,8 @@ const Linha09A = {
         "dia_de_semana": {
             "05:40": {
                 "atendimento": {
-                    "IGREJA COMUNIDADE IMACULADO CORAÇÃO DE MARIA": "05:30",
-                    "PRAÇA MATHIAS MANOEL RODRIGUES": "05:40",
+                    "IGREJA COMUNIDADE IMACULADO CORAÇÃO DE MARIA": "05:40",
+                    "PRAÇA MATHIAS MANOEL RODRIGUES": "05:45",
                     "JBS FOODS S.A": "05:45",
                     "3M DO BRASIL": "05:50",
                     "VILA SOTTEMO (PASSARELA SOUBHI LAWAND)": "05:55",
@@ -22,7 +22,8 @@ const Linha09A = {
             },
             "07:20": {
                 "atendimento": {
-                    "DISTRITO DO TUPI": "07:20",
+                    "IGREJA COMUNIDADE IMACULADO CORAÇÃO DE MARIA": "07:20",
+                    "DISTRITO DO TUPI": "07:25",
                     "JBS FOODS S.A": "07:45",
                     "3M DO BRASIL": "07:50",
                     "VILA SOTTEMO (PASSARELA SOUBHI LAWAND)": "07:55",
@@ -36,7 +37,8 @@ const Linha09A = {
             },
             "11:15": {
                 "atendimento": {
-                    "DISTRITO DO TUPI": "11:15",
+                    "IGREJA COMUNIDADE IMACULADO CORAÇÃO DE MARIA": "11:15",
+                    "DISTRITO DO TUPI": "11:20",
                     "JBS FOODS S.A": "11:40",
                     "3M DO BRASIL": "11:45",
                     "VILA SOTTEMO (PASSARELA SOUBHI LAWAND)": "11:50",
@@ -63,7 +65,8 @@ const Linha09A = {
             },
             "18:30": {
                 "atendimento": {
-                    "DISTRITO DO TUPI": "18:30",
+                    "IGREJA COMUNIDADE IMACULADO CORAÇÃO DE MARIA": "18:30",
+                    "DISTRITO DO TUPI": "18:35",
                     "JBS FOODS S.A": "18:50",
                     "3M DO BRASIL": "18:55",
                     "VILA SOTTEMO (PASSARELA SOUBHI LAWAND)": "19:00",
