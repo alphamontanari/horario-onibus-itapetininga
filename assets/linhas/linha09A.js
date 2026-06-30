@@ -23,7 +23,7 @@ const Linha09A = {
             "07:20": {
                 "atendimento": {
                     "IGREJA COMUNIDADE IMACULADO CORAÇÃO DE MARIA": "07:20",
-                    "DISTRITO DO TUPI": "07:25",
+                    "PRAÇA MATHIAS MANOEL RODRIGUES": "07:25",
                     "JBS FOODS S.A": "07:45",
                     "3M DO BRASIL": "07:50",
                     "VILA SOTTEMO (PASSARELA SOUBHI LAWAND)": "07:55",
@@ -38,7 +38,7 @@ const Linha09A = {
             "11:15": {
                 "atendimento": {
                     "IGREJA COMUNIDADE IMACULADO CORAÇÃO DE MARIA": "11:15",
-                    "DISTRITO DO TUPI": "11:20",
+                    "PRAÇA MATHIAS MANOEL RODRIGUES": "11:20",
                     "JBS FOODS S.A": "11:40",
                     "3M DO BRASIL": "11:45",
                     "VILA SOTTEMO (PASSARELA SOUBHI LAWAND)": "11:50",
@@ -52,7 +52,7 @@ const Linha09A = {
             },
             "14:10": {
                 "atendimento": {
-                    "DISTRITO DO TUPI": "14:10",
+                    "PRAÇA MATHIAS MANOEL RODRIGUES": "14:10",
                     "JBS FOODS S.A": "14:25",
                     "3M DO BRASIL": "14:30",
                     "VILA SOTTEMO (PASSARELA SOUBHI LAWAND)": "14:35",
@@ -66,7 +66,7 @@ const Linha09A = {
             "18:30": {
                 "atendimento": {
                     "IGREJA COMUNIDADE IMACULADO CORAÇÃO DE MARIA": "18:30",
-                    "DISTRITO DO TUPI": "18:35",
+                    "PRAÇA MATHIAS MANOEL RODRIGUES": "18:35",
                     "JBS FOODS S.A": "18:50",
                     "3M DO BRASIL": "18:55",
                     "VILA SOTTEMO (PASSARELA SOUBHI LAWAND)": "19:00",
@@ -79,7 +79,7 @@ const Linha09A = {
             },
             "21:45": {
                 "atendimento": {
-                    "DISTRITO DO TUPI": "21:45",
+                    "PRAÇA MATHIAS MANOEL RODRIGUES": "21:45",
                     "JBS FOODS S.A": "22:10",
                     "3M DO BRASIL": "22:15",
                     "VILA SOTTEMO (PASSARELA SOUBHI LAWAND)": "22:20",
